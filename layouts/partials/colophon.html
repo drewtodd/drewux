@@ -1,0 +1,14 @@
+<div class="colophon">
+    {{ if eq .Type "post" }}
+        <p>Originally published {{ .Date.Format "January 2, 2006" }}<br />
+    {{ end }}
+    {{ with .Params.tags }}
+        File under: 
+            {{ range . }}
+                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;
+            {{ end }}
+    {{ end }}
+    {{ if eq .Type "post" }}
+        </p>
+    {{ end }}
+</div>

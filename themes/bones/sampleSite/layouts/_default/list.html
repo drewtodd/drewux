@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <h1>My Blog List</h1>
+    {{ range .Data.Pages }}
+        {{ if eq .Section "posts" }}
+            <article>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+                <p>{{ .Summary }}</p>
+            </article>
+        {{ end }}
+    {{ end }}
+{{ end }}

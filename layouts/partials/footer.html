@@ -1,0 +1,31 @@
+
+    <footer>
+        <div class="copyright">
+        <p>&copy; <a href="mailto: drew@drwtod.com">Andrew D. Todd</a>; all rights reserved. The opinions expressed herein do not necessarily represent those of my employer nor any organization with which I am affiliated.</p>
+        </div>
+    </footer>
+    <!-- This script block handles the mobile "hamburger" menu -->
+    <script>
+        document.getElementById('navico').addEventListener('click', checkNav);
+        window.addEventListener("keyup", function(e) {
+        if (e.keyCode == 27) closeNav();
+        }, false);
+    
+        function checkNav() {
+        if (document.body.classList.contains('navico-active')) {
+            closeNav();
+        } else {
+            openNav();
+        }
+        }
+    
+        function closeNav() {
+        document.body.classList.remove('navico-active');
+        }
+    
+        function openNav() {
+        document.body.classList.add('navico-active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<nav role="navigation">
+  <div class="screen-reader-text"><a href="#content" title="Skip to main content">Skip to main content</a></div>
+  <div id="navmain">
+    <ul class="menu">
+        {{ range .Site.Menus.main }}
+          <li class="menu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <div id="navico">
+        MENU <span class="navico-icon"></span>
+      </div>
+</div>
+</nav>
+  
+  

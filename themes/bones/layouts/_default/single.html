@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ if eq .Type "post" }}
+    <article class="post default">
+        <figure class="feature-image">
+            <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">
+            <em>Image credit: <a href="{{ .Params.photoCreditUrl }}" alt="{{ .Params.photoCreditAlt }}">{{ .Params.photoCredit }}</a></em>
+        </figure>
+{{ end }}
+        {{ .Content }}
+        {{ partial "colophon" . }}    
+    </article>
+    {{ partial "previous-next.html" . }}
+{{ end }}
+

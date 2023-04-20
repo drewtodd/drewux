@@ -1,0 +1,17 @@
+<section class="more-posts">
+    <h3>More posts</h3>
+
+    {{ $priorPosts := where .Site.RegularPages "Type" "post" | first 3 }}
+    {{ if gt (len $priorPosts) 0 }}
+        {{ range $priorPosts }}
+            <div class="featured-post">
+                <p>
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">
+                        <h4>{{ .Title }}</h4>
+                    </a>
+                </p>
+            </div>
+        {{ end }}
+    {{ end }}
+</section>

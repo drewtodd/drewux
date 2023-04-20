@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ range $index, $tag := .Data.Terms.Alphabetical }}
+    <a href="{{ $.Site.BaseURL }}tags/{{ $tag.Name | urlize }}">{{ $tag.Name }}</a>
+  {{ end }}
+{{ end }}

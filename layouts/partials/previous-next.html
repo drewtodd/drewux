@@ -1,0 +1,22 @@
+{{ if eq .Type "post" }}
+<div class="post-nav">
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+{{ with .PrevInSection }}
+    <div class="prev">
+        <h4>Previous Essay</h4>
+        <a href="{{ .Permalink }}" alt="{{ .Title }}" class="previous">
+           {{ .Title }}
+        </a>
+    </div>
+{{ end }}
+
+{{ with .NextInSection }}
+    <div class="next">
+        <h4>Next Essay</h4>
+        <a href="{{ .Permalink }}" alt="{{ .Title }}" class="next">
+            {{ .Title }}
+        </a>
+    </div>
+{{ end }}
+</div>
+{{ end }}

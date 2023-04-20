@@ -1,0 +1,13 @@
+{{ define "main" }}
+    {{ $pages := where .Site.RegularPages "Type" "post" }}
+    {{ with index $pages 0 }}
+    <article class="post default">
+        <figure class="feature-image">
+            <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">
+            <em>Image credit: <a href="{{ .Params.photoCreditUrl }}" alt="{{ .Params.photoCreditAlt }}">{{ .Params.photoCredit }}</a></em>
+        </figure>
+        {{ .Content }}
+    </article>
+    {{ partial "more-posts.html" . }}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,7 @@
+name = "bones"
+description = "A very bare-bones theme for starting out a Hugo site. No styles, no layout, just basic functionality."
+version = "0.1.0"
+license = "MIT"
+homepage = "https://github.com/drewtodd/bones"
+tags = ["blog", "minimalist", "bare-bones", "starter", "no-css"]
+min_version = "0.111.0"

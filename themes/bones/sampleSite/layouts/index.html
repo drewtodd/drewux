@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ $pages := where .Site.RegularPages "Type" "post" }}
+    {{ with index $pages 0 }}
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    {{ end }}
+{{ end }}
