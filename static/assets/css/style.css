@@ -555,7 +555,7 @@ td {
     }
 
     /*read-length indicator*/
-    h1 + h3, h2 + h3 {
+    article h1:first-of-type + h3, article h2:first-of-type + h3 {
         display: block;
         position: relative;
         font-size: .8em;
