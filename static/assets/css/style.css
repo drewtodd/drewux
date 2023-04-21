@@ -79,7 +79,7 @@ a:visited {
     color: #006080;
 }
 
-figure {
+figure.feature-image {
     padding: 0;
     margin: 0;
 }
@@ -98,6 +98,25 @@ article figure:first-child {
 p:not(.feature-image) img {
     max-width: 100%;
 }
+
+/*figure and image settings*/
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+figure {
+    padding: 2em;
+}
+
+figure.right {
+    float: right;
+    margin: 0 0 1em 1em;
+    padding: 1em;
+    width: 33%;
+}
+
+
 
 /*image captions*/
 img + em, .img-caption, figcaption {
@@ -125,7 +144,7 @@ figure.feature-image img + em {
     font-size: .75em;
 }
 
-img.floatcenter {
+figure.floatcenter, img.floatcenter {
     display: block;
     width: auto;
     max-width: 100%;
@@ -135,12 +154,20 @@ img.floatcenter {
     -ms-interpolation-mode: bicubic;
 }
 
-    .filler-background {
-        margin: 1.5em 0em 1.5em 0em;
-        padding: 0;
-        border: 0;
-        background-color: #555;
-    }
+figure .border {
+    border: 1px solid #ccc;
+}
+
+figure .shadow {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.filler-background {
+    margin: 1.5em 0em 1.5em 0em;
+    padding: 0;
+    border: 0;
+    background-color: #555;
+}
 
 /*img.floatcenter + em {
     text-align: center;
@@ -579,13 +606,6 @@ td {
 
     h2 + h3:hover {
         color: #999;
-    }
-
-    img {
-        float: right;
-        margin: 0 0 1em 1em;
-        padding: 1em;
-        width: 33%;
     }
 
     .filler-background-dark {

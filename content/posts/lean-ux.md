@@ -14,7 +14,7 @@ tags: ["ux", "agile", "leanux", "techniques"]
 # Lean UX: The Ultimate Framework for Integrating UX and Agile Development
 ## Delve into the Lean UX methodology, its components, and real-world success stories
 
-Meta Description: Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.
+> Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.
 
 ---
 

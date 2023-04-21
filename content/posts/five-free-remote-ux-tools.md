@@ -6,7 +6,7 @@ date: 2022-09-12
 photoUrl: /assets/img/zan-fYTfOzaRVWw-unsplash.jpg
 photoCredit: Zan
 photoTitle: A man holding up five fingers, obscuring his face
-photoCreditUrl: ttps://unsplash.com/ja/@zanilic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+photoCreditUrl: https://unsplash.com/ja/@zanilic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 tags: ["ux", "remote", "usability", "tools"]
 ---
 
