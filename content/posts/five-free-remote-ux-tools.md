@@ -3,13 +3,14 @@ title: "5 Free Remote UX Tools to Boost Your Workflow"
 layout: single
 type: post
 date: 2022-09-12
-photoUrl: /assets/img/deepmind-LIlsk-UFVxk-unsplash.jpg
-photoCredit: DeepMind
-photoTitle: A network of water droplets
-photoCreditUrl: https://unsplash.com/@deepmind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+photoUrl: /assets/img/zan-fYTfOzaRVWw-unsplash.jpg
+photoCredit: Zan
+photoTitle: A man holding up five fingers, obscuring his face
+photoCreditUrl: ttps://unsplash.com/ja/@zanilic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 tags: ["ux", "remote", "usability", "tools"]
 ---
 
+  
 # 5 Free Remote UX Tools to Boost Your Workflow
 ## Discover budget-friendly solutions for remote UX research and collaboration
 ### 2 &frac12; minute read

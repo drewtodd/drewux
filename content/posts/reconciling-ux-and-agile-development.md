@@ -3,7 +3,7 @@ title: "Reconciling UX and Agile Development: A Unified Approach"
 layout: single
 type: post
 date: 2022-08-15
-photoUrl: /assets/img/deepmind-LIlsk-UFVxk-unsplash.jpg
+photoUrl: /assets/img/straylight_a_software_development_team_men_and_women_arguing_in.png
 photoCredit: Midjourney
 photoTitle: An agile team at work
 photoCreditUrl: https://www.midjourney.com/home
