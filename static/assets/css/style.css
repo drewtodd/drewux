@@ -81,12 +81,13 @@ a:visited {
 
 figure.feature-image {
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 -12.5%;
+    width: 126%;
 }
 /*only applies to the first image in an article*/
 article figure.feature-image img { 
-    margin: 0 0 0 -13%;
-    width: 126%;
+    margin: 0;
+    width: 100%;
     position: relative;
     padding: 0;
 }
@@ -541,6 +542,10 @@ td {
     padding: .5em;
 }
 
+/***************/
+/* MEDIA QUERY */
+/***************/
+
 @media only screen and (min-width: 58.174em) { /* min-width 801px, large screens */
 
     body {
@@ -562,11 +567,12 @@ td {
     }
       
     /*only applies to the first image in an article*/
-    article figure.feature-image {
+    figure.feature-image {
+        padding: 0;
+        margin: 0;
         width: 100%;
     }
-    
-    article figure.feature-image img { 
+        article figure.feature-image img { 
         width: 100%;
         margin: 0 auto;
         position: relative;

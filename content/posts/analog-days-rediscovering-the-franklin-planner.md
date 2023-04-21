@@ -43,10 +43,11 @@ For instance, one of the virtues Franklin pursued was “*Order*,” which he de
 
 {{< figure src="/assets/img/planner-composite.png" alt="The 2-page-per-day planner layout" caption="Good old pulp: Planner binder, storage binder, and the 2-page-per-day planner layout" >}}
 
-
 People who used the Franklin Planner system (mine would become a fancy leather-bound version after a couple of years) would often have bookshelves lined with storage binders containing their past years’ planners. If you needed to search for something from an older planner, they would have to flip through pages and pages of old notes, no search function; no Google.
 
 The merits of the Franklin Planner system extended beyond mere organization. It encouraged users to set long-term goals and break them down into smaller, manageable tasks. This process helped people develop discipline, focus, and a sense of accomplishment as they worked through their daily, weekly, and monthly objectives.
+
+Now your virtues (or, to put a modern spin on it -- ***values***) may not include temperance, silence, etc. The Franklin Covey system implored each of its adherents to do their own soul-searching; find the values that matter to *you*. Upon reflection, you might find that your own personal values include concepts like: Family, faith, pursuing things you enjoy like travel, or golf, or reading, or whatever. You do you. The process allows you to see the forest for the trees. It stressed the importance of stepping back and taking stock of what really matters. "Is this thing I'm toiling over day and night getting me any closer to my true needs and values?" It's a part of the process that I still incorporate into my current productivity system today.
 
 The popularity of the Franklin Planner system eventually waned with the rise of digital organization tools, but its legacy remains. Its connection to Benjamin Franklin’s methods for personal development and virtue highlights the timeless appeal of self-improvement and organization.
 
