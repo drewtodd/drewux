@@ -140,6 +140,11 @@ a.noline {
     text-decoration: none;
 }
 
+img.floatright {
+    display: block;
+    width: 100%;
+}
+
 figure.feature-image img + em {
     clear: both;
     font-size: .75em;
@@ -272,6 +277,10 @@ code {
 
 #header h1 a:hover {
     text-decoration: underline;
+}
+
+.lowercase {
+    text-transform: lowercase;
 }
 
 /*navigation styles for mobile menu (mobmenu)*/
@@ -467,7 +476,7 @@ ul.past, ul.this {
     padding-left: 0;
 }
 
-ul.past .archive-post-date, ul.this .archive-post-date {
+ul.past .archive-post-date, ul.this .archive-post-date, .archive-post-date {
     font-family: "Oswald", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -664,6 +673,7 @@ td {
         margin: 0 0 1em 1em !important;
         padding: 1em        !important;
         width: 33%          !important;
+        height: 100%;
     }
 
     img.floatleft {

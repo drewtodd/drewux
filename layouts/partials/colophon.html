@@ -7,7 +7,7 @@
     {{ with .Params.tags }}
         File under: 
             {{ range . }}
-                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>&nbsp;
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-hashtag" aria-hidden="true"></i>{{ . }}</a>&nbsp;
             {{ end }}
     {{ end }}
     {{ if eq .Type "post" }}
