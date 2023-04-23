@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ if eq .Type "post" }}
+{{ if or (eq .Type "post") (eq .Type "page") }}
     <article class="post default">
         <figure class="feature-image">
             <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">

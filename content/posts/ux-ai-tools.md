@@ -44,7 +44,7 @@ These tools also offer AI-features for ethnography:
 ## Formative Usability Studies
 [Formative usability studies](http://www.drwtod.com/formative-summative-usability) involve testing designs with users to identify areas for improvement. AI-powered tools can assist with this process by providing automated data collection and analysis tools. One example is [UserZoom](https://www.userzoom.com/), which provides a suite of tools for formative usability testing and uses AI to analyze user behavior and provide insights into areas where improvements can be made.
 
-And example is Cisco Systems, who [used UserZoom to conduct usability testing for its WebEx conferencing software](https://www.userzoom.com/case-study/cisco/), identifying areas for improvement and making changes based on user feedback. By using UserZoom, Cisco was able to improve the user experience of its WebEx software, leading to increased user satisfaction and engagement.  
+An example is Cisco Systems, who [used UserZoom to conduct usability testing for its WebEx conferencing software](https://www.userzoom.com/case-study/cisco/), identifying areas for improvement and making changes based on user feedback. By using UserZoom, Cisco was able to improve the user experience of its WebEx software, leading to increased user satisfaction and engagement.  
 
 Check out these other AI-powered tools for formative usability studies:
 *  [EyeQuant](https://www.eyequant.com/) 

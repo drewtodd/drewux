@@ -1,18 +1,21 @@
 ---
+title: Design Meaningful Experiences | About Drew
 type: page
-title: About me - Andrew Todd
+layout: single
+photoUrl: "/assets/img/straylight_a_workspace_for_a_software_developer_with_a_macbook_2.png"
+photoCredit: Midjourney
+photoTitle: "An illustration of a product developer's workstation with lamp, display, and lots of post-it notes"
+photoCreditUrl: "https://www.midjourney.com/home"
 ---
-# About
+# Design Meaningful Experiences: About Drew
 
-<img src="/assets/img/andrew-todd.jpg" alt="Andrew Todd" title="Andrew Todd" class="floatright" />
+Hi, I'm Drew Todd, a dedicated professional with over 20 years of experience in Internet, Web, and mobile application development. As a certified project manager, I bring my design and engineering expertise to my role as the Director of Web Development at a renowned AV manufacturer in Anaheim, CA, where I lead a talented team in creating award-winning digital products.
 
-Hey there. I'm Andrew Todd: 20-year veteran of Internet, Web, and mobile application development; a certified project manager with a design and engineering background; and the Director of Web Development at [a big AV manufacturer in Anaheim, CA][1], working with a killer team that builds [award][2]–[winning][3] [digital][4] [products][5].
+My passion lies in understanding and enhancing user experiences. This blog focuses on my insights into UX research and design, AI, agile development, and personal productivity, and how these elements contribute to creating exceptional digital products. By delving into the intricacies of user interaction and product design, I aim to empower businesses to meet their objectives while offering users delightful experiences.
 
-I’m also passionate about how people interact with digital products and platforms; what works, what doesn’t, and why. This site is kind of a scrapbook of musings, ideas, examples, and ephemera that get me thinking about the best way to meet the needs of online users. Maybe it’ll get you thinking, too.
+When I'm not exploring the world of UX, I enjoy playing guitar, attending baseball games, and spending quality time with my wife and our furry friend on leisurely walks.
 
-When I’m not nerding out about design, development, and UX, I’m probably picking a guitar, watching a baseball game, or walking the dog with my lovely wife.
-
-Want to get in touch? You can catch me on [Twitter][6], over at [LinkedIn][7], or just send me a [good old email][8].
+To connect with me, find me on [Twitter][6], [LinkedIn][7], or simply [send me an email][8].
 
 [1]: http://www.extron.com/ "Extron Electronics"
 [2]: http://www.extron.com/company/article.aspx?id=stellarserviceawardspr "Extron Wins Industry Awards for Exceptional Training, Web site, and Product Demos"
