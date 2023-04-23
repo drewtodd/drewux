@@ -9,7 +9,7 @@ photoTitle: “A (very earnest-looking) mouse”
 photoCredit: Michiel de Wit
 photoCreditUrl: https://www.shutterstock.com/g/Michiel+de+Wit
 photoCreditAlt: "Michiel de Wit's portfolio on Shutterstock"
-tags: ["ux", "usability", "techniques"]
+tags: ["ux", "research", "usability", "techniques"]
 ---
 
 # Eye-Tracking on the Cheap

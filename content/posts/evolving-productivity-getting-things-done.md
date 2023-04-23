@@ -1,5 +1,5 @@
 ---
-title: "Evolving Productivity: From Franklin Planner to GTD and Beyond"
+title: "Evolving Productivity: Getting Things Done"
 layout: single
 type: post
 date: 2022-12-15
@@ -10,7 +10,7 @@ photoCreditUrl: "https://midjourney.com/home"
 tags: ["productivity", "gtd"]
 ---
 
-# Evolving Productivity: From Franklin Planner to GTD and Beyond
+# Evolving Productivity: Getting Things Done
 ## How David Allen's Productivity System Changed the Game for Me
 
 > I dive deeper into personal productivity systems by exploring my transition from the Franklin Planner to David Allen's Getting Things Done method, and how a combination of the two has helped me achieve greater success.

@@ -9,7 +9,7 @@ photoCredit: solarseven
 photoTitle: A meteor glowing as it enters the Earth's atmosphere
 photoCreditUrl: https://www.shutterstock.com/g/solarseven
 photoCreditAlt: solarseven's portfolio on Shutterstock 
-tags: ["ux", "usability", "techniques"]
+tags: ["ux", "research", "usability", "techniques"]
 ---
 
 # Magnitude

@@ -9,7 +9,7 @@ photoTitle: "Yin and yang - Photo credit: dynamicz34"
 photoCredit: dynamicz34
 photoCreditUrl: "http://dynamicz34.deviantart.com/art/Yin-Yang-413083660"
 photoCreditAlt: "dynamicz34's portfolio on deviantart.com"
-tags: ["ux", "techniques"]
+tags: ["ux", "research", "techniques"]
 ---
 
 # UX Yin and Yang

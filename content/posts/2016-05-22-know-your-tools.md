@@ -8,7 +8,7 @@ photoUrl: /assets/img/more-tools.jpg
 photoTitle: "Tools - Photo credit: Jeff Bullas"
 photoCredit: Jeff Bullas
 photoCreditUrl: "http://www.shutterstock.com/gallery-1445165p1.html" 
-tags: ["ux", "tools"]
+tags: ["ux", "design", "tools"]
 ---
 
 # Know your tools

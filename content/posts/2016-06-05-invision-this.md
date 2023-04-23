@@ -8,7 +8,7 @@ photoUrl: /assets/img/invision-app.jpg
 photoTitle: “InVision.app screenshot”
 photoCredit: InVision
 photoCreditUrl: http://www.invisionapp.com/
-tags: ["ux", "tools", "invision"]
+tags: ["ux", "design", "tools", "invision"]
 ---
 
 # InVision This

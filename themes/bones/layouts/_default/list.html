@@ -5,7 +5,8 @@
             <article>
                 <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                 <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
-                <p>{{ .Summary }}</p>
+                <img src="{{ .Params.photoUrl }}" class="crop3x2 floatright" alt="{{ .Params.photoTitle }}">
+                <p>{{ .Summary }}..</p>
             </article>
         {{ end }}
     {{ end }}

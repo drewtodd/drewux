@@ -8,7 +8,7 @@ photoUrl: /assets/img/tv-usability-test.jpg
 photoCredit: Shutterstock
 photoTitle: A composite image of a usability test on a television set
 photoCreditUrl: https://www.shutterstock.com/
-tags: ["ux", "usability", "techniques"]
+tags: ["ux", "research", "usability", "techniques"]
 ---
 
 # Playback

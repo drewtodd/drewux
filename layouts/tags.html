@@ -1,0 +1,11 @@
+{{ define "tags" }}
+  <h1>Tags</h1>
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <h2>{{ $name }}</h2>
+    <ul>
+    {{ range $taxonomy.Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
