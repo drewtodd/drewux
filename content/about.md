@@ -1,5 +1,5 @@
 ---
-title: Design Meaningful Experiences | About Drew
+title: Creating Meaningful Experiences | About Drew
 type: page
 layout: single
 photoUrl: "/assets/img/straylight_a_workspace_for_a_software_developer_with_a_macbook__3.png"
