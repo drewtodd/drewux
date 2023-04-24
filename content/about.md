@@ -2,12 +2,13 @@
 title: Design Meaningful Experiences | About Drew
 type: page
 layout: single
-photoUrl: "/assets/img/straylight_a_workspace_for_a_software_developer_with_a_macbook_2.png"
+photoUrl: "/assets/img/straylight_a_workspace_for_a_software_developer_with_a_macbook__3.png"
 photoCredit: Midjourney
 photoTitle: "An illustration of a product developer's workstation with lamp, display, and lots of post-it notes"
 photoCreditUrl: "https://www.midjourney.com/home"
 ---
-# Design Meaningful Experiences: About Drew
+# Design Meaningful Experiences
+## About Drew
 
 Hi, I'm Drew Todd, a dedicated professional with over 20 years of experience in Internet, Web, and mobile application development. As a certified project manager, I bring my design and engineering expertise to my role as the Director of Web Development at a renowned AV manufacturer in Anaheim, CA, where I lead a talented team in creating award-winning digital products.
 
