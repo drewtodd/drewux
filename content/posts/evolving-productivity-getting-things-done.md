@@ -3,7 +3,7 @@ title: "Evolving Productivity: Getting Things Done"
 layout: single
 type: post
 date: 2022-12-15
-photoUrl: /assets/img/straylight_a_rectangular_wire_in-basket_stacked_with_business_p_d4c13eb1-9720-4eeb-a146-bf378b7e28a1.png
+photoUrl: /assets/img/straylight_a_rectangular_wire_in-basket_stacked_with_business_p_48bc46d2-8aa3-4b60-b1b9-d2d039e47d2f.png
 photoCredit: Midjourney
 photoTitle: A rectangular wire in-basket filled with business papers
 photoCreditUrl: "https://midjourney.com/home"
