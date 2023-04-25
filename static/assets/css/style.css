@@ -2,7 +2,7 @@
 
 /*Resets*/
 
-html {ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+html {-webkit-text-size-adjust: 100%;}
 body {margin: 0;}
 body, h1, h2, h3, h4, a, img, blockquote, ul, li, p {margin: 0; padding: 0;}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {display: block;}
@@ -213,8 +213,8 @@ ul {
 
 li {
     line-height: 1.75em;
-    padding-top: .75em;
-    padding-bottom: .75em;
+    padding-top: .25em;
+    padding-bottom: .25em;
 }
 
 /* These two styles allow for tighter padding in lists */
@@ -615,7 +615,6 @@ td {
         font-family: FontAwesome;
         content: "\f017";
         font-size: 2em;
-        vertical-align: top;
         padding-right: 0;
     }
 
