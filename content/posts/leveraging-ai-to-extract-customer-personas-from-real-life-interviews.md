@@ -27,16 +27,16 @@ We had ChatGPT-4 develop an interview guide and script to ensure consistency and
 ### Conducting the Interviews
 We interviewed 10 diverse candidates, following the interview script to maintain consistency.  Each candidate was actually a photo-persona created and acted out by an actor. I did this because I wanted to have a good idea of what personas *I* would have come up with based on the interviews:
 
-- A mom who buys stickers for her “sticker obsessed” daughter, who collects them in a sticker book and trades them with her friends
+- **A mom** who buys stickers for her “sticker obsessed” daughter, who collects them in a sticker book and trades them with her friends
 - Business consultant who has stickers made to give away to promote her business
-- Family-owned restaurant owner who has stickers made to give to customers as promotional items
-- Gen-Z male who likes to create custom stickers to put on his motorcycle, his laptop… all kinds of things. He thinks stickers are “cool. Like tattoos for your stuff.”
-- Woman who buys custom stickers to include on gifts and cards for a personal touch
-- Art student who uses custom stickers as a way to share her art
-- Die-hard Liverpool Football Club fan who buys team stickers for his car and his sports equipment
-- Baseball coach who buys custom team stickers to give to her kids in recognition of a great game
-- A kid who is responsible for merch for his alt-punk band who purchases stickers to sell at concerts
-- A dad who uses stickers as awards for his son and daughter when they do their chores. He likes to let them design the stickers for extra motivation
+- Family-owned **restaurant owner** who has stickers made to give to customers as promotional items
+- **Gen-Z male** who likes to create custom stickers to put on his motorcycle, his laptop… all kinds of things. He thinks stickers are “cool. Like tattoos for your stuff.”
+- **Middle-aged woman** who buys custom stickers to include on gifts and cards for a personal touch
+- **Art student** who uses custom stickers as a way to share her art
+- Die-hard **Liverpool Football Club fan** who buys team stickers for his car and his sports equipment
+- **Baseball coach** who buys custom team stickers to give to her kids in recognition of a great game
+- **A kid** who is responsible for merch for his alt-punk band who purchases stickers to sell at concerts
+- **A dad** who uses stickers as awards for his son and daughter when they do their chores. He likes to let them design the stickers for extra motivation
 
 In some cases, the actor took liberties with the promo-personas (the family-owned restaurant owner became a wedding planner, for instance), but this was okay, because the resulting interview content was still plausible. 
 
