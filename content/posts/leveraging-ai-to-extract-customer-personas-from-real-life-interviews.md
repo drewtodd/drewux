@@ -22,13 +22,13 @@ Discovering and understanding customer personas is a common activity for busines
 
 ## Methodology
 ### Creating the Interview Guide and Script
-We had ChatGPT-4 develop an interview guide and script to ensure consistency and gather relevant information from the candidates. The script contained open-ended questions focusing on the participants' preferences, experiences, and motivations related to sticker usage.
+Using a ficticious online sticker vendor call StickerMe.com as the basis for our research. We had ChatGPT-4 develop an interview guide and script to ensure consistency and gather relevant information from the candidates. The script contained open-ended questions focusing on the participants' preferences, experiences, and motivations related to sticker usage.
 
 ### Conducting the Interviews
 We interviewed 10 diverse candidates, following the interview script to maintain consistency.  Each candidate was actually a photo-persona created and acted out by an actor. I did this because I wanted to have a good idea of what personas *I* would have come up with based on the interviews:
 
 - **A mom** who buys stickers for her “sticker obsessed” daughter, who collects them in a sticker book and trades them with her friends
-- Business consultant who has stickers made to give away to promote her business
+- **Business consultant** who has stickers made to give away to promote her business
 - Family-owned **restaurant owner** who has stickers made to give to customers as promotional items
 - **Gen-Z male** who likes to create custom stickers to put on his motorcycle, his laptop… all kinds of things. He thinks stickers are “cool. Like tattoos for your stuff.”
 - **Middle-aged woman** who buys custom stickers to include on gifts and cards for a personal touch
