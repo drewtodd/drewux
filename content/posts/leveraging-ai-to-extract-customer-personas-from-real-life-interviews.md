@@ -171,4 +171,4 @@ To ensure the accuracy and reliability of the information provided by AI, it’s
 ## The Wrap-up
 This experiment demonstrates the potential of using AI, like ChatGPT, in extracting valuable customer insights from real-life interview data. By feeding raw data into the AI, businesses can quickly and effectively analyze customer preferences and motivations to create accurate personas. This approach can help businesses streamline their user-centered design efforts, tailor their products or services, and ultimately enhance customer satisfaction.
 
-#personal/blog
+All the materials used in this experiment can be reviewed on [GitHub](https://github.com/drewtodd/chatgpt-personas).
