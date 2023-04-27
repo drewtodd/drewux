@@ -7,7 +7,7 @@ photoUrl: /assets/img/toy-robot-painting.png
 photoCredit: Midjourney
 photoTitle: A robot drawing a sketch in a sketchbook
 photoCreditUrl: "https://www.midjourney.com/home"
-tags: ["ux", "ai"]
+tags: ["ux", "ai", "chatgpt"]
 ---
 
 # Leveraging AI to Extract Customer Personas from Real-Life Interviews
