@@ -11,7 +11,7 @@ tags: ["ux","research", "ai", "tools"]
 ---
 
 # Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency
-## Innovative AI-powered tools to know
+## Innovative AI-powered tools to try out
 
 UX researchers, it's time to embrace the future! As AI continues to advance and integrate into various aspects of our lives, it's essential for us to keep up with the game. Today, I want to share with you five AI-powered tools that will not only enhance your research efforts but also boost your efficiency in the UX field.
 
