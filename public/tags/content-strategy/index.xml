@@ -1,3 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>content-strategy on drew:ux</title><link>http://drewux.com/tags/content-strategy/</link><description>Recent content in content-strategy on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/content-strategy/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting the Most Out of your CMS</title><link>http://drewux.com/posts/2015-12-01-omg-cms/</link><pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-12-01-omg-cms/</guid><description>Getting the Most Out of your CMS 4½ minute read “We become what we behold. We shape our tools, and thereafter our tools shape us.” ― Marshall McLuhan
-When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow?</description></item><item><title>Five Content Strategy Challenges (and How to Overcome Them): Part 2, Management</title><link>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</link><pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</guid><description>Five Content Strategy Challenges (and How to Overcome Them) Part 2 — Challenges for Management 3½ minute read Last week I discussed the five most common content strategy challenges for content creators and strategists. Organizational leadership faces a similar predicament. With so much emphasis put on productivity, efficiency and the bottom line, it’s hard to embrace a concept that doesn’t show a clear benefit for the organization, introduces too much risk or just doesn’t fit in with their vision of the company and its values.</description></item><item><title>Five Content Strategy Challenges (and How to Overcome Them): Part 1, The Content Creator</title><link>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</link><pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</guid><description>Five Content Strategy Challenges (and How to Overcome Them) Part 1 — The Content Creator 3½ minute read Content strategy is an important component of the design process and vital to the overall user experience. It ensures that the organization’s content aligns with its goals and values. With that in mind, here are ten key challenges that content creators and management face with content strategy, and some proposed solutions.
-Challenges for Content Creators Content creators and strategists have it rough.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>content-strategy on drew:ux</title>
+    <link>http://drewux.com/tags/content-strategy/</link>
+    <description>Recent content in content-strategy on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/content-strategy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting the Most Out of your CMS</title>
+      <link>http://drewux.com/posts/2015-12-01-omg-cms/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-12-01-omg-cms/</guid>
+      <description>Getting the Most Out of your CMS 4½ minute read “We become what we behold. We shape our tools, and thereafter our tools shape us.” ― Marshall McLuhan
+When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow?</description>
+    </item>
+    
+    <item>
+      <title>Five Content Strategy Challenges (and How to Overcome Them):  Part 2, Management</title>
+      <link>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</guid>
+      <description>Five Content Strategy Challenges (and How to Overcome Them) Part 2 — Challenges for Management 3½ minute read Last week I discussed the five most common content strategy challenges for content creators and strategists. Organizational leadership faces a similar predicament. With so much emphasis put on productivity, efficiency and the bottom line, it’s hard to embrace a concept that doesn’t show a clear benefit for the organization, introduces too much risk or just doesn’t fit in with their vision of the company and its values.</description>
+    </item>
+    
+    <item>
+      <title>Five Content Strategy Challenges (and How to Overcome Them):  Part 1, The Content Creator</title>
+      <link>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</guid>
+      <description>Five Content Strategy Challenges (and How to Overcome Them) Part 1 — The Content Creator 3½ minute read Content strategy is an important component of the design process and vital to the overall user experience. It ensures that the organization’s content aligns with its goals and values. With that in mind, here are ten key challenges that content creators and management face with content strategy, and some proposed solutions.
+Challenges for Content Creators Content creators and strategists have it rough.</description>
+    </item>
+    
+  </channel>
+</rss>

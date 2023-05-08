@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>franklin on drew:ux</title><link>http://drewux.com/tags/franklin/</link><description>Recent content in franklin on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/franklin/index.xml" rel="self" type="application/rss+xml"/><item><title>Analog Days: Rediscovering the Franklin Planner</title><link>http://drewux.com/posts/analog-days-rediscovering-the-franklin-planner/</link><pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/analog-days-rediscovering-the-franklin-planner/</guid><description>Analog Days: Rediscovering the Franklin Planner Exploring the roots of the Franklin Planner system and its connection to Benjamin Franklin’s methods Dive into the history of the Franklin Planner system, a once-popular analog productivity tool, and learn how its principles are rooted in Benjamin Franklin’s methods for personal development and virtue.
-I’ve always been a bit of a productivity system nerd. I’ve been fascinated by how others manage their lives, stay on top of tasks, and keep things organized.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>franklin on drew:ux</title>
+    <link>http://drewux.com/tags/franklin/</link>
+    <description>Recent content in franklin on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/franklin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analog Days: Rediscovering the Franklin Planner</title>
+      <link>http://drewux.com/posts/analog-days-rediscovering-the-franklin-planner/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/analog-days-rediscovering-the-franklin-planner/</guid>
+      <description>Analog Days: Rediscovering the Franklin Planner Exploring the roots of the Franklin Planner system and its connection to Benjamin Franklin’s methods Dive into the history of the Franklin Planner system, a once-popular analog productivity tool, and learn how its principles are rooted in Benjamin Franklin’s methods for personal development and virtue.
+I’ve always been a bit of a productivity system nerd. I’ve been fascinated by how others manage their lives, stay on top of tasks, and keep things organized.</description>
+    </item>
+    
+  </channel>
+</rss>

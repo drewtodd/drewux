@@ -1,2 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>research on drew:ux</title><link>http://drewux.com/tags/research/</link><description>Recent content in research on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 10 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Formative vs. Summative Usability Studies</title><link>http://drewux.com/posts/2016-09-10-formative-summative-usability/</link><pubDate>Sat, 10 Sep 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-09-10-formative-summative-usability/</guid><description>Staying Ahead of the Wave Formative vs. Summative Usability Studies 2 ½ minute read When looking at usability studies, you can generally lump them into two groups: Formative studies and summative studies. We&amp;rsquo;ve been talking about them this week and I thought I&amp;rsquo;d share a little bit about our approach.
-Formative Studies Formative studies, as the name implies, tend to happen at the beginning of the design process and are used to help guide the product in the right direction.</description></item><item><title>Remote UX Observation</title><link>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</link><pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</guid><description>Remote UX Observation Getting Out of the Room to Enhance Team Participation In UX 4 ½ minute read One of the major tenets we adhere to as a team is transparency: All members of the team should have access to information about the project we’re working on. Designers, Developers, QA Analysts, Stakeholders: They all should have a complete picture of what’s going on and access to any details of the project that might help them gain product perspective and user insights.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on drew:ux</title>
+    <link>http://drewux.com/tags/research/</link>
+    <description>Recent content in research on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency</title>
+      <link>http://drewux.com/posts/top-5-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency/</link>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/top-5-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency/</guid>
+      <description>Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency Innovative AI-powered tools to try out UX researchers, it&amp;rsquo;s time to embrace the future! As AI continues to advance and integrate into various aspects of our lives, it&amp;rsquo;s essential for us to keep up with the game. Today, I want to share with you five AI-powered tools that will not only enhance your research efforts but also boost your efficiency in the UX field.</description>
+    </item>
+    
+    <item>
+      <title>This Business with Unicorns</title>
+      <link>http://drewux.com/posts/2016-10-29-unicorns/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-10-29-unicorns/</guid>
+      <description>This Business with Unicorns A Raccoon, a Panda, and a Unicorn walk into a bar 3 ½ minute read Unicorns: Mythical creatures that are spoken of, but never seen. In the UX world, the term is used to describe that rare person who can do it all — design, research, write, and code — and do it at a very high level. It&amp;rsquo;s become so common that companies looking for talent are putting out job ads for so-called &amp;ldquo;unicorns.</description>
+    </item>
+    
+    <item>
+      <title>Magnitude</title>
+      <link>http://drewux.com/posts/2016-10-16-magnitude/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-10-16-magnitude/</guid>
+      <description>Magnitude A Simple Tool to Help Prioritize Usability Issues 6 minute read When prioritizing usability problems, use a Magnitude Matrix to figure out the most important issues to address. Magnitude combines the frequency that an issue was observed with the relative impact that it had on the participant&amp;rsquo;s task completion.
+After spending some time revisiting best practices in the realm of usability testing and reviewing the advice of some its more esteemed practitioners, I realized that there is a lot of talk about how to go about setting up such a test, and finding usability problems.</description>
+    </item>
+    
+    <item>
+      <title>Playback</title>
+      <link>http://drewux.com/posts/2016-10-2-playback/</link>
+      <pubDate>Sun, 02 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-10-2-playback/</guid>
+      <description>Playback Often the best way to fix your faults is to look directly at them 4 minute read Regularly reviewing your performance and providing self-critique can help you improve your skills as a usability test moderator.
+The camera and microphone are powerful implements in a usability tester&amp;rsquo;s toolkit. With them, you can capture the user&amp;rsquo;s actions and facial expressions and gain all kinds of insight into their behaviors, thoughts and expectations when using a product.</description>
+    </item>
+    
+    <item>
+      <title>Eye-Tracking on the Cheap</title>
+      <link>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</link>
+      <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</guid>
+      <description>Eye-Tracking on the Cheap A Dead-Simple Way to Follow Your Test Participants 2 minute read In the absence of eye-tracking equipment, ask test participants to use their mouse cursor to indicate where they’re looking on the screen.
+One of the hallmarks of usability testing protocols is [the “Think Aloud” method][1]: Asking participants to verbalize their thoughts as they work through the tasks and activities of the test. This method allows the test team to get inside the head of the participant a bit and often illuminates behaviors or attitudes that wouldn’t be apparent by observation alone.</description>
+    </item>
+    
+    <item>
+      <title>Formative vs. Summative Usability Studies</title>
+      <link>http://drewux.com/posts/2016-09-10-formative-summative-usability/</link>
+      <pubDate>Sat, 10 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-09-10-formative-summative-usability/</guid>
+      <description>Staying Ahead of the Wave Formative vs. Summative Usability Studies 2 ½ minute read When looking at usability studies, you can generally lump them into two groups: Formative studies and summative studies. We&amp;rsquo;ve been talking about them this week and I thought I&amp;rsquo;d share a little bit about our approach.
+Formative Studies Formative studies, as the name implies, tend to happen at the beginning of the design process and are used to help guide the product in the right direction.</description>
+    </item>
+    
+    <item>
+      <title>Remote UX Observation</title>
+      <link>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</guid>
+      <description>Remote UX Observation Getting Out of the Room to Enhance Team Participation In UX 4 ½ minute read One of the major tenets we adhere to as a team is transparency: All members of the team should have access to information about the project we’re working on. Designers, Developers, QA Analysts, Stakeholders: They all should have a complete picture of what’s going on and access to any details of the project that might help them gain product perspective and user insights.</description>
+    </item>
+    
+    <item>
+      <title>UX Yin and Yang: Balancing Organizational Goals and the Needs of Your Users</title>
+      <link>http://drewux.com/posts/2015-12-08-ux-yin-yang/</link>
+      <pubDate>Tue, 08 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-12-08-ux-yin-yang/</guid>
+      <description>UX Yin and Yang Balancing Organizational Goals and the Needs of Your Users 4½ minute read The disciplines of user-centered design have taught us to go to great lengths to ensure that we meet the needs of users when it comes to our products, but we shouldn’t be doing so at the expense of the organization’s goals.
+Call it a lesson learned. Awhile back my buddy (whom I&amp;rsquo;ll call &amp;ldquo;Ted,&amp;rdquo; in an attempt to spare his identity) completed a project that he’d spent significant time designing and building.</description>
+    </item>
+    
+  </channel>
+</rss>

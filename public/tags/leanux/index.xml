@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>leanux on drew:ux</title><link>http://drewux.com/tags/leanux/</link><description>Recent content in leanux on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/leanux/index.xml" rel="self" type="application/rss+xml"/><item><title>Lean UX: The Ultimate Framework for Integrating UX and Agile Development</title><link>http://drewux.com/posts/lean-ux/</link><pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/lean-ux/</guid><description>Lean UX: The Ultimate Framework for Integrating UX and Agile Development Delve into the Lean UX methodology, its components, and real-world success stories Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.
-I&amp;rsquo;ve always been passionate about finding ways to seamlessly integrate UX and Agile development, and the Lean UX methodology has proven to be an ideal solution.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>leanux on drew:ux</title>
+    <link>http://drewux.com/tags/leanux/</link>
+    <description>Recent content in leanux on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/leanux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lean UX: The Ultimate Framework for Integrating UX and Agile Development</title>
+      <link>http://drewux.com/posts/lean-ux/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/lean-ux/</guid>
+      <description>Lean UX: The Ultimate Framework for Integrating UX and Agile Development Delve into the Lean UX methodology, its components, and real-world success stories Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.
+I&amp;rsquo;ve always been passionate about finding ways to seamlessly integrate UX and Agile development, and the Lean UX methodology has proven to be an ideal solution.</description>
+    </item>
+    
+  </channel>
+</rss>

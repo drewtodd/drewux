@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>invision on drew:ux</title><link>http://drewux.com/tags/invision/</link><description>Recent content in invision on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/invision/index.xml" rel="self" type="application/rss+xml"/><item><title>InVision This</title><link>http://drewux.com/posts/2016-06-05-invision-this/</link><pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-05-invision-this/</guid><description>InVision This Much more than fancy screenshots 2 ½ minute read As you’ve probably gathered if you’ve been following along, I spend a lot of time talking about tools. Too much, probably. Tools, after all, don’t make the craftsman. But, here I go again: After a couple of weeks using InVision.app for a project of some complexity, I have to say. Wow.
-I’ve been aware of InVision for awhile, but always thought of it as a fancy presentation tool (which it is) and nothing more (which it isn’t).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>invision on drew:ux</title>
+    <link>http://drewux.com/tags/invision/</link>
+    <description>Recent content in invision on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/invision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>InVision This</title>
+      <link>http://drewux.com/posts/2016-06-05-invision-this/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-05-invision-this/</guid>
+      <description>InVision This Much more than fancy screenshots 2 ½ minute read As you’ve probably gathered if you’ve been following along, I spend a lot of time talking about tools. Too much, probably. Tools, after all, don’t make the craftsman. But, here I go again: After a couple of weeks using InVision.app for a project of some complexity, I have to say. Wow.
+I’ve been aware of InVision for awhile, but always thought of it as a fancy presentation tool (which it is) and nothing more (which it isn’t).</description>
+    </item>
+    
+  </channel>
+</rss>

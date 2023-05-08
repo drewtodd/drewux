@@ -1,10 +1,137 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>techniques on drew:ux</title><link>http://drewux.com/tags/techniques/</link><description>Recent content in techniques on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/techniques/index.xml" rel="self" type="application/rss+xml"/><item><title>UX and AI: Tools to Streamline Your UX Workflow</title><link>http://drewux.com/posts/ux-ai-tools/</link><pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/ux-ai-tools/</guid><description>UX and AI Tools to Streamline Your UX Workflow 5 minute read As UX professionals, we all know the importance of collecting and analyzing data to inform design decisions and improve the user experience. But with so much data to collect and analyze, it can be a time-consuming and overwhelming process. That&amp;rsquo;s where AI-powered tools come in. By using these tools, we can streamline our UX workflows, saving time and increasing efficiency.</description></item><item><title>Lean UX: The Ultimate Framework for Integrating UX and Agile Development</title><link>http://drewux.com/posts/lean-ux/</link><pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/lean-ux/</guid><description>Lean UX: The Ultimate Framework for Integrating UX and Agile Development Delve into the Lean UX methodology, its components, and real-world success stories Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.
-I&amp;rsquo;ve always been passionate about finding ways to seamlessly integrate UX and Agile development, and the Lean UX methodology has proven to be an ideal solution.</description></item><item><title>Magnitude</title><link>http://drewux.com/posts/2016-10-16-magnitude/</link><pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-10-16-magnitude/</guid><description>Magnitude A Simple Tool to Help Prioritize Usability Issues 6 minute read When prioritizing usability problems, use a Magnitude Matrix to figure out the most important issues to address. Magnitude combines the frequency that an issue was observed with the relative impact that it had on the participant&amp;rsquo;s task completion.
-After spending some time revisiting best practices in the realm of usability testing and reviewing the advice of some its more esteemed practitioners, I realized that there is a lot of talk about how to go about setting up such a test, and finding usability problems.</description></item><item><title>Playback</title><link>http://drewux.com/posts/2016-10-2-playback/</link><pubDate>Sun, 02 Oct 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-10-2-playback/</guid><description>Playback Often the best way to fix your faults is to look directly at them 4 minute read Regularly reviewing your performance and providing self-critique can help you improve your skills as a usability test moderator.
-The camera and microphone are powerful implements in a usability tester&amp;rsquo;s toolkit. With them, you can capture the user&amp;rsquo;s actions and facial expressions and gain all kinds of insight into their behaviors, thoughts and expectations when using a product.</description></item><item><title>Reporting Qualitative Data</title><link>http://drewux.com/posts/2016-09-24-reporting-qualitative-data/</link><pubDate>Sat, 24 Sep 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-09-24-reporting-qualitative-data/</guid><description>Reporting Qualitative Data Gaining Control of the Fuzzy Non-Numeric 3 minute read When dealing with moderate to large sets of qualitative data, affinity analysis can help identify and prioritize common issues that users experience.
-We&amp;rsquo;ve spent a lot of time discussing quantitative data this week: Collecting, measuring, and analyzing it. This got me thinking about its more nebulous twin — qualitative data — and how it&amp;rsquo;s a whole different beast.</description></item><item><title>Eye-Tracking on the Cheap</title><link>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</link><pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</guid><description>Eye-Tracking on the Cheap A Dead-Simple Way to Follow Your Test Participants 2 minute read In the absence of eye-tracking equipment, ask test participants to use their mouse cursor to indicate where they’re looking on the screen.
-One of the hallmarks of usability testing protocols is [the “Think Aloud” method][1]: Asking participants to verbalize their thoughts as they work through the tasks and activities of the test. This method allows the test team to get inside the head of the participant a bit and often illuminates behaviors or attitudes that wouldn’t be apparent by observation alone.</description></item><item><title>Organized</title><link>http://drewux.com/posts/2016-06-26-organized/</link><pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-26-organized/</guid><description>Organized The extra time taken to arrange your work is a true sign of professionalism 2½ minute read Look. What your workspace looks like when you go home for the day is your business. It’s your space and you need to be comfortable and able to get stuff done. Maybe it’s a minimalist nirvana; clean and cool and white. Maybe it’s a nest of papers, books, half-empty soda cans… whatever works for you.</description></item><item><title>Measure Twice, Cut Once</title><link>http://drewux.com/posts/2016-06-19-mobile-layouts/</link><pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-19-mobile-layouts/</guid><description>Measure Twice, Cut Once Creating a reusable layout system for mobile 4 ½ minute read So, while slugging it out in the trenches this week, I sort of fell into an existential crisis with regards to the stuff I was putting on the screen for a mobile prototype. Panels, images, buttons, text fields&amp;hellip; the sizing and positioning of these things all suddenly seemed so arbitrary. How can you defend a design decision if you can&amp;rsquo;t explain why the thing on the screen looks like it does?</description></item><item><title>Critique</title><link>http://drewux.com/posts/2016-06-12-critique/</link><pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-12-critique/</guid><description>Critique When having your back means shooting you down 5 minute read I’ve got a good team.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>techniques on drew:ux</title>
+    <link>http://drewux.com/tags/techniques/</link>
+    <description>Recent content in techniques on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/techniques/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UX and AI: Tools to Streamline Your UX Workflow</title>
+      <link>http://drewux.com/posts/ux-ai-tools/</link>
+      <pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/ux-ai-tools/</guid>
+      <description>UX and AI Tools to Streamline Your UX Workflow 5 minute read As UX professionals, we all know the importance of collecting and analyzing data to inform design decisions and improve the user experience. But with so much data to collect and analyze, it can be a time-consuming and overwhelming process. That&amp;rsquo;s where AI-powered tools come in. By using these tools, we can streamline our UX workflows, saving time and increasing efficiency.</description>
+    </item>
+    
+    <item>
+      <title>Lean UX: The Ultimate Framework for Integrating UX and Agile Development</title>
+      <link>http://drewux.com/posts/lean-ux/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/lean-ux/</guid>
+      <description>Lean UX: The Ultimate Framework for Integrating UX and Agile Development Delve into the Lean UX methodology, its components, and real-world success stories Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.
+I&amp;rsquo;ve always been passionate about finding ways to seamlessly integrate UX and Agile development, and the Lean UX methodology has proven to be an ideal solution.</description>
+    </item>
+    
+    <item>
+      <title>Magnitude</title>
+      <link>http://drewux.com/posts/2016-10-16-magnitude/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-10-16-magnitude/</guid>
+      <description>Magnitude A Simple Tool to Help Prioritize Usability Issues 6 minute read When prioritizing usability problems, use a Magnitude Matrix to figure out the most important issues to address. Magnitude combines the frequency that an issue was observed with the relative impact that it had on the participant&amp;rsquo;s task completion.
+After spending some time revisiting best practices in the realm of usability testing and reviewing the advice of some its more esteemed practitioners, I realized that there is a lot of talk about how to go about setting up such a test, and finding usability problems.</description>
+    </item>
+    
+    <item>
+      <title>Playback</title>
+      <link>http://drewux.com/posts/2016-10-2-playback/</link>
+      <pubDate>Sun, 02 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-10-2-playback/</guid>
+      <description>Playback Often the best way to fix your faults is to look directly at them 4 minute read Regularly reviewing your performance and providing self-critique can help you improve your skills as a usability test moderator.
+The camera and microphone are powerful implements in a usability tester&amp;rsquo;s toolkit. With them, you can capture the user&amp;rsquo;s actions and facial expressions and gain all kinds of insight into their behaviors, thoughts and expectations when using a product.</description>
+    </item>
+    
+    <item>
+      <title>Reporting Qualitative Data</title>
+      <link>http://drewux.com/posts/2016-09-24-reporting-qualitative-data/</link>
+      <pubDate>Sat, 24 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-09-24-reporting-qualitative-data/</guid>
+      <description>Reporting Qualitative Data Gaining Control of the Fuzzy Non-Numeric 3 minute read When dealing with moderate to large sets of qualitative data, affinity analysis can help identify and prioritize common issues that users experience.
+We&amp;rsquo;ve spent a lot of time discussing quantitative data this week: Collecting, measuring, and analyzing it. This got me thinking about its more nebulous twin — qualitative data — and how it&amp;rsquo;s a whole different beast.</description>
+    </item>
+    
+    <item>
+      <title>Eye-Tracking on the Cheap</title>
+      <link>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</link>
+      <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</guid>
+      <description>Eye-Tracking on the Cheap A Dead-Simple Way to Follow Your Test Participants 2 minute read In the absence of eye-tracking equipment, ask test participants to use their mouse cursor to indicate where they’re looking on the screen.
+One of the hallmarks of usability testing protocols is [the “Think Aloud” method][1]: Asking participants to verbalize their thoughts as they work through the tasks and activities of the test. This method allows the test team to get inside the head of the participant a bit and often illuminates behaviors or attitudes that wouldn’t be apparent by observation alone.</description>
+    </item>
+    
+    <item>
+      <title>Organized</title>
+      <link>http://drewux.com/posts/2016-06-26-organized/</link>
+      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-26-organized/</guid>
+      <description>Organized The extra time taken to arrange your work is a true sign of professionalism 2½ minute read Look. What your workspace looks like when you go home for the day is your business. It’s your space and you need to be comfortable and able to get stuff done. Maybe it’s a minimalist nirvana; clean and cool and white. Maybe it’s a nest of papers, books, half-empty soda cans… whatever works for you.</description>
+    </item>
+    
+    <item>
+      <title>Measure Twice, Cut Once</title>
+      <link>http://drewux.com/posts/2016-06-19-mobile-layouts/</link>
+      <pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-19-mobile-layouts/</guid>
+      <description>Measure Twice, Cut Once Creating a reusable layout system for mobile 4 ½ minute read So, while slugging it out in the trenches this week, I sort of fell into an existential crisis with regards to the stuff I was putting on the screen for a mobile prototype. Panels, images, buttons, text fields&amp;hellip; the sizing and positioning of these things all suddenly seemed so arbitrary. How can you defend a design decision if you can&amp;rsquo;t explain why the thing on the screen looks like it does?</description>
+    </item>
+    
+    <item>
+      <title>Critique</title>
+      <link>http://drewux.com/posts/2016-06-12-critique/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-12-critique/</guid>
+      <description>Critique When having your back means shooting you down 5 minute read I’ve got a good team.
 I know this not because my team is talented; not because they wield terrifying text editors and pixel manipulators with the deftness of a Mayo Clinic surgeon (although they most certainly do). I know this because they are good at critique.
-They are able to look at something — a design, concept, prototype — with a critical eye.</description></item><item><title>Fidelity</title><link>http://drewux.com/posts/2016-05-29-fidelity/</link><pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-05-29-fidelity/</guid><description>Fidelity When making wireframes, aim somewhere between hi-fi and lo-fi 4 minute read We spent a lot of time this week discussing fidelity as it pertains to UX deliverables: Wireframes in this case. The traditional wisdom has always been that wireframes are quick and dirty interface representations, stripped of any visual design or branding elements. Their purpose is to communicate the general layout and content of a page without getting too deep into the visual design.</description></item><item><title>UX Yin and Yang: Balancing Organizational Goals and the Needs of Your Users</title><link>http://drewux.com/posts/2015-12-08-ux-yin-yang/</link><pubDate>Tue, 08 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-12-08-ux-yin-yang/</guid><description>UX Yin and Yang Balancing Organizational Goals and the Needs of Your Users 4½ minute read The disciplines of user-centered design have taught us to go to great lengths to ensure that we meet the needs of users when it comes to our products, but we shouldn’t be doing so at the expense of the organization’s goals.
-Call it a lesson learned. Awhile back my buddy (whom I&amp;rsquo;ll call &amp;ldquo;Ted,&amp;rdquo; in an attempt to spare his identity) completed a project that he’d spent significant time designing and building.</description></item><item><title>Five Content Strategy Challenges (and How to Overcome Them): Part 2, Management</title><link>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</link><pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</guid><description>Five Content Strategy Challenges (and How to Overcome Them) Part 2 — Challenges for Management 3½ minute read Last week I discussed the five most common content strategy challenges for content creators and strategists. Organizational leadership faces a similar predicament. With so much emphasis put on productivity, efficiency and the bottom line, it’s hard to embrace a concept that doesn’t show a clear benefit for the organization, introduces too much risk or just doesn’t fit in with their vision of the company and its values.</description></item><item><title>Five Content Strategy Challenges (and How to Overcome Them): Part 1, The Content Creator</title><link>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</link><pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</guid><description>Five Content Strategy Challenges (and How to Overcome Them) Part 1 — The Content Creator 3½ minute read Content strategy is an important component of the design process and vital to the overall user experience. It ensures that the organization’s content aligns with its goals and values. With that in mind, here are ten key challenges that content creators and management face with content strategy, and some proposed solutions.
-Challenges for Content Creators Content creators and strategists have it rough.</description></item></channel></rss>
+They are able to look at something — a design, concept, prototype — with a critical eye.</description>
+    </item>
+    
+    <item>
+      <title>Fidelity</title>
+      <link>http://drewux.com/posts/2016-05-29-fidelity/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-05-29-fidelity/</guid>
+      <description>Fidelity When making wireframes, aim somewhere between hi-fi and lo-fi 4 minute read We spent a lot of time this week discussing fidelity as it pertains to UX deliverables: Wireframes in this case. The traditional wisdom has always been that wireframes are quick and dirty interface representations, stripped of any visual design or branding elements. Their purpose is to communicate the general layout and content of a page without getting too deep into the visual design.</description>
+    </item>
+    
+    <item>
+      <title>UX Yin and Yang: Balancing Organizational Goals and the Needs of Your Users</title>
+      <link>http://drewux.com/posts/2015-12-08-ux-yin-yang/</link>
+      <pubDate>Tue, 08 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-12-08-ux-yin-yang/</guid>
+      <description>UX Yin and Yang Balancing Organizational Goals and the Needs of Your Users 4½ minute read The disciplines of user-centered design have taught us to go to great lengths to ensure that we meet the needs of users when it comes to our products, but we shouldn’t be doing so at the expense of the organization’s goals.
+Call it a lesson learned. Awhile back my buddy (whom I&amp;rsquo;ll call &amp;ldquo;Ted,&amp;rdquo; in an attempt to spare his identity) completed a project that he’d spent significant time designing and building.</description>
+    </item>
+    
+    <item>
+      <title>Five Content Strategy Challenges (and How to Overcome Them):  Part 2, Management</title>
+      <link>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-11-19-content-challenges-part-2/</guid>
+      <description>Five Content Strategy Challenges (and How to Overcome Them) Part 2 — Challenges for Management 3½ minute read Last week I discussed the five most common content strategy challenges for content creators and strategists. Organizational leadership faces a similar predicament. With so much emphasis put on productivity, efficiency and the bottom line, it’s hard to embrace a concept that doesn’t show a clear benefit for the organization, introduces too much risk or just doesn’t fit in with their vision of the company and its values.</description>
+    </item>
+    
+    <item>
+      <title>Five Content Strategy Challenges (and How to Overcome Them):  Part 1, The Content Creator</title>
+      <link>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-11-10-content-challenges-part-1/</guid>
+      <description>Five Content Strategy Challenges (and How to Overcome Them) Part 1 — The Content Creator 3½ minute read Content strategy is an important component of the design process and vital to the overall user experience. It ensures that the organization’s content aligns with its goals and values. With that in mind, here are ten key challenges that content creators and management face with content strategy, and some proposed solutions.
+Challenges for Content Creators Content creators and strategists have it rough.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>design on drew:ux</title><link>http://drewux.com/tags/design/</link><description>Recent content in design on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>IxD Retrospective</title><link>http://drewux.com/posts/2016-07-01-ixd-retrospective/</link><pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-07-01-ixd-retrospective/</guid><description>Retrospective Looking back on the Kent State Interaction Design class 4 minute read So another course in the Kent State University User Experience Design Masters program comes to an end and, as one of its requirements has been these weekly updates, I thought it would be a good idea to use the final one to look back on the class.
-I’ve spent the last seven weeks diving into Interaction Design; looking into the design process for digital products from the user interface perspective.</description></item><item><title>Organized</title><link>http://drewux.com/posts/2016-06-26-organized/</link><pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-26-organized/</guid><description>Organized The extra time taken to arrange your work is a true sign of professionalism 2½ minute read Look. What your workspace looks like when you go home for the day is your business. It’s your space and you need to be comfortable and able to get stuff done. Maybe it’s a minimalist nirvana; clean and cool and white. Maybe it’s a nest of papers, books, half-empty soda cans… whatever works for you.</description></item><item><title>Measure Twice, Cut Once</title><link>http://drewux.com/posts/2016-06-19-mobile-layouts/</link><pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-19-mobile-layouts/</guid><description>Measure Twice, Cut Once Creating a reusable layout system for mobile 4 ½ minute read So, while slugging it out in the trenches this week, I sort of fell into an existential crisis with regards to the stuff I was putting on the screen for a mobile prototype. Panels, images, buttons, text fields&amp;hellip; the sizing and positioning of these things all suddenly seemed so arbitrary. How can you defend a design decision if you can&amp;rsquo;t explain why the thing on the screen looks like it does?</description></item><item><title>Critique</title><link>http://drewux.com/posts/2016-06-12-critique/</link><pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-12-critique/</guid><description>Critique When having your back means shooting you down 5 minute read I’ve got a good team.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>design on drew:ux</title>
+    <link>http://drewux.com/tags/design/</link>
+    <description>Recent content in design on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embracing White Space: Why Less Is More in UX Design</title>
+      <link>http://drewux.com/posts/embracing-white-space/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/embracing-white-space/</guid>
+      <description>Embracing White Space Why Less Is More in UX Design 3 minute read You&amp;rsquo;ve been there: you&amp;rsquo;re presenting a sleek, functional user interface to stakeholders, only to have them request that you cram more information into the available space. Sound familiar? As UX designers, we often face the challenge of convincing stakeholders that white space is not wasted space, but rather a crucial element for creating an efficient, user-friendly experience.</description>
+    </item>
+    
+    <item>
+      <title>This Business with Unicorns</title>
+      <link>http://drewux.com/posts/2016-10-29-unicorns/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-10-29-unicorns/</guid>
+      <description>This Business with Unicorns A Raccoon, a Panda, and a Unicorn walk into a bar 3 ½ minute read Unicorns: Mythical creatures that are spoken of, but never seen. In the UX world, the term is used to describe that rare person who can do it all — design, research, write, and code — and do it at a very high level. It&amp;rsquo;s become so common that companies looking for talent are putting out job ads for so-called &amp;ldquo;unicorns.</description>
+    </item>
+    
+    <item>
+      <title>IxD Retrospective</title>
+      <link>http://drewux.com/posts/2016-07-01-ixd-retrospective/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-07-01-ixd-retrospective/</guid>
+      <description>Retrospective Looking back on the Kent State Interaction Design class 4 minute read So another course in the Kent State University User Experience Design Masters program comes to an end and, as one of its requirements has been these weekly updates, I thought it would be a good idea to use the final one to look back on the class.
+I’ve spent the last seven weeks diving into Interaction Design; looking into the design process for digital products from the user interface perspective.</description>
+    </item>
+    
+    <item>
+      <title>Organized</title>
+      <link>http://drewux.com/posts/2016-06-26-organized/</link>
+      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-26-organized/</guid>
+      <description>Organized The extra time taken to arrange your work is a true sign of professionalism 2½ minute read Look. What your workspace looks like when you go home for the day is your business. It’s your space and you need to be comfortable and able to get stuff done. Maybe it’s a minimalist nirvana; clean and cool and white. Maybe it’s a nest of papers, books, half-empty soda cans… whatever works for you.</description>
+    </item>
+    
+    <item>
+      <title>Measure Twice, Cut Once</title>
+      <link>http://drewux.com/posts/2016-06-19-mobile-layouts/</link>
+      <pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-19-mobile-layouts/</guid>
+      <description>Measure Twice, Cut Once Creating a reusable layout system for mobile 4 ½ minute read So, while slugging it out in the trenches this week, I sort of fell into an existential crisis with regards to the stuff I was putting on the screen for a mobile prototype. Panels, images, buttons, text fields&amp;hellip; the sizing and positioning of these things all suddenly seemed so arbitrary. How can you defend a design decision if you can&amp;rsquo;t explain why the thing on the screen looks like it does?</description>
+    </item>
+    
+    <item>
+      <title>Critique</title>
+      <link>http://drewux.com/posts/2016-06-12-critique/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-12-critique/</guid>
+      <description>Critique When having your back means shooting you down 5 minute read I’ve got a good team.
 I know this not because my team is talented; not because they wield terrifying text editors and pixel manipulators with the deftness of a Mayo Clinic surgeon (although they most certainly do). I know this because they are good at critique.
-They are able to look at something — a design, concept, prototype — with a critical eye.</description></item></channel></rss>
+They are able to look at something — a design, concept, prototype — with a critical eye.</description>
+    </item>
+    
+    <item>
+      <title>InVision This</title>
+      <link>http://drewux.com/posts/2016-06-05-invision-this/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-06-05-invision-this/</guid>
+      <description>InVision This Much more than fancy screenshots 2 ½ minute read As you’ve probably gathered if you’ve been following along, I spend a lot of time talking about tools. Too much, probably. Tools, after all, don’t make the craftsman. But, here I go again: After a couple of weeks using InVision.app for a project of some complexity, I have to say. Wow.
+I’ve been aware of InVision for awhile, but always thought of it as a fancy presentation tool (which it is) and nothing more (which it isn’t).</description>
+    </item>
+    
+    <item>
+      <title>Fidelity</title>
+      <link>http://drewux.com/posts/2016-05-29-fidelity/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-05-29-fidelity/</guid>
+      <description>Fidelity When making wireframes, aim somewhere between hi-fi and lo-fi 4 minute read We spent a lot of time this week discussing fidelity as it pertains to UX deliverables: Wireframes in this case. The traditional wisdom has always been that wireframes are quick and dirty interface representations, stripped of any visual design or branding elements. Their purpose is to communicate the general layout and content of a page without getting too deep into the visual design.</description>
+    </item>
+    
+    <item>
+      <title>Know Your Tools</title>
+      <link>http://drewux.com/posts/2016-05-22-know-your-tools/</link>
+      <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2016-05-22-know-your-tools/</guid>
+      <description>Know your tools Investing time creating a basic toolkit early can really pay off 2 minute read Which design tools you use are far less important than how well you can use them. This became especially apparent after weeks of using a template I created for the last class. It was easy. The bugs were ironed out. It looked okay. It didn&amp;rsquo;t win me any points for creative vision but it was fast and got the job done.</description>
+    </item>
+    
+  </channel>
+</rss>

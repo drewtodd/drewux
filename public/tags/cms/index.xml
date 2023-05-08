@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cms on drew:ux</title><link>http://drewux.com/tags/cms/</link><description>Recent content in cms on drew:ux</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/cms/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting the Most Out of your CMS</title><link>http://drewux.com/posts/2015-12-01-omg-cms/</link><pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-12-01-omg-cms/</guid><description>Getting the Most Out of your CMS 4½ minute read “We become what we behold. We shape our tools, and thereafter our tools shape us.” ― Marshall McLuhan
-When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cms on drew:ux</title>
+    <link>http://drewux.com/tags/cms/</link>
+    <description>Recent content in cms on drew:ux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting the Most Out of your CMS</title>
+      <link>http://drewux.com/posts/2015-12-01-omg-cms/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/2015-12-01-omg-cms/</guid>
+      <description>Getting the Most Out of your CMS 4½ minute read “We become what we behold. We shape our tools, and thereafter our tools shape us.” ― Marshall McLuhan
+When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow?</description>
+    </item>
+    
+  </channel>
+</rss>
