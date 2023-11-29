@@ -10,7 +10,12 @@ photoCreditUrl: "https://midjourney.com/home"
 tags: ["ux","accessibility"]
 ---
 
-# Understanding Web Accessibility: A Foundation for Inclusive Design
+# Understanding Web Accessibility
+## A Foundation for Inclusive Design
+
+### 2.5 minute read
+
+> This is the first in a series of articles looking into the requirements, tools, and techniques surrounding accessible web design
 
 In the digital world, there's a crucial aspect of website design that often flies under the radar, especially for those new to the concept: accessibility. It's about ensuring your website is usable by everyone, which includes people with disabilities. But accessibility isn't just for a select few; it's a practice that benefits all users, in all kinds of situations.
 
@@ -22,9 +27,9 @@ Think of accessibility as the Swiss Army knife of web design. It's not just for 
 
 If you're new to web accessibility, two acronyms should become part of your vocabulary: ADA and WCAG.
 
-**ADA (Americans with Disabilities Act)**: This U.S. legislation requires businesses and public entities to provide equal access to all individuals, and this extends to digital content. Learn more about ADA here.
+**[ADA (Americans with Disabilities Act)](https://www.ada.gov/)**: This U.S. legislation requires businesses and public entities to provide equal access to all individuals, and this extends to digital content. Learn more about ADA here.
 
-**WCAG (Web Content Accessibility Guidelines):** Developed by the W3C, these guidelines are the gold standard for web accessibility. They offer a framework for making web content more accessible, particularly for people with disabilities. Delve into the WCAG here.
+**[WCAG (Web Content Accessibility Guidelines)](https://www.w3.org/WAI/standards-guidelines/wcag/):** Developed by the [W3C](https://www.w3.org/), these guidelines are the gold standard for web accessibility. They offer a framework for making web content more accessible, particularly for people with disabilities. Delve into the WCAG here.
 The Four Pillars of WCAG
 
 WCAG breaks down accessibility into four key principles: websites must be perceivable, operable, understandable, and robust. Here's a quick rundown:
