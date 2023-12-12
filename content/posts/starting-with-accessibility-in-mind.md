@@ -102,7 +102,8 @@ Consider elements like color contrast, font size, and button sizes. Use tools to
 Focus on semantic HTML, proper ARIA roles usage, and keyboard accessibility.
 ### Content Creation
 Use clear language, provide alt text for images, and ensure videos have captions.
-## Conclusion
+
+## Embracing Inclusivity
 Starting with an accessibility-first approach isn't just about compliance; it's about embracing inclusivity in user experience. This mindset is about creating an environment that welcomes and accommodates everyone.
 
 Stay tuned for our next article, where we'll delve into color and contrast, exploring how to balance visual accessibility with aesthetic appeal.
