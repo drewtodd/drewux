@@ -217,6 +217,10 @@ li {
     padding-bottom: .25em;
 }
 
+li + input[type="checkbox"] {
+    list-style-type: none;
+}
+
 /* These two styles allow for tighter padding in lists */
 
 .tight {
