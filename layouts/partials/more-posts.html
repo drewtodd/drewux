@@ -1,13 +1,22 @@
 <section class="more-posts">
     <h3>More posts</h3>
 
-    {{ $priorPosts := where .Site.RegularPages "Type" "post" | first 3 }}
+    {{ $posts := where .Site.RegularPages "Type" "post" }}
+    {{ $priorPosts := after 1 $posts | first 3 }} <!-- Skip the most recent post -->
     {{ if gt (len $priorPosts) 0 }}
         {{ range $priorPosts }}
             <div class="featured-post">
                 <p>
                     <a href="{{ .Permalink }}">
-                        <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">
+                        {{ $photoURL := .Params.photoUrl }}
+                        {{ $path := print "static" $photoURL }}
+                        {{ if not (fileExists $path) }}
+                            {{ $photoURL = print (strings.TrimRight "/" .File.Dir) "/" $photoURL }}
+                        {{ end }}
+                
+                        <figure class="feature-image">
+                            <img src="{{ $photoURL }}" alt="{{ .Params.photoTitle }}">
+                        </figure>
                         <h4>{{ .Title }}</h4>
                     </a>
                 </p>

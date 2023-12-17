@@ -2,10 +2,21 @@
     {{ $pages := where .Site.RegularPages "Type" "post" }}
     {{ with index $pages 0 }}
     <article class="post default">
+        {{ $photoURL := .Params.photoUrl }}
+        {{ $path := print "static" $photoURL }}
+        {{ if not (fileExists $path) }}
+            {{ $photoURL = print .File.Dir $photoURL }}
+        {{ end }}
+
         <figure class="feature-image">
-            <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">
+            <img src="{{ $photoURL }}" alt="{{ .Params.photoTitle }}">
             <em>Image credit: <a href="{{ .Params.photoCreditUrl }}" alt="{{ .Params.photoCreditAlt }}">{{ .Params.photoCredit }}</a></em>
         </figure>
+
+        {{/*  <figure class="feature-image">
+            <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">
+            <em>Image credit: <a href="{{ .Params.photoCreditUrl }}" alt="{{ .Params.photoCreditAlt }}">{{ .Params.photoCredit }}</a></em>
+        </figure>  */}}
         {{ .Content }}
     </article>
     {{ partial "more-posts.html" . }}
