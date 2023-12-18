@@ -15,12 +15,12 @@ tags: ["ux","accessibility"]
 ## Crafting Visually Accessible Websites
 ### 3 minute read
 
-> Color and contrast are powerful tools in conveying meaning, function, and emotion on websites and applications. However, it's crucial to recognize that these elements are perceived differently by individuals, impacting their experience with the content.
+> Color and contrast are powerful tools in conveying meaning, function, and emotion on websites and applications. However, it's crucial to recognize that these elements are perceived differently by individuals, impacting their experience with them.
 
-Welcome back to our series on designing accessible websites. Having laid the groundwork on accessibility basics and team roles, let's turn our attention to a crucial, yet often overlooked, aspect of accessible design — color and contrast.
+Welcome back to our series on [designing accessible websites](/tags/accessibility/). Having laid the groundwork on [accessibility basics and team roles](/posts/starting-with-accessibility-in-mind/), let's turn our attention to a crucial, yet often overlooked, aspect of accessible design — color and contrast.
 
 ## Understanding Color Accessibility
-Color is a powerful tool in web design, but it's important to remember that not everyone perceives color in the same way. Color vision deficiencies, such as color blindness, can significantly alter how users interact with your website.
+Color is a powerful tool in interface design, but it's important to remember that not everyone perceives color in the same way. Color vision deficiencies, such as color blindness, can significantly alter how users interact with your website.
 
 ### The Challenge of Color Blindness
 As someone who deals with (admittedly mild) protanopia, I have a personal understanding of the challenges faced by those with color vision deficiencies. In fact, it’s more common than you might think. Color blindness affects approximately 1 in 12 men and 1 in 200 women globally. This means a substantial portion of your audience might not distinguish certain colors — a red error message might go unnoticed, or a green 'success' indicator might not make sense.
@@ -29,6 +29,9 @@ As someone who deals with (admittedly mild) protanopia, I have a personal unders
 Relying solely on color to convey information can be problematic. It's crucial to use additional cues — like text labels or icons — to ensure that all users can navigate your content effectively.
 
 ## The Role of Contrast
+
+{{< figure src="/posts/color-and-contrast/img/contrast.png" alt="a visualization of high and low contrast using text from the word `contrast`." class="right border shadow" >}}
+
 Contrast is not just an aesthetic choice; it's a key factor in making your website usable for people with visual impairments and those viewing it in less-than-ideal lighting conditions.
 
 ### Understanding Contrast Ratios
@@ -41,10 +44,11 @@ Thankfully, there are tools to help you get this right:
 
 ## Best Practices for Color and Contrast
 
-### Selecting Accessible Color Schemes
-When choosing colors for your website, consider how different combinations might appear to someone with color vision deficiencies. Tools like [Coblis — Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) can help you visualize your palette through their eyes.
+{{< figure src="/posts/color-and-contrast/img/colorblindness-simulator.png" class="right border shadow" link="/posts/color-and-contrast/img/colorblindness-simulator.png" alt="A screenshot of the Coblis color blindness simulator" caption="The Coblis color blindness simulator is a great tool for showing you what someone with the condition sees when using your site." >}}
 
-{{< figure src="/assets/img/colorblindness-simulator.png" class="clear border shadow" alt="A screenshot of the Coblis color blindness simulator" caption="The Coblis color blindness simulator is a great tool for showing you what someone with the condition sees when using your site." >}}
+### Selecting Accessible Color Schemes
+
+When choosing colors for your website, consider how different combinations might appear to someone with color vision deficiencies. Tools like [Coblis — Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) can help you visualize your palette through their eyes.
 
 ## Designing for Different Types of Color Vision Deficiencies
 Color vision deficiencies vary, and understanding these variations is key to creating an inclusive design. Here’s a closer look at the three common types:

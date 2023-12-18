@@ -10,7 +10,15 @@
             <article>
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                 <h4 class="archive-post-date">{{ .Date.Format "January 2, 2006" }}</h4>
-                <img src="{{ .Params.photoUrl }}" class="floatright" alt="{{ .Params.photoTitle }}">
+                {{ $photoURL := .Params.photoUrl }}
+                {{ $path := print "static" $photoURL }}
+                {{ if not (fileExists $path) }}
+                {{ $photoURL = print "/" .File.Dir $photoURL }}
+                {{ end }}
+        
+                <figure class="feature-image">
+                    <img src="{{ $photoURL }}" alt="{{ .Params.photoTitle }}">
+                </figure>
                 <p>{{ .Summary }}..</p>
             </article>
         {{ end }}
