@@ -17,7 +17,8 @@ body, .default {
     font-family: 'Merriweather', Georgia, serif;
     font-weight: 400;
     line-height: 1.75em;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 /*global width*/
@@ -32,6 +33,7 @@ h1, h2, h3, h4 {
         font-weight: 400;
         line-height: 1.25em;
         text-transform: uppercase;    
+        color: #333;
 }
 
 h1 {
@@ -50,7 +52,6 @@ h3 {
     font-size: 1.25em;
     padding-top: 1.25em;
     padding-bottom: 0;
-    color: #666;
 }
 
 h4 {
@@ -72,12 +73,18 @@ h1:first-of-type + p, h2:first-of-type + p, h3:first-of-type + p {
 }
 
 a {
-    color: #09c;
+    color: #005A9C;
 }
 
 a:visited {
-    color: #006080;
+    color: #00457C;
 }
+
+/* Subtext and secondary information */
+h3, img + em, .img-caption, figcaption, .colophon, #archive h3 {
+    color: #595959; /* Darkened to improve contrast */
+}
+
 
 figure.feature-image {
     padding: 0;
@@ -117,6 +124,32 @@ figure.right {
     width: 33%;
 }
 
+figure.floatcenter, img.floatcenter {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    float: none;
+    margin: auto;
+    padding: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+figure.border {
+    border-radius: .25em;
+    border: 1px solid #aaa;
+}
+
+figure.shadow {
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.filler-background {
+    margin: 1.5em 0em 1.5em 0em;
+    padding: 0;
+    border: 0;
+    background-color: #555;
+}
+
 
 
 /*image captions*/
@@ -125,10 +158,9 @@ img + em, .img-caption, figcaption {
     font-family: "Oswald", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: .9em;
-    padding-top: 1em;
+    font-size: 1em;
+    padding-top: 0;
     line-height: 1.25em;
-    color: #666;
 }
 
 em.img-caption {
@@ -150,31 +182,6 @@ figure.feature-image img + em {
     font-size: .75em;
 }
 
-figure.floatcenter, img.floatcenter {
-    display: block;
-    width: auto;
-    max-width: 100%;
-    float: none;
-    margin: auto;
-    padding: 0;
-    -ms-interpolation-mode: bicubic;
-}
-
-figure .border {
-    border: 1px solid #ccc;
-}
-
-figure .shadow {
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-.filler-background {
-    margin: 1.5em 0em 1.5em 0em;
-    padding: 0;
-    border: 0;
-    background-color: #555;
-}
-
 /*img.floatcenter + em {
     text-align: center;
     margin: auto;
@@ -185,7 +192,7 @@ figure .shadow {
 h1 + h2 {
     margin-top: -1em;
     padding-top: 0;
-    color: #666;
+    color: #555;
 }
 
 /*read-length indicator*/
@@ -194,7 +201,6 @@ article h1:first-of-type + h3, article h2:first-of-type + h3 {
     position: relative;
     font-size: .8em;
     line-height: 1.75em;
-    color: #bbb;
     padding-top: 0;
 }
 
@@ -217,7 +223,7 @@ li {
     padding-bottom: .25em;
 }
 
-li + input[type="checkbox"] {
+ul + li + input[type="checkbox"] {
     list-style-type: none;
 }
 
@@ -239,8 +245,8 @@ blockquote {
     line-height: 1.5em;
     padding-left: 1em;
     margin:  1.25em 0 1.25em 0;
-    color: #999;
-    border-left: 3px solid #ccc;
+    color: #333; /* Ensure readability on blockquotes */
+    border-left: 3px solid #444; /* Adjusting for contrast */
 }
 
 h1 + blockquote {
@@ -312,7 +318,7 @@ ul.menu {
     height: 100%;
     z-index: 100;
     list-style-type: none;
-    background-color: #333;
+    background-color: #444;
     text-align: right;
 }
 
@@ -411,7 +417,7 @@ section.more-posts {
     font-weight: 300;
     font-size: 1em;
     line-height: 1.5em;
-    color: #666;
+    color: #444;
 }
 
 div.post-nav {
@@ -420,7 +426,7 @@ div.post-nav {
     padding: .5em 0 1em 0;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    color: #555;
+    color: #444;
 }
 
 div.post-nav h4 {
@@ -452,7 +458,7 @@ div.post-nav a:hover {
     font-size: 1.25em;
     padding-top: 1.25em;
     padding-bottom: .5em;
-    color: #666;
+    color: #444;
     text-align: left;
     width: 100%;
 }
@@ -611,7 +617,6 @@ td {
         line-height: 1.75em;
         width: 5em;
         text-align: right;
-        color: #bbb;
     }
 
     article h1:first-of-type + h3:before, article h2:first-of-type + h3:before {

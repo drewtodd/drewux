@@ -254,11 +254,17 @@ h1 + blockquote {
 }
 
 code {
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: -moz-pre-wrap; /* For Mozilla */
+    white-space: -pre-wrap; /* For Opera 4-6 */
+    white-space: -o-pre-wrap; /* For Opera 7 */
+    word-wrap: break-word; /* For Internet Explorer 5.5+ */
     display: inline-block;
     margin:  1.25em 0 1.25em 0;
     padding: .5em;
     background-color: #ddd;
     border-radius: .25em;
+    border-left: 1px solid #999;
 }
 
 /*header styles*/
@@ -842,3 +848,4 @@ td {
     top: 5px;
     width: auto;
 }
+

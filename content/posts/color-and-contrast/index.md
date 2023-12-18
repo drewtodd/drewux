@@ -33,7 +33,7 @@ Relying solely on color to convey information can be problematic. It's crucial t
 {{< figure src="/posts/color-and-contrast/img/contrast.png" alt="a visualization of high and low contrast using text from the word `contrast`." class="right border shadow" >}}
 
 Contrast is not just an aesthetic choice; it's a key factor in making your website usable for people with visual impairments and those viewing it in less-than-ideal lighting conditions.
-
+d
 ### Understanding Contrast Ratios
 The contrast ratio between text and its background can mean the difference between readable content and a jumbled mess. The WCAG [recommends a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text.](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 

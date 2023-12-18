@@ -6,7 +6,9 @@
     <title>{{ .Title }} | drew:ux</title>
     <meta description="drew:ux The blog with user experience, design, and leadership musings by Andrew Todd" />
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/26edf67b6e.js" crossorigin="anonymous"></script>
+    {{/*  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  */}}
+    {{ partial "jquery.html" . }}
     {{ partial "analytics.html" . }}
     {{ partial "mailchimp.html" . }}
     {{ partial "favico.html" . }}

@@ -6,14 +6,45 @@
     <description>Recent content in Posts on drew:ux</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Color and Contrast: Crafting Visually Accessible Websites</title>
+      <link>http://drewux.com/posts/color-and-contrast/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/color-and-contrast/</guid>
+      <description>Color and Contrast Crafting Visually Accessible Websites 3 minute read Color and contrast are powerful tools in conveying meaning, function, and emotion on websites and applications. However, it&amp;rsquo;s crucial to recognize that these elements are perceived differently by individuals, impacting their experience with them.
+Welcome back to our series on designing accessible websites. Having laid the groundwork on accessibility basics and team roles, let&amp;rsquo;s turn our attention to a crucial, yet often overlooked, aspect of accessible design — color and contrast.</description>
+    </item>
+    
+    <item>
+      <title>Starting with Accessibility in Mind: Building Inclusive Web Experiences</title>
+      <link>http://drewux.com/posts/starting-with-accessibility-in-mind/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/starting-with-accessibility-in-mind/</guid>
+      <description>Starting with Accessibility in Mind Building Inclusive Web Experiences 5 minute read This is the second in a series of articles looking into the requirements, tools, and techniques surrounding accessible web design.
+In the journey of creating accessible web design, it&amp;rsquo;s crucial to start with a foundation that prioritizes accessibility from the outset. This second article in our series dives into how you can embed an accessibility-first mindset in your web projects from the beginning.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Web Accessibility: A Foundation for Inclusive Design</title>
+      <link>http://drewux.com/posts/understanding-web-accessibility-foundation-inclusive-design/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://drewux.com/posts/understanding-web-accessibility-foundation-inclusive-design/</guid>
+      <description>Understanding Web Accessibility A Foundation for Inclusive Design 2.5 minute read This is the first in a series of articles looking into the requirements, tools, and techniques surrounding accessible web design
+In the digital world, there&amp;rsquo;s a crucial aspect of website design that often flies under the radar, especially for those new to the concept: accessibility. It&amp;rsquo;s about ensuring your website is usable by everyone, which includes people with disabilities. But accessibility isn&amp;rsquo;t just for a select few; it&amp;rsquo;s a practice that benefits all users, in all kinds of situations.</description>
+    </item>
+    
     <item>
       <title>Embracing White Space: Why Less Is More in UX Design</title>
       <link>http://drewux.com/posts/embracing-white-space/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
       
       <guid>http://drewux.com/posts/embracing-white-space/</guid>
-      <description>Embracing White Space Why Less Is More in UX Design 3 minute read You&amp;rsquo;ve been there: you&amp;rsquo;re presenting a sleek, functional user interface to stakeholders, only to have them request that you cram more information into the available space. Sound familiar? As UX designers, we often face the challenge of convincing stakeholders that white space is not wasted space, but rather a crucial element for creating an efficient, user-friendly experience.</description>
+      <description>Embracing White Space Why Less Is More in UX Design 3 minute read It is a challenge all designers have faced at one time or another: Convincing a stakeholder or product owner that white space is not wasted space.
+It’s a situation familiar to many designers: you’ve crafted a sleek, functional user interface only to have stakeholders ask you to add more — more options, more content, more graphics. Sound familiar?</description>
     </item>
     
     <item>
