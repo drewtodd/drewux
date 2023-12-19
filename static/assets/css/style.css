@@ -6,8 +6,8 @@ html {-webkit-text-size-adjust: 100%;}
 body {margin: 0;}
 body, h1, h2, h3, h4, a, img, blockquote, ul, li, p {margin: 0; padding: 0;}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {display: block;}
-pre {overflow: auto;}
-code, kbd, pre, samp {font-family: monospace, monospace; font-size: 1em;}
+/* pre {overflow: auto;}
+code, kbd, pre, samp {font-family: monospace, monospace; font-size: 1em;} */
 
 /*Main CSS*/
 
@@ -213,7 +213,7 @@ article h1:first-of-type + h3:before, article h2:first-of-type + h3:before {
     vertical-align: middle;
 }
 
-ul {
+ul, ol {
     padding-left: 1em;
 }
 
@@ -251,20 +251,6 @@ blockquote {
 
 h1 + blockquote {
     margin-top: .25em;
-}
-
-code {
-    white-space: pre-wrap; /* CSS 2.1 */
-    white-space: -moz-pre-wrap; /* For Mozilla */
-    white-space: -pre-wrap; /* For Opera 4-6 */
-    white-space: -o-pre-wrap; /* For Opera 7 */
-    word-wrap: break-word; /* For Internet Explorer 5.5+ */
-    display: inline-block;
-    margin:  1.25em 0 1.25em 0;
-    padding: .5em;
-    background-color: #ddd;
-    border-radius: .25em;
-    border-left: 1px solid #999;
 }
 
 /*header styles*/
