@@ -134,12 +134,12 @@ figure.floatcenter, img.floatcenter {
     -ms-interpolation-mode: bicubic;
 }
 
-figure.border {
+figure.border form.border {
     border-radius: .25em;
     border: 1px solid #aaa;
 }
 
-figure.shadow {
+figure.shadow form.shadow {
     box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

@@ -74,14 +74,14 @@ Imagine a web form with different input elements:
 
 ```html
 <form>
-  <input type="text" placeholder="First Name" tabindex="2">
-  <input type="text" placeholder="Last Name" tabindex="1">
+  <input type="text" placeholder="First Name" tabindex="1">
+  <input type="text" placeholder="Last Name" tabindex="3">
   <input type="email" placeholder="Email" tabindex="4">
-  <textarea placeholder="Your Message" tabindex="3"></textarea>
+  <textarea placeholder="Your Message" tabindex="2"></textarea>
   <button type="submit" tabindex="5">Submit</button>
 </form>
 ```
-In this example, `tabindex` attributes are used to define the order in which users will navigate through the fields using the keyboard. In this example, tabbing through the form would start with *Last Name*, then jump to *First Name*, then *Your Message*, then *Email*, and finally the *Submit* button. Confusing!
+In this example, `tabindex` attributes are used to define the order in which users will navigate through the fields using the keyboard.
 
 #### CSS
 To visually indicate focus, you might add:
@@ -93,6 +93,54 @@ input:focus, textarea:focus, button:focus {
 ```
 
 This CSS provides a blue outline around any focused input, textarea, or button element, enhancing the visual feedback for keyboard navigation.
+
+In this example, tabbing through the form would start with **First Name**, then jump to **Your Message**, then **Last Name**, then **Email**, and finally the **Submit** button. You can try it here: 
+
+<style type="text/css">
+    .tab-form-example input:focus, textarea:focus, button:focus {
+        outline: 2px solid blue;
+    }
+
+    form.tab-form-example {
+        padding: 1em;
+        margin: 0;
+        background-color: #2d2d2d;
+    }
+
+    form.tab-form-example input, form.tab-form-example textarea {
+        width: 50%;
+        height: 2em;
+        padding: .25em;
+        margin: 1em;
+        font-size: 1em;
+        border-radius: .25em;
+        border: 1px solid #aaa;
+    }
+
+    form.tab-form-example textarea {
+        height: 6em;
+    }
+
+    form.tab-form-example button {
+        width: 6em;
+        height: 3em;
+        font-size: 1em;
+        padding: 0;
+        border-radius: .25em;
+        border: 1px solid #aaa;
+        margin: 1em;
+    }
+ </style>
+
+<form class="tab-form-example border shadow">
+  <input type="text" placeholder="First Name" tabindex="1"><br>
+  <input type="text" placeholder="Last Name" tabindex="3"><br>
+  <input type="email" placeholder="Email" tabindex="4"><br>
+  <textarea placeholder="Your Message" tabindex="2"></textarea><br>
+  <button type="submit" tabindex="5">Submit</button>
+</form>
+
+Confusing, no?
 
 ### Important Note
 While `tabindex` can be helpful, it should be used sparingly. As the example above illustrates, overuse or incorrect use can disrupt the natural navigation flow and lead to a confusing experience. It's generally best to structure your HTML in a way that the default tab order aligns with the intended navigation sequence. Manual specification should be reserved for specific cases where this isn't achievable through HTML structure alone.
