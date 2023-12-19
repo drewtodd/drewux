@@ -133,10 +133,10 @@ In this example, tabbing through the form would start with **First Name**, then 
  </style>
 
 <form class="tab-form-example border shadow">
-  <input type="text" placeholder="First Name" tabindex="1"><br>
-  <input type="text" placeholder="Last Name" tabindex="3"><br>
-  <input type="email" placeholder="Email" tabindex="4"><br>
-  <textarea placeholder="Your Message" tabindex="2"></textarea><br>
+  <input type="text" placeholder="First Name" tabindex="100"><br>
+  <input type="text" placeholder="Last Name" tabindex="300"><br>
+  <input type="email" placeholder="Email" tabindex="400"><br>
+  <textarea placeholder="Your Message" tabindex="200"></textarea><br>
   <button type="submit" tabindex="5">Submit</button>
 </form>
 
