@@ -25,10 +25,10 @@ Given that direct URL analysis wasn't feasible, I copied and pasted the contents
 
 The prompt I used was incredibly simple:
 
-```
-Me: Examine this CSS file and help me keep the basic color scheme, but fix my contrast ratios to be WCAG 2.0 compliant.
-
-[Paste the contents of my CSS file...]
+```markdown
+**Me:** Examine this CSS content and help me keep the basic color scheme, but fix my contrast ratios to be WCAG 2.0 compliant.   
+   
+/* Paste the contents of my CSS file */
 ```
 
 ## Step 3: Receiving AI-Powered Recommendations

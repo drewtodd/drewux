@@ -518,6 +518,13 @@ ul.tagged {
     overflow: hidden;
 }
 
+/* word wrapping for markdown-based prism.js entries */
+code[class*="language-markdown"], pre[class*="language-markdown"] {
+    white-space: pre-wrap !important;
+    overflow: auto !important;
+    word-wrap: break-word !important;
+}
+
 footer {
     margin-top: 6em;
     font-size: .6em;
