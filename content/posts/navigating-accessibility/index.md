@@ -81,7 +81,7 @@ Imagine a web form with different input elements:
   <button type="submit" tabindex="5">Submit</button>
 </form>
 ```
-In this example, `tabindex` attributes are used to define the order in which users will navigate through the fields using the keyboard.
+In this example, `tabindex` attributes are used to define the order in which users will navigate through the fields using the keyboard. In this example, tabbing through the form would start with *Last Name*, then jump to *First Name*, then *Your Message*, then *Email*, and finally the *Submit* button. Confusing!
 
 #### CSS
 To visually indicate focus, you might add:
@@ -95,7 +95,7 @@ input:focus, textarea:focus, button:focus {
 This CSS provides a blue outline around any focused input, textarea, or button element, enhancing the visual feedback for keyboard navigation.
 
 ### Important Note
-While `tabindex` can be helpful, it should be used sparingly. Overuse or incorrect use can disrupt the natural navigation flow and lead to a confusing experience. It's generally best to structure your HTML in a way that the default tab order aligns with the intended navigation sequence. Manual specification should be reserved for specific cases where this isn't achievable through HTML structure alone.
+While `tabindex` can be helpful, it should be used sparingly. As the example above illustrates, overuse or incorrect use can disrupt the natural navigation flow and lead to a confusing experience. It's generally best to structure your HTML in a way that the default tab order aligns with the intended navigation sequence. Manual specification should be reserved for specific cases where this isn't achievable through HTML structure alone.
 
 ## The Significance of Semantic HTML in Keyboard Navigation
 
