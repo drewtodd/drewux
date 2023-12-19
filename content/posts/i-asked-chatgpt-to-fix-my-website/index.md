@@ -21,7 +21,7 @@ Following up on my [previous article](/posts/color-and-contrast/) about color an
 Initially, I conducted a Lighthouse audit to establish a baseline for my website's accessibility. The result was a score of **74**, which was decent but highlighted room for improvement, particularly in the area of contrast ratios.
 
 ## Step 2: Consulting with ChatGPT
-Given that direct URL analysis wasn't feasible, I copied and pasted the contents of [my site's CSS](/assets/css/styles.css) into a chat with [ChatGPT 4](https://chat.openai.com/). This approach proved effective, allowing the AI to analyze the specific color combinations I was using.
+Given that direct URL analysis wasn't feasible, I copied and pasted the contents of [my site's CSS](https://drewux.com/assets/css/styles.css) into a chat with [ChatGPT 4](https://chat.openai.com/). This approach proved effective, allowing the AI to analyze the specific color combinations I was using.
 
 The prompt I used was incredibly simple:
 
