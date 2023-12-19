@@ -13,7 +13,7 @@ tags: ["ux","accessibility"]
 
 # Navigating Accessibility
 ## Mastering Keyboard-Friendly Design
-### 7 minute read
+### 8 minute read
 
 > Keyboard navigation is essential for many users, including those with motor disabilities, temporary injuries, or a preference for keyboard use. It involves more than tabbing through links; it's about ensuring all interactive elements are accessible without a mouse.
 
@@ -66,6 +66,36 @@ Remember to choose focus styles that stand out against the rest of your site's d
 
 ### Logical Tab Order Without Manual Specification
 It's best to let the browser handle the tab order based on the HTML document's flow, ensuring a logical and intuitive navigation experience. This includes ensuring primary navigation is accessible through tabbing.
+
+If, for some reason, you need to _force_ a certain tab order, you can do so with the **`tabindex`** property. Here's a simple HTML and CSS example:
+
+#### HTML
+Imagine a web form with different input elements:
+
+```html
+<form>
+  <input type="text" placeholder="First Name" tabindex="1">
+  <input type="text" placeholder="Last Name" tabindex="2">
+  <input type="email" placeholder="Email" tabindex="3">
+  <textarea placeholder="Your Message" tabindex="4"></textarea>
+  <button type="submit" tabindex="5">Submit</button>
+</form>
+```
+In this example, `tabindex` attributes are used to define the order in which users will navigate through the fields using the keyboard.
+
+#### CSS
+To visually indicate focus, you might add:
+
+```css
+input:focus, textarea:focus, button:focus {
+  outline: 2px solid blue;
+}
+```
+
+This CSS provides a blue outline around any focused input, textarea, or button element, enhancing the visual feedback for keyboard navigation.
+
+### Important Note
+While `tabindex` can be helpful, it should be used sparingly. Overuse or incorrect use can disrupt the natural navigation flow and lead to a confusing experience. It's generally best to structure your HTML in a way that the default tab order aligns with the intended navigation sequence. Manual specification should be reserved for specific cases where this isn't achievable through HTML structure alone.
 
 ## The Significance of Semantic HTML in Keyboard Navigation
 
