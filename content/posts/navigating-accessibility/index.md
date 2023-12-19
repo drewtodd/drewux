@@ -74,10 +74,10 @@ Imagine a web form with different input elements:
 
 ```html
 <form>
-  <input type="text" placeholder="First Name" tabindex="1">
-  <input type="text" placeholder="Last Name" tabindex="2">
-  <input type="email" placeholder="Email" tabindex="3">
-  <textarea placeholder="Your Message" tabindex="4"></textarea>
+  <input type="text" placeholder="First Name" tabindex="2">
+  <input type="text" placeholder="Last Name" tabindex="1">
+  <input type="email" placeholder="Email" tabindex="4">
+  <textarea placeholder="Your Message" tabindex="3"></textarea>
   <button type="submit" tabindex="5">Submit</button>
 </form>
 ```
