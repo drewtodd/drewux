@@ -17,7 +17,7 @@ tags: ["ux","accessibility"]
 
 > Keyboard navigation is essential for many users, including those with motor disabilities, temporary injuries, or a preference for keyboard use. It involves more than tabbing through links; it's about ensuring all interactive elements are accessible without a mouse.
 
-Welcome back to our deep dive into web accessibility. After exploring color and contrast, we now focus on a vital yet often overlooked aspect: keyboard navigation. This isn't just for users with motor disabilities; it's for anyone who relies on a keyboard to navigate the web.
+Welcome back to our deep dive into web accessibility. After exploring color and contrast, we now focus on a vital yet often overlooked aspect: keyboard navigation. While primarily aimed at users with motor disabilities; it's for anyone who relies on a keyboard to navigate the web. This could include people with temporary disabilities (being forced, for instance, to use their non-dominant hand due to an injury), or a power-user who prefers to do as much navigating via the keyboard as possible.
 
 ## Best Practices for Keyboard-Friendly Design
 
