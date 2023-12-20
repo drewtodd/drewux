@@ -4,9 +4,9 @@ layout: single
 type: post
 date: 2023-07-17
 permalink: /accessible-content-and-media
-photoUrl: "img/1930s_Simplex_e-7_film_projector.jpeg"
+photoUrl: "img/noir-movie-theater.jpeg"
 photoCredit: Midjourney
-photoTitle: "An abstract linear design of color and contrast"
+photoTitle: "Inside a crowded 1930s movie theater, showing a noir film. Monochrome, dramatic lighting."
 photoCreditUrl: "https://midjourney.com/home"
 tags: ["ux","accessibility"]
 ---
