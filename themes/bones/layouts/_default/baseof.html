@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | drew:ux</title>
@@ -9,15 +9,15 @@
     <script src="https://kit.fontawesome.com/26edf67b6e.js" crossorigin="anonymous"></script>
     {{ partial "prism.html" . }}
     {{ partial "jquery.html" . }}
-    {{ partial "analytics.html" . }}
     {{ partial "mailchimp.html" . }}
     {{ partial "favico.html" . }}
   </head>
-<body>
+  {{ partial "analytics.html" . }}
+  <body>
     {{ partial "header.html" . }}
     <div id="content" role="main">
     {{ block "main" . }}{{ end }}
     </div>
     {{ partial "footer.html" . }}
-</body>
+  </body>
 </html>
