@@ -1,0 +1,161 @@
+===== themes/bones/layouts/index.html =====
+{{ define "main" }}
+    {{ $pages := where .Site.RegularPages "Type" "post" }}
+    {{ with index $pages 0 }}
+    <article class="post default">
+        {{ $photoURL := .Params.photoUrl }}
+        {{ $path := print "static" $photoURL }}
+        {{ if not (fileExists $path) }}
+            {{ $photoURL = print .File.Dir $photoURL }}
+        {{ end }}
+
+        <figure class="feature-image">
+            <img src="{{ $photoURL }}" alt="{{ .Params.photoTitle }}">
+            <figcaption>Image credit: <a href="{{ .Params.photoCreditUrl }}" alt="{{ .Params.photoCreditAlt }}">{{ .Params.photoCredit }}</a></figcaption>
+        </figure>
+       {{ .Content }}
+    </article>
+    {{ partial "more-posts.html" . }}
+    {{ end }}
+{{ end }}
+===== themes/bones/layouts/partials/footer.html =====
+<footer>
+    <p>&copy; {{ now.Year }} My Blog. All rights reserved.</p>
+</footer>===== themes/bones/layouts/partials/header.html =====
+<header>
+    {{ partial "menu" . }}
+</header>===== themes/bones/layouts/_default/baseof.html =====
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} | drew:ux</title>
+    <meta description="drew:ux The blog with user experience, design, and leadership musings by Andrew Todd" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/26edf67b6e.js" crossorigin="anonymous"></script>
+    {{ partial "prism.html" . }}
+    {{ partial "jquery.html" . }}
+    {{ partial "mailchimp.html" . }}
+    {{ partial "favico.html" . }}
+  </head>
+  {{ partial "analytics.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <div id="content" role="main">
+    {{ block "main" . }}{{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>===== themes/bones/layouts/_default/single.html =====
+{{ define "main" }}
+{{ if or (eq .Type "post") (eq .Type "page") }}
+    <article class="post default">
+        <figure class="feature-image">
+            <img src="{{ .Params.photoUrl }}" alt="{{ .Params.photoTitle }}">
+            <figcaption class="feature-caption">Image credit: <a href="{{ .Params.photoCreditUrl }}" alt="{{ .Params.photoCreditAlt }}">{{ .Params.photoCredit }}</a></figcaption>
+        </figure>
+{{ end }}
+        {{ .Content }}
+        {{ partial "colophon" . }}    
+    </article>
+    {{ partial "previous-next.html" . }}
+{{ end }}
+
+===== themes/bones/layouts/_default/list.html =====
+{{ define "main" }}
+    <h1>Archives</h1>
+    {{ if eq .Kind "term" }}
+        <h2>Posts filed under <i class="fa fa-hashtag" aria-hidden="true"></i><span class="lowercase">{{ .Title }}</span></h2>
+    {{ else }}
+        <h2>Showing all posts</h2>
+    {{ end }}
+    {{ range .Data.Pages }}
+        {{ if eq .Section "posts" }}
+            <article>
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <h4 class="archive-post-date">{{ .Date.Format "January 2, 2006" }}</h4>
+                {{ $photoURL := .Params.photoUrl }}
+                {{ $path := print "static" $photoURL }}
+                {{ if not (fileExists $path) }}
+                {{ $photoURL = print "/" .File.Dir $photoURL }}
+                {{ end }}
+        
+                <figure class="feature-image">
+                    <img src="{{ $photoURL }}" alt="{{ .Params.photoTitle }}">
+                </figure>
+                <p>{{ .Summary }}..</p>
+            </article>
+        {{ end }}
+    {{ end }}
+{{ end }}===== themes/bones/layouts/404.html =====
+{{ define "main" }}
+    <h1>Page Not Found</h1>
+    <p>We're sorry, but the page you requested cannot be found.</p>
+{{ end }}===== themes/bones/sampleSite/layouts/index.html =====
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ $pages := where .Site.RegularPages "Type" "post" }}
+    {{ with index $pages 0 }}
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    {{ end }}
+{{ end }}
+===== themes/bones/sampleSite/layouts/partials/footer.html =====
+<footer>
+    <p>&copy; {{ now.Year }} My Blog. All rights reserved.</p>
+</footer>===== themes/bones/sampleSite/layouts/partials/header.html =====
+<header>
+    {{ partial "menu" . }}
+</header>===== themes/bones/sampleSite/layouts/partials/menu.html =====
+<nav>
+    <ul>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+</nav>
+  
+  ===== themes/bones/sampleSite/layouts/_default/baseof.html =====
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+</body>
+</html>===== themes/bones/sampleSite/layouts/_default/single.html =====
+{{ define "main" }}
+    <article>
+        <h1>{{ .Title }}</h1>
+        {{ if eq .Type "post" }}
+            <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+        {{ end }}
+        {{ .Content }}
+    </article>
+{{ end }}
+===== themes/bones/sampleSite/layouts/_default/list.html =====
+{{ define "main" }}
+    <h1>My Blog List</h1>
+    {{ range .Data.Pages }}
+        {{ if eq .Section "posts" }}
+            <article>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+                <p>{{ .Summary }}</p>
+            </article>
+        {{ end }}
+    {{ end }}
+{{ end }}===== themes/bones/sampleSite/layouts/404.html =====
+{{ define "main" }}
+    <h1>Page Not Found</h1>
+    <p>We're sorry, but the page you requested cannot be found.</p>
+{{ end }}

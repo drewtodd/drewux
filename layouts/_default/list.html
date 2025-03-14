@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <h1>Archives</h1>
+    {{ if eq .Kind "term" }}
+        <h2>Posts filed under <i class="fa fa-hashtag" aria-hidden="true"></i><span class="lowercase">{{ .Title }}</span></h2>
+    {{ else }}
+        <h2>Showing all posts</h2>
+    {{ end }}
+    {{ range .Data.Pages }}
+        {{ if eq .Section "posts" }}
+            <article>
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <h4 class="archive-post-date">{{ .Date.Format "January 2, 2006" }}</h4>
+                {{ $photoURL := .Params.photoUrl }}
+                {{ $path := print "static" $photoURL }}
+                {{ if not (fileExists $path) }}
+                {{ $photoURL = print "/" .File.Dir $photoURL }}
+                {{ end }}
+        
+                <figure class="feature-image">
+                    <img src="{{ $photoURL }}" alt="{{ .Params.photoTitle }}">
+                </figure>
+                <p>{{ .Summary }}..</p>
+            </article>
+        {{ end }}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} | drew:ux</title>
+    <meta description="drew:ux The blog with user experience, design, and leadership musings by Andrew Todd" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/26edf67b6e.js" crossorigin="anonymous"></script>
+    {{ partial "prism.html" . }}
+    {{ partial "jquery.html" . }}
+    {{ partial "mailchimp.html" . }}
+    {{ partial "favico.html" . }}
+  </head>
+  {{ partial "analytics.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <div id="content" role="main">
+    {{ block "main" . }}{{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

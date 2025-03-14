@@ -1,0 +1,161 @@
+===== layouts/tags.html =====
+{{ define "tags" }}
+  <h1>Tags</h1>
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <h2>{{ $name }}</h2>
+    <ul>
+    {{ range $taxonomy.Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}===== layouts/taxonomy_tags.html =====
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ range $index, $tag := .Data.Terms.Alphabetical }}
+    <a href="{{ $.Site.BaseURL }}tags/{{ $tag.Name | urlize }}">{{ $tag.Name }}</a>
+  {{ end }}
+{{ end }}
+===== layouts/partials/mailchimp.html =====
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/09365bc8701c852f6a95f00a0/329322650583f45b05816f2a6.js");</script>===== layouts/partials/colophon.html =====
+<div class="colophon">
+    {{ if eq .Type "post" }}
+        <p>What are your thoughts? Join me in the conversation over on <a href="https://threads.net/@drewtodd">Threads <i class="fa-brands fa-threads" aria-hidden="true"></i></a>, <a href="https://bsky.app/profile/drewtodd.bsky.social">Bluesky Social <i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>, or <a href="https://mastodon.social/@drewtodd">Mastodon <i class="fa-brands fa-mastodon" aria-hidden="true"></i></a>.</p>
+        
+        <p>Originally published {{ .Date.Format "January 2, 2006" }}<br />           
+    {{ end }}
+    {{ with .Params.tags }}
+        File under: 
+            {{ range . }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-hashtag" aria-hidden="true"></i>{{ . }}</a>&nbsp;
+            {{ end }}
+    {{ end }}
+    {{ if eq .Type "post" }}
+        </p>
+    {{ end }}
+</div>
+===== layouts/partials/prism.html =====
+<link href="/assets/css/prism.css" rel="stylesheet" />
+<script src="/assets/js/prism.js"></script>
+===== layouts/partials/more-posts.html =====
+<section class="more-posts">
+    <h3>More posts</h3>
+
+    {{ $posts := where .Site.RegularPages "Type" "post" }}
+    {{ $priorPosts := after 1 $posts | first 3 }} <!-- Skip the most recent post -->
+    {{ if gt (len $priorPosts) 0 }}
+        {{ range $priorPosts }}
+            <div class="featured-post">
+                <p>
+                    <a href="{{ .Permalink }}">
+                        {{ $photoURL := .Params.photoUrl }}
+                        {{ $path := print "static" $photoURL }}
+                        {{ if not (fileExists $path) }}
+                            {{ $photoURL = print (strings.TrimRight "/" .File.Dir) "/" $photoURL }}
+                        {{ end }}
+                
+                        <figure class="feature-image">
+                            <img src="{{ $photoURL }}" alt="{{ .Params.photoTitle }}">
+                        </figure>
+                        <h4>{{ .Title }}</h4>
+                    </a>
+                </p>
+            </div>
+        {{ end }}
+    {{ end }}
+</section>
+===== layouts/partials/previous-next.html =====
+{{ if eq .Type "post" }}
+<div class="post-nav">
+{{ with .PrevInSection }}
+    <div class="prev">
+        <h4>Previous Essay</h4>
+        <a href="{{ .Permalink }}" alt="{{ .Title }}" class="previous">
+           {{ .Title }}
+        </a>
+    </div>
+{{ end }}
+
+{{ with .NextInSection }}
+    <div class="next">
+        <h4>Next Essay</h4>
+        <a href="{{ .Permalink }}" alt="{{ .Title }}" class="next">
+            {{ .Title }}
+        </a>
+    </div>
+{{ end }}
+</div>
+{{ end }}
+===== layouts/partials/favico.html =====
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">===== layouts/partials/footer.html =====
+
+    <footer>
+        <div class="copyright">
+        <p>&copy; <a href="mailto: drew@drwtod.com">Andrew D. Todd</a>; all rights reserved. The opinions expressed herein do not necessarily represent those of my employer nor any organization with which I am affiliated.</p>
+        </div>
+    </footer>
+    <!-- This script block handles the mobile "hamburger" menu -->
+    <script>
+        document.getElementById('navico').addEventListener('click', checkNav);
+        window.addEventListener("keyup", function(e) {
+        if (e.keyCode == 27) closeNav();
+        }, false);
+    
+        function checkNav() {
+        if (document.body.classList.contains('navico-active')) {
+            closeNav();
+        } else {
+            openNav();
+        }
+        }
+    
+        function closeNav() {
+        document.body.classList.remove('navico-active');
+        }
+    
+        function openNav() {
+        document.body.classList.add('navico-active');
+        }
+    </script>
+    {{partial "analytics.html" . }}
+</body>
+</html>
+===== layouts/partials/analytics.html =====
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-88BK1NDLYZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-88BK1NDLYZ');
+</script>===== layouts/partials/magnific-popup.html =====
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<!-- Magnific Popup core JS file -->
+<script src="assets/js/jquery.magnific-popup.js"></script>===== layouts/partials/header.html =====
+  <div id="header">
+    <header class="site-header">
+        {{ partial "menu.html" . }}
+        <h1><a href="/">drew:ux</a></h1>
+    </header>
+  </div>===== layouts/partials/jquery.html =====
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>===== layouts/partials/menu.html =====
+<nav role="navigation">
+  <div class="screen-reader-text"><a href="#content" title="Skip to main content">Skip to main content</a></div>
+  <div id="navmain">
+    <ul class="menu">
+        {{ range .Site.Menus.main }}
+          <li class="menu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <div id="navico">
+        MENU <span class="navico-icon"></span>
+      </div>
+</div>
+</nav>
+  
+  

@@ -6,8 +6,8 @@ html {-webkit-text-size-adjust: 100%;}
 body {margin: 0;}
 body, h1, h2, h3, h4, a, img, blockquote, ul, li, p {margin: 0; padding: 0;}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {display: block;}
-pre {overflow: auto;}
-code, kbd, pre, samp {font-family: monospace, monospace; font-size: 1em;}
+/* pre {overflow: auto;}
+code, kbd, pre, samp {font-family: monospace, monospace; font-size: 1em;} */
 
 /*Main CSS*/
 
@@ -86,19 +86,45 @@ h3, img + em, .img-caption, figcaption, .colophon, #archive h3 {
 }
 
 
+/* Feature Image Container (Handles Aspect Ratio) */
 figure.feature-image {
     padding: 0;
-    margin: 0 0 0 -12.5%;
-    width: 126%;
-}
-/*only applies to the first image in an article*/
-article figure.feature-image img { 
-    margin: 0;
-    width: 100%;
+    margin: 0 0 0 -12.5%; /* Keeps full-bleed effect */
+    width: 126%; /* Ensures the image extends beyond normal container */
     position: relative;
-    padding: 0;
+    overflow: hidden; /* Ensures image stays within aspect ratio */
+    aspect-ratio: 16 / 9; /* Crops image to 16:9 */
+    position: relative;
 }
 
+/* First Image Inside an Article */
+article figure.feature-image img { 
+    width: 100%;
+    height: 100%; /* Ensures it fills the figure */
+    object-fit: cover; /* Crops excess instead of stretching */
+    display: block; /* Prevents inline spacing issues */
+}
+
+ /* Position figcaption inside the image */
+figure.feature-image figcaption {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.85em;
+    font-family: "Oswald", Helvetica, sans-serif;
+    /* font-style: italic; */
+    background: rgba(0, 0, 0, 1); /* Semi-transparent background for readability */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+figure.feature-image a, figure.feature-image a:visited {
+    color: white;
+}
+
+ /* Prevents additional padding for first child */
 article figure:first-child {
     padding-top: 0;
 }
@@ -134,12 +160,12 @@ figure.floatcenter, img.floatcenter {
     -ms-interpolation-mode: bicubic;
 }
 
-figure.border {
+figure.border, form.border {
     border-radius: .25em;
     border: 1px solid #aaa;
 }
 
-figure.shadow {
+figure.shadow, form.shadow {
     box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -213,7 +239,7 @@ article h1:first-of-type + h3:before, article h2:first-of-type + h3:before {
     vertical-align: middle;
 }
 
-ul {
+ul, ol {
     padding-left: 1em;
 }
 
@@ -251,14 +277,6 @@ blockquote {
 
 h1 + blockquote {
     margin-top: .25em;
-}
-
-code {
-    display: inline-block;
-    margin:  1.25em 0 1.25em 0;
-    padding: .5em;
-    background-color: #ddd;
-    border-radius: .25em;
 }
 
 /*header styles*/
@@ -524,6 +542,13 @@ ul.tagged {
     width: 100%;
     height: 432px;
     overflow: hidden;
+}
+
+/* word wrapping for markdown-based prism.js entries */
+code[class*="language-markdown"], pre[class*="language-markdown"] {
+    white-space: pre-wrap !important;
+    overflow: auto !important;
+    word-wrap: break-word !important;
 }
 
 footer {
@@ -842,3 +867,4 @@ td {
     top: 5px;
     width: auto;
 }
+

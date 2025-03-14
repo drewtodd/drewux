@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>search on drew:ux</title>
-    <link>http://drewux.com/tags/search/</link>
-    <description>Recent content in search on drew:ux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Search on drew:ux</title>
+    <link>http://localhost:1313/tags/search/</link>
+    <description>Recent content in Search on drew:ux</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 May 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Site Search: Using Google vs. Rolling-Your-Own</title>
-      <link>http://drewux.com/posts/2015-05-23-site-search-google-vs-roll-your-own/</link>
+      <link>http://localhost:1313/posts/2015-05-23-site-search-google-vs-roll-your-own/</link>
       <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/2015-05-23-site-search-google-vs-roll-your-own/</guid>
-      <description>Site Search: Using Google vs. Rolling-Your-Own 2½ minute read So. You’ve built a Web site and need local search capabilities. Is it even worth it to develop your own solution when Google offers the whole deal by copying-and-pasting a few lines of code? With Google being able to crawl and catalog the expanse of (almost) the entire Web and present search results quickly and clearly to users, it’s a legitimate question to ask: Do any sites really need their own search systems?</description>
+      <guid>http://localhost:1313/posts/2015-05-23-site-search-google-vs-roll-your-own/</guid>
+      <description>&lt;h1 id=&#34;site-search-using-google-vs-rolling-your-own&#34;&gt;Site Search: Using Google vs. Rolling-Your-Own&lt;/h1&gt;&#xA;&lt;h3 id=&#34;2-minute-read&#34;&gt;2½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;So. You’ve built a Web site and need local search capabilities. Is it even worth it to develop your own solution when Google offers the whole deal by copying-and-pasting a few lines of code? With Google being able to crawl and catalog the expanse of (almost) the entire Web and present search results quickly and clearly to users, it’s a legitimate question to ask: Do any sites really need their own search systems? While many sites can forgo a proprietary search and just rely on Google, there are still a few good arguments to made for proprietary site search.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>agile on drew:ux</title>
-    <link>http://drewux.com/tags/agile/</link>
-    <description>Recent content in agile on drew:ux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Agile on drew:ux</title>
+    <link>http://localhost:1313/tags/agile/</link>
+    <description>Recent content in Agile on drew:ux</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lean UX: The Ultimate Framework for Integrating UX and Agile Development</title>
-      <link>http://drewux.com/posts/lean-ux/</link>
+      <link>http://localhost:1313/posts/lean-ux/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/lean-ux/</guid>
-      <description>Lean UX: The Ultimate Framework for Integrating UX and Agile Development Delve into the Lean UX methodology, its components, and real-world success stories Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.
-I&amp;rsquo;ve always been passionate about finding ways to seamlessly integrate UX and Agile development, and the Lean UX methodology has proven to be an ideal solution.</description>
+      <guid>http://localhost:1313/posts/lean-ux/</guid>
+      <description>&lt;h1 id=&#34;lean-ux-the-ultimate-framework-for-integrating-ux-and-agile-development&#34;&gt;Lean UX: The Ultimate Framework for Integrating UX and Agile Development&lt;/h1&gt;&#xA;&lt;h2 id=&#34;delve-into-the-lean-ux-methodology-its-components-and-real-world-success-stories&#34;&gt;Delve into the Lean UX methodology, its components, and real-world success stories&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Discover how Lean UX bridges the gap between UX and Agile development, explore its components, and learn from real-world success stories and challenges in the era of remote work.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always been passionate about finding ways to seamlessly integrate UX and Agile development, and the Lean UX methodology has proven to be an ideal solution. In this post, we&amp;rsquo;ll dive deeper into Lean UX, its components, and how it has been successfully adopted by real-world organizations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Reconciling UX and Agile Development: A Unified Approach</title>
-      <link>http://drewux.com/posts/reconciling-ux-and-agile-development/</link>
+      <link>http://localhost:1313/posts/reconciling-ux-and-agile-development/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/reconciling-ux-and-agile-development/</guid>
-      <description>Reconciling UX and Agile Development: A Unified Approach Integrating UX Design into the Agile Process for Holistic, User-Centric Product Development 3 minute read Discover how to reconcile UX and Agile development by integrating UX design into the Agile process for a holistic, user-centric product development approach.
-Welcome to my second installment focused on UX and Agile. Agile development has long been known for its programmer-centric approach, which can sometimes leave UX feeling like a &amp;ldquo;side process.</description>
+      <guid>http://localhost:1313/posts/reconciling-ux-and-agile-development/</guid>
+      <description>&lt;h1 id=&#34;reconciling-ux-and-agile-development-a-unified-approach&#34;&gt;Reconciling UX and Agile Development: A Unified Approach&lt;/h1&gt;&#xA;&lt;h2 id=&#34;integrating-ux-design-into-the-agile-process-for-holistic-user-centric-product-development&#34;&gt;Integrating UX Design into the Agile Process for Holistic, User-Centric Product Development&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3-minute-read&#34;&gt;3 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Discover how to reconcile UX and Agile development by integrating UX design into the Agile process for a holistic, user-centric product development approach.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Welcome to my second installment focused on UX and Agile. Agile development has long been known for its programmer-centric approach, which can sometimes leave UX feeling like a &amp;ldquo;side process.&amp;rdquo; However, I strongly believe that UX should be baked into the entire iterative process, much like QA validating dev work. UX validates design decisions and helps uncover user needs, driving product design. In this article, we&amp;rsquo;ll explore how to reconcile UX and Agile development by integrating UX design into the Agile process for a holistic, user-centric product development approach.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Scrum, Kanban, and Scrumban: Integrating UX into Agile Methodologies</title>
-      <link>http://drewux.com/posts/scrum-kanban-scrumban-and-ux/</link>
+      <link>http://localhost:1313/posts/scrum-kanban-scrumban-and-ux/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/scrum-kanban-scrumban-and-ux/</guid>
-      <description>Scrum, Kanban, and Scrumban: Integrating UX into Agile Methodologies Explore the pros and cons of Scrum, Kanban, and hybrid approaches for UX practitioners in the Agile world A handful of years back, I found myself participating in a Scrum-focused Agile training with the aim of earning certification. Coming from a UX background, I couldn’t help but be plagued by a persistent concern: how on earth does UX fit into all of this?</description>
+      <guid>http://localhost:1313/posts/scrum-kanban-scrumban-and-ux/</guid>
+      <description>&lt;h1 id=&#34;scrum-kanban-and-scrumban-integrating-ux-into-agile-methodologies&#34;&gt;Scrum, Kanban, and Scrumban: Integrating UX into Agile Methodologies&lt;/h1&gt;&#xA;&lt;h2 id=&#34;explore-the-pros-and-cons-of-scrum-kanban-and-hybrid-approaches-for-ux-practitioners-in-the-agile-world&#34;&gt;Explore the pros and cons of Scrum, Kanban, and hybrid approaches for UX practitioners in the Agile world&lt;/h2&gt;&#xA;&lt;p&gt;A handful of years back, I found myself participating in a Scrum-focused Agile training with the aim of earning certification. Coming from a UX background, I couldn’t help but be plagued by a persistent concern: how on earth does UX fit into all of this? So, on the final day of training, I posed the question to our instructor. He mulled it over for a moment before suggesting that UX is something you tackle at the very beginning of the process, and then you dive into Scrum. This didn’t seem very iterative or agile at all!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

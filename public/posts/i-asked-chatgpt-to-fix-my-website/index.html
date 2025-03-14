@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I Asked ChatGPT to Fix My Website: How I Used AI to Enhance My Website&#39;s Accessibility | drew:ux</title>
+    <meta description="drew:ux The blog with user experience, design, and leadership musings by Andrew Todd" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/26edf67b6e.js" crossorigin="anonymous"></script>
+    <link href="/assets/css/prism.css" rel="stylesheet" />
+<script src="/assets/js/prism.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/09365bc8701c852f6a95f00a0/329322650583f45b05816f2a6.js");</script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  </head>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-88BK1NDLYZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-88BK1NDLYZ');
+</script>
+  <body>
+      <div id="header">
+    <header class="site-header">
+        <nav role="navigation">
+  <div class="screen-reader-text"><a href="#content" title="Skip to main content">Skip to main content</a></div>
+  <div id="navmain">
+    <ul class="menu">
+        
+          <li class="menu-item"><a href="/">Home</a></li>
+        
+          <li class="menu-item"><a href="/about/">About</a></li>
+        
+          <li class="menu-item"><a href="/posts/">Archives</a></li>
+        
+      </ul>
+      <div id="navico">
+        MENU <span class="navico-icon"></span>
+      </div>
+</div>
+</nav>
+  
+  
+        <h1><a href="/">drew:ux</a></h1>
+    </header>
+  </div>
+    <div id="content" role="main">
+    
+
+    <article class="post default">
+        <figure class="feature-image">
+            <img src="img/a_robot_holding_a_clipboard.png" alt="A robot examining a document. Maybe the CSS for my website?">
+            <figcaption class="feature-caption">Image credit: <a href="https://midjourney.com/home" alt="">Midjourney</a></figcaption>
+        </figure>
+
+        <h1 id="i-asked-chatgpt-to-fix-my-website">I Asked ChatGPT to Fix My Website</h1>
+<h2 id="how-i-used-ai-to-enhance-my-websites-accessibility">How I Used AI to Enhance My Website&rsquo;s Accessibility</h2>
+<h3 id="2-minute-read">2 minute read</h3>
+<p>Following up on my <a href="/posts/color-and-contrast/">previous article</a> about color and contrast ratio, it occurred to me that my own site could use a little attention in this area. It got me thinking: What would happen if I asked ChatGPT to analyze my stylesheet and make some recommendations for improvement? I wanted my contrast ratios to comply with <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 standards</a>. This journey was surprisingly fruitful, yielding tangible improvements as measured by <a href="https://developer.chrome.com/docs/lighthouse/overview/">Google&rsquo;s Lighthouse</a> tool.</p>
+<h2 id="step-1-establishing-the-baseline">Step 1: Establishing the Baseline</h2>
+<p>Initially, I conducted a Lighthouse audit to establish a baseline for my website&rsquo;s accessibility. The result was a score of <strong>74</strong>, which was decent but highlighted room for improvement, particularly in the area of contrast ratios.</p>
+<h2 id="step-2-consulting-with-chatgpt">Step 2: Consulting with ChatGPT</h2>
+<p>Given that direct URL analysis wasn&rsquo;t feasible, I copied and pasted the contents of <a href="https://drewux.com/assets/css/styles.css">my site&rsquo;s CSS</a> into a chat with <a href="https://chat.openai.com/">ChatGPT 4</a>. This approach proved effective, allowing the AI to analyze the specific color combinations I was using.</p>
+<p>The prompt I used was incredibly simple:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>**Me:** Examine this CSS content and help me keep the basic color scheme, but fix my contrast ratios to be WCAG 2.0 compliant.   
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>/* Paste the contents of my CSS file */
+</span></span></code></pre></div><h2 id="step-3-receiving-ai-powered-recommendations">Step 3: Receiving AI-Powered Recommendations</h2>
+<figure class="right border shadow"><a href="/posts/i-asked-chatgpt-to-fix-my-website/img/chatgpt-output.png"><img src="/posts/i-asked-chatgpt-to-fix-my-website/img/chatgpt-output.png"
+    alt="a screenshot of the output from ChatGPT showing recommended CSS changes"></a><figcaption>
+      <p>ChatGPT straight up output some new CSS to make my site&rsquo;s contrast ratio comply with WCAG standards.</p>
+    </figcaption>
+</figure>
+
+<p>ChatGPT responded with several recommendations to adjust the contrast ratios in my CSS. These suggestions were detailed and included specific hex values for color adjustments. For instance, the AI advised:</p>
+<ul>
+<li>Darkening text colors against light backgrounds, like changing <strong>color: #666;</strong> to <strong>color: #595959;</strong> for better legibility.</li>
+<li>Enhancing link visibility by adjusting link colors to a darker shade, suggesting <strong>color: #005A9C;</strong> for links and <strong>color: #00457C;</strong> for visited links.</li>
+<li>Modifying background colors where necessary, such as changing lighter backgrounds to slightly darker shades to increase text readability.</li>
+</ul>
+<h2 id="step-4-implementing-the-changes">Step 4: Implementing the Changes</h2>
+<p>Taking ChatGPT&rsquo;s advice, I updated my site&rsquo;s CSS with the recommended changes. This process involved careful adjustments to ensure that the overall aesthetic of the site remained intact while improving accessibility.</p>
+<h2 id="step-5-measuring-the-impact">Step 5: Measuring the Impact</h2>
+<figure class="right border shadow"><a href="/posts/i-asked-chatgpt-to-fix-my-website/img/lighthouse-score.png"><img src="/posts/i-asked-chatgpt-to-fix-my-website/img/lighthouse-score.png"
+    alt="A screenshot of the Lighthouse audit after making the suggested changes to my CSS, showing an accessibility score of 87"></a><figcaption>
+      <p>87 isn&rsquo;t a bad score, but there&rsquo;s still room for improvement with other accessibility criteria, which I&rsquo;ll cover in more detail as we progress through this series.</p>
+    </figcaption>
+</figure>
+
+<p>After implementing the changes, I reran the Lighthouse audit. The result was an impressive increase in my score, climbing from <strong>74</strong> to <strong>87</strong>. This improvement was a clear indication that the contrast ratio enhancements significantly boosted the accessibility of my site.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Are there other tools that give you the same utility as ChatGPT for improving your website’s contrast ratios? Sure. Would I accept the AI’s recommendations whole-heartedly without tweaking them myself? Of course not. Still, this experience underscored the potential of AI tools like ChatGPT in assisting with web accessibility tasks. By leveraging the analytical prowess of ChatGPT, I was able to make data-driven decisions that had a positive impact on my site&rsquo;s accessibility score. It&rsquo;s a testament to the evolving role of AI in web development and its capability to make the web a more inclusive space for everyone.</p>
+
+        <div class="colophon">
+    
+        <p>What are your thoughts? Join me in the conversation over on <a href="https://threads.net/@drewtodd">Threads <i class="fa-brands fa-threads" aria-hidden="true"></i></a>, <a href="https://bsky.app/profile/drewtodd.bsky.social">Bluesky Social <i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>, or <a href="https://mastodon.social/@drewtodd">Mastodon <i class="fa-brands fa-mastodon" aria-hidden="true"></i></a>.</p>
+        
+        <p>Originally published June 25, 2023<br />           
+    
+    
+        File under: 
+            
+            <a href="/tags/ux"><i class="fa fa-hashtag" aria-hidden="true"></i>ux</a>&nbsp;
+            
+            <a href="/tags/accessibility"><i class="fa fa-hashtag" aria-hidden="true"></i>accessibility</a>&nbsp;
+            
+            <a href="/tags/ai"><i class="fa fa-hashtag" aria-hidden="true"></i>ai</a>&nbsp;
+            
+    
+    
+        </p>
+    
+</div>
+    
+    </article>
+    
+<div class="post-nav">
+
+    <div class="prev">
+        <h4>Previous Essay</h4>
+        <a href="http://localhost:1313/posts/color-and-contrast/" alt="Color and Contrast: Crafting Visually Accessible Websites" class="previous">
+           Color and Contrast: Crafting Visually Accessible Websites
+        </a>
+    </div>
+
+
+
+    <div class="next">
+        <h4>Next Essay</h4>
+        <a href="http://localhost:1313/posts/navigating-accessibility/" alt="Navigating Accessibility: Mastering Keyboard-Friendly Design" class="next">
+            Navigating Accessibility: Mastering Keyboard-Friendly Design
+        </a>
+    </div>
+
+</div>
+
+
+
+    </div>
+    
+    <footer>
+        <div class="copyright">
+        <p>&copy; <a href="mailto: drew@drwtod.com">Andrew D. Todd</a>; all rights reserved. The opinions expressed herein do not necessarily represent those of my employer nor any organization with which I am affiliated.</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('navico').addEventListener('click', checkNav);
+        window.addEventListener("keyup", function(e) {
+        if (e.keyCode == 27) closeNav();
+        }, false);
+    
+        function checkNav() {
+        if (document.body.classList.contains('navico-active')) {
+            closeNav();
+        } else {
+            openNav();
+        }
+        }
+    
+        function closeNav() {
+        document.body.classList.remove('navico-active');
+        }
+    
+        function openNav() {
+        document.body.classList.add('navico-active');
+        }
+    </script>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-88BK1NDLYZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-88BK1NDLYZ');
+</script>
+</body>
+</html>
+
+  </body>
+</html>

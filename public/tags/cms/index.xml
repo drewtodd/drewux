@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cms on drew:ux</title>
-    <link>http://drewux.com/tags/cms/</link>
-    <description>Recent content in cms on drew:ux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Cms on drew:ux</title>
+    <link>http://localhost:1313/tags/cms/</link>
+    <description>Recent content in Cms on drew:ux</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting the Most Out of your CMS</title>
-      <link>http://drewux.com/posts/2015-12-01-omg-cms/</link>
+      <link>http://localhost:1313/posts/2015-12-01-omg-cms/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/2015-12-01-omg-cms/</guid>
-      <description>Getting the Most Out of your CMS 4½ minute read “We become what we behold. We shape our tools, and thereafter our tools shape us.” ― Marshall McLuhan
-When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow?</description>
+      <guid>http://localhost:1313/posts/2015-12-01-omg-cms/</guid>
+      <description>&lt;h1 id=&#34;getting-the-most-out-of-your-cms&#34;&gt;Getting the Most Out of your CMS&lt;/h1&gt;&#xA;&lt;h3 id=&#34;4-minute-read&#34;&gt;4½ minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“We become what we behold. We shape our tools, and thereafter our tools shape us.” ― &lt;a href=&#34;http://www.goodreads.com/author/show/455.Marshall_McLuhan&#34; title=&#34;Marshall McLuhan&#34;&gt;Marshall McLuhan&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow? While vendors would certainly have you believe it, the real answer is a bit less ideal.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

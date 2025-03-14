@@ -4,11 +4,10 @@ layout: single
 type: post
 date: 2023-07-17
 permalink: /accessible-content-and-media
-photoUrl: "img/noir-movie-theater.jpeg"
-photoCredit: Midjourney
-photoTitle: "Inside a crowded 1930s movie theater, showing a noir film. Monochrome, dramatic lighting."
-photoCreditUrl: "https://midjourney.com/home"
-tags: ["ux","accessibility"]
+photoUrl: "img/jake-hills-movie-theater.jpg"
+photoCredit: "Jake Hills"
+photoTitle: "Inside a crowded movie theater, showing a film. Monochrome, dramatic lighting."
+photoCreditUrl: "https://unsplash.com/@jakehills?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
 ---
 
 # Accessible Content and Media

@@ -1,6 +1,5 @@
 {{ if eq .Type "post" }}
 <div class="post-nav">
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
 {{ with .PrevInSection }}
     <div class="prev">
         <h4>Previous Essay</h4>

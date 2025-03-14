@@ -1,0 +1,40 @@
+baseURL = 'http://drewux.com/'
+languageCode = 'en-us'
+title = 'drew:ux'
+
+theme = "bones"
+
+[permalinks]
+post = ":slug/"
+page = ":slug/"
+
+[frontmatter]
+date = ["postdate", "date"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+    unsafe = true
+[markup.highlight]
+    codeFences = true
+    guessSyntax = false  # Optional: set to true if you want Hugo to guess the language
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Archives"
+url = "/posts/"
+weight = 3

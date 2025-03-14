@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gtd on drew:ux</title>
-    <link>http://drewux.com/tags/gtd/</link>
-    <description>Recent content in gtd on drew:ux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Gtd on drew:ux</title>
+    <link>http://localhost:1313/tags/gtd/</link>
+    <description>Recent content in Gtd on drew:ux</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evolving Productivity: Getting Things Done</title>
-      <link>http://drewux.com/posts/evolving-productivity-getting-things-done/</link>
+      <link>http://localhost:1313/posts/evolving-productivity-getting-things-done/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/evolving-productivity-getting-things-done/</guid>
-      <description>Evolving Productivity: Getting Things Done How David Allen&amp;rsquo;s Productivity System Changed the Game for Me I dive deeper into personal productivity systems by exploring my transition from the Franklin Planner to David Allen&amp;rsquo;s Getting Things Done method, and how a combination of the two has helped me achieve greater success.
-Continuing our discussion of personal productivity systems, we&amp;rsquo;ve already explored the Franklin Planner system and its connection to Benjamin Franklin&amp;rsquo;s methods.</description>
+      <guid>http://localhost:1313/posts/evolving-productivity-getting-things-done/</guid>
+      <description>&lt;h1 id=&#34;evolving-productivity-getting-things-done&#34;&gt;Evolving Productivity: Getting Things Done&lt;/h1&gt;&#xA;&lt;h2 id=&#34;how-david-allens-productivity-system-changed-the-game-for-me&#34;&gt;How David Allen&amp;rsquo;s Productivity System Changed the Game for Me&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I dive deeper into personal productivity systems by exploring my transition from the Franklin Planner to David Allen&amp;rsquo;s Getting Things Done method, and how a combination of the two has helped me achieve greater success.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Continuing our &lt;a href=&#34;http://localhost:1313/tags/productivity&#34; title=&#34;drew:ux articles tagged #productivity&#34;&gt;discussion&lt;/a&gt; of personal productivity systems, we&amp;rsquo;ve already explored the Franklin Planner system and its connection to Benjamin Franklin&amp;rsquo;s methods. As we continue, let&amp;rsquo;s take a look at another powerful productivity system: David Allen&amp;rsquo;s Getting Things Done (GTD) method. In this follow-up article, I&amp;rsquo;ll share my experiences transitioning from the Franklin Planner to GTD, and how customizing a combination of both systems has helped me achieve greater productivity.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

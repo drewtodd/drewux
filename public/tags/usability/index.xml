@@ -1,69 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>usability on drew:ux</title>
-    <link>http://drewux.com/tags/usability/</link>
-    <description>Recent content in usability on drew:ux</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Usability on drew:ux</title>
+    <link>http://localhost:1313/tags/usability/</link>
+    <description>Recent content in Usability on drew:ux</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/usability/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/usability/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UX and AI: Tools to Streamline Your UX Workflow</title>
-      <link>http://drewux.com/posts/ux-ai-tools/</link>
+      <link>http://localhost:1313/posts/ux-ai-tools/</link>
       <pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/ux-ai-tools/</guid>
-      <description>UX and AI Tools to Streamline Your UX Workflow 5 minute read As UX professionals, we all know the importance of collecting and analyzing data to inform design decisions and improve the user experience. But with so much data to collect and analyze, it can be a time-consuming and overwhelming process. That&amp;rsquo;s where AI-powered tools come in. By using these tools, we can streamline our UX workflows, saving time and increasing efficiency.</description>
+      <guid>http://localhost:1313/posts/ux-ai-tools/</guid>
+      <description>&lt;h1 id=&#34;ux-and-ai&#34;&gt;UX and AI&lt;/h1&gt;&#xA;&lt;h2 id=&#34;tools-to-streamline-your-ux-workflow&#34;&gt;Tools to Streamline Your UX Workflow&lt;/h2&gt;&#xA;&lt;h3 id=&#34;5-minute-read&#34;&gt;5 minute read&lt;/h3&gt;&#xA;&lt;p&gt;As UX professionals, we all know the importance of collecting and analyzing data to inform design decisions and improve the user experience. But with so much data to collect and analyze, it can be a time-consuming and overwhelming process. That&amp;rsquo;s where AI-powered tools come in. By using these tools, we can streamline our UX workflows, saving time and increasing efficiency. Plus, who doesn&amp;rsquo;t love a robot assistant?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>5 Free Remote UX Tools to Boost Your Workflow</title>
-      <link>http://drewux.com/posts/five-free-remote-ux-tools/</link>
+      <link>http://localhost:1313/posts/five-free-remote-ux-tools/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/five-free-remote-ux-tools/</guid>
-      <description>5 Free Remote UX Tools to Boost Your Workflow Discover budget-friendly solutions for remote UX research and collaboration 2 ½ minute read Hey there, fellow UX advocates! Working remotely can be challenging on its own, and even more difficult when you&amp;rsquo;re on a budget. Many of the most exciting and essential tools for conducting UX research and design come with heft monthly subscription costs. But don&amp;rsquo;t worry, I&amp;rsquo;ve got your back.</description>
+      <guid>http://localhost:1313/posts/five-free-remote-ux-tools/</guid>
+      <description>&lt;h1 id=&#34;5-free-remote-ux-tools-to-boost-your-workflow&#34;&gt;5 Free Remote UX Tools to Boost Your Workflow&lt;/h1&gt;&#xA;&lt;h2 id=&#34;discover-budget-friendly-solutions-for-remote-ux-research-and-collaboration&#34;&gt;Discover budget-friendly solutions for remote UX research and collaboration&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2--minute-read&#34;&gt;2 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;Hey there, fellow UX advocates! Working remotely can be challenging on its own, and even more difficult when you&amp;rsquo;re on a budget. Many of the most exciting and essential tools for conducting UX research and design come with heft monthly subscription costs. But don&amp;rsquo;t worry, I&amp;rsquo;ve got your back. I&amp;rsquo;ve put together a list of five free tools that can help you navigate the world of remote UX without breaking the bank. Let&amp;rsquo;s dive in and explore these budget-friendly UX tools!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Magnitude</title>
-      <link>http://drewux.com/posts/2016-10-16-magnitude/</link>
+      <link>http://localhost:1313/posts/2016-10-16-magnitude/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/2016-10-16-magnitude/</guid>
-      <description>Magnitude A Simple Tool to Help Prioritize Usability Issues 6 minute read When prioritizing usability problems, use a Magnitude Matrix to figure out the most important issues to address. Magnitude combines the frequency that an issue was observed with the relative impact that it had on the participant&amp;rsquo;s task completion.
-After spending some time revisiting best practices in the realm of usability testing and reviewing the advice of some its more esteemed practitioners, I realized that there is a lot of talk about how to go about setting up such a test, and finding usability problems.</description>
+      <guid>http://localhost:1313/posts/2016-10-16-magnitude/</guid>
+      <description>&lt;h1 id=&#34;magnitude&#34;&gt;Magnitude&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-simple-tool-to-help-prioritize-usability-issues&#34;&gt;A Simple Tool to Help Prioritize Usability Issues&lt;/h2&gt;&#xA;&lt;h3 id=&#34;6-minute-read&#34;&gt;6 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When prioritizing usability problems, use a &lt;strong&gt;Magnitude Matrix&lt;/strong&gt; to figure out the most important issues to address. Magnitude combines the frequency that an issue was observed with the relative impact that it had on the participant&amp;rsquo;s task completion.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;After spending some time revisiting best practices in the realm of usability testing and reviewing the advice of some its more esteemed practitioners, I realized that there is a lot of talk about how to go about setting up such a test, and finding usability problems. But there isn&amp;rsquo;t a whole lot said about what you do with them once you find them.&lt;a href=&#34;#caveat&#34; title=&#34;Actually, there is.&#34;&gt;*&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playback</title>
-      <link>http://drewux.com/posts/2016-10-2-playback/</link>
+      <link>http://localhost:1313/posts/2016-10-2-playback/</link>
       <pubDate>Sun, 02 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/2016-10-2-playback/</guid>
-      <description>Playback Often the best way to fix your faults is to look directly at them 4 minute read Regularly reviewing your performance and providing self-critique can help you improve your skills as a usability test moderator.
-The camera and microphone are powerful implements in a usability tester&amp;rsquo;s toolkit. With them, you can capture the user&amp;rsquo;s actions and facial expressions and gain all kinds of insight into their behaviors, thoughts and expectations when using a product.</description>
+      <guid>http://localhost:1313/posts/2016-10-2-playback/</guid>
+      <description>&lt;h1 id=&#34;playback&#34;&gt;Playback&lt;/h1&gt;&#xA;&lt;h2 id=&#34;often-the-best-way-to-fix-your-faults-is-to-look-directly-at-them&#34;&gt;Often the best way to fix your faults is to look directly at them&lt;/h2&gt;&#xA;&lt;h3 id=&#34;4-minute-read&#34;&gt;4 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Regularly reviewing your performance and providing self-critique can help you improve your skills as a usability test moderator.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The camera and microphone are powerful implements in a usability tester&amp;rsquo;s toolkit. With them, you can capture the user&amp;rsquo;s actions and facial expressions and gain all kinds of insight into their behaviors, thoughts and expectations when using a product. But these tools can be equally useful in monitoring your own performance as a test moderator.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Eye-Tracking on the Cheap</title>
-      <link>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</link>
+      <link>http://localhost:1313/posts/2016-09-17-eye-tracking-on-the-cheap/</link>
       <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</guid>
-      <description>Eye-Tracking on the Cheap A Dead-Simple Way to Follow Your Test Participants 2 minute read In the absence of eye-tracking equipment, ask test participants to use their mouse cursor to indicate where they’re looking on the screen.
-One of the hallmarks of usability testing protocols is [the “Think Aloud” method][1]: Asking participants to verbalize their thoughts as they work through the tasks and activities of the test. This method allows the test team to get inside the head of the participant a bit and often illuminates behaviors or attitudes that wouldn’t be apparent by observation alone.</description>
+      <guid>http://localhost:1313/posts/2016-09-17-eye-tracking-on-the-cheap/</guid>
+      <description>&lt;h1 id=&#34;eye-tracking-on-the-cheap&#34;&gt;Eye-Tracking on the Cheap&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-dead-simple-way-to-follow-your-test-participants&#34;&gt;A Dead-Simple Way to Follow Your Test Participants&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2-minute-read&#34;&gt;2 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the absence of eye-tracking equipment, ask test participants to use their mouse cursor to indicate where they’re looking on the screen.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;One of the hallmarks of usability testing protocols is [the “Think Aloud” method][1]: Asking participants to verbalize their thoughts as they work through the tasks and activities of the test. This method allows the test team to get inside the head of the participant a bit and often illuminates behaviors or attitudes that wouldn’t be apparent by observation alone. It’s a great tool that we employ in &lt;em&gt;all&lt;/em&gt; of our testing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Formative vs. Summative Usability Studies</title>
-      <link>http://drewux.com/posts/2016-09-10-formative-summative-usability/</link>
+      <link>http://localhost:1313/posts/2016-09-10-formative-summative-usability/</link>
       <pubDate>Sat, 10 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://drewux.com/posts/2016-09-10-formative-summative-usability/</guid>
-      <description>Staying Ahead of the Wave Formative vs. Summative Usability Studies 2 ½ minute read When looking at usability studies, you can generally lump them into two groups: Formative studies and summative studies. We&amp;rsquo;ve been talking about them this week and I thought I&amp;rsquo;d share a little bit about our approach.
-Formative Studies Formative studies, as the name implies, tend to happen at the beginning of the design process and are used to help guide the product in the right direction.</description>
+      <guid>http://localhost:1313/posts/2016-09-10-formative-summative-usability/</guid>
+      <description>&lt;h1 id=&#34;staying-ahead-of-the-wave&#34;&gt;Staying Ahead of the Wave&lt;/h1&gt;&#xA;&lt;h2 id=&#34;formative-vs-summative-usability-studies&#34;&gt;Formative vs. Summative Usability Studies&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2--minute-read&#34;&gt;2 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;When looking at usability studies, you can generally lump them into two groups: &lt;a href=&#34;http://www.usabilitybok.org/formative-evaluation&#34;&gt;Formative studies&lt;/a&gt; and &lt;a href=&#34;http://www.usabilitybok.org/summative-evaluation&#34;&gt;summative studies&lt;/a&gt;. We&amp;rsquo;ve been talking about them this week and I thought I&amp;rsquo;d share a little bit about our approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;formative-studies&#34;&gt;Formative Studies&lt;/h2&gt;&#xA;&lt;p&gt;Formative studies, as the name implies, tend to happen at the beginning of the design process and are used to help guide the product in the right direction. They are a key part of the iterative design process, where you&amp;rsquo;re generating design ideas, testing them, and adjusting the design on the fly.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
