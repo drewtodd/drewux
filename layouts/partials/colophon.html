@@ -1,15 +1,48 @@
 <div class="colophon">
     {{ if eq .Type "post" }}
-        <p>What are your thoughts? Join me in the conversation over on <a href="https://threads.net/@drewtodd">Threads <i class="fa-brands fa-threads" aria-hidden="true"></i></a>, <a href="https://bsky.app/profile/drewtodd.bsky.social">Bluesky Social <i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>, or <a href="https://mastodon.social/@drewtodd">Mastodon <i class="fa-brands fa-mastodon" aria-hidden="true"></i></a>.</p>
-        
-        <p>Originally published {{ .Date.Format "January 2, 2006" }}<br />           
+        <p>What are your thoughts? Join me in the conversation over on 
+            {{ $socialLinks := slice }} <!-- Create an empty slice -->
+
+            {{ with .Site.Params.social.threads }}
+                {{ $socialLinks = $socialLinks | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Threads <i class="fa-brands fa-threads" aria-hidden="true"></i></a>` . | safeHTML) }}
+            {{ end }}
+            {{ with .Site.Params.social.bluesky }}
+                {{ $socialLinks = $socialLinks | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Bluesky Social <i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>` . | safeHTML) }}
+            {{ end }}
+            {{ with .Site.Params.social.mastodon }}
+                {{ $socialLinks = $socialLinks | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Mastodon <i class="fa-brands fa-mastodon" aria-hidden="true"></i></a>` . | safeHTML) }}
+            {{ end }}
+            {{ with .Site.Params.social.linkedin }}
+                {{ $socialLinks = $socialLinks | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">LinkedIn <i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>` . | safeHTML) }}
+            {{ end }}
+            {{ with .Site.Params.social.facebook }}
+                {{ $socialLinks = $socialLinks | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Facebook <i class="fa-brands fa-facebook" aria-hidden="true"></i></a>` . | safeHTML) }}
+            {{ end }}
+            {{ with .Site.Params.social.twitter }}
+                {{ $socialLinks = $socialLinks | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Twitter <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>` . | safeHTML) }}
+            {{ end }}
+            {{ with .Site.Params.social.instagram }}
+                {{ $socialLinks = $socialLinks | append (printf `<a href="%s" target="_blank" rel="noopener noreferrer">Instagram <i class="fa-brands fa-instagram" aria-hidden="true"></i></a>` . | safeHTML) }}
+            {{ end }}
+
+            {{ $count := len $socialLinks }}
+            {{ if gt $count 0 }}
+                {{ range $index, $link := $socialLinks }}
+                    {{ if eq $index (sub $count 1) }}and {{ end }}{{ $link | safeHTML }}{{ if and (lt $index (sub $count 1)) (gt $count 2) }},{{ end }}{{ if eq $index (sub $count 2) }} {{ end }}
+                {{ end }}
+            {{ end }}
+        </p>
+
+        <p>Originally published {{ .Date.Format "January 2, 2006" }}<br />
     {{ end }}
+
     {{ with .Params.tags }}
         File under: 
             {{ range . }}
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-hashtag" aria-hidden="true"></i>{{ . }}</a>&nbsp;
+                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-hashtag" aria-hidden="true"></i>{{ . }}</a>&nbsp;
             {{ end }}
     {{ end }}
+
     {{ if eq .Type "post" }}
         </p>
     {{ end }}

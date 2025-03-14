@@ -2,8 +2,6 @@ baseURL = 'http://drewux.com/'
 languageCode = 'en-us'
 title = 'drew:ux'
 
-theme = "bones"
-
 [permalinks]
 post = ":slug/"
 page = ":slug/"
@@ -14,6 +12,16 @@ date = ["postdate", "date"]
 [taxonomies]
 tag = "tags"
 category = "categories"
+
+[params]
+description = "drew:ux - The blog with user experience, design, and leadership musings by Andrew Todd"
+stylesheet = "assets/css/style.css"
+favicon = "assets/img/favicon.ico"
+fontawesome = "https://kit.fontawesome.com/26edf67b6e.js"
+
+[params.social]
+bluesky = "https://bsky.app/profile/drewtodd.bsky.social"
+linkedin = "https://www.linkedin.com/in/andrewtodd"
 
 [markup]
 [markup.goldmark]

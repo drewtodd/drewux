@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | drew:ux</title>
-    <meta description="drew:ux The blog with user experience, design, and leadership musings by Andrew Todd" />
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="stylesheet" href="{{ .Site.Params.stylesheet | relURL }}">
     <script src="https://kit.fontawesome.com/26edf67b6e.js" crossorigin="anonymous"></script>
     {{ partial "prism.html" . }}
     {{ partial "jquery.html" . }}
