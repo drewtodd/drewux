@@ -14,7 +14,7 @@ tag = "tags"
 category = "categories"
 
 [params]
-description = "drew:ux - The blog with user experience, design, and leadership musings by Andrew Todd"
+description = "drew:ux - Musigns on user experience, accessibility, and leadership"
 stylesheet = "assets/css/style.css"
 favicon = "assets/img/favicon.ico"
 fontawesome = "https://kit.fontawesome.com/26edf67b6e.js"
