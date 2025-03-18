@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Quotable on drew:ux</title>
-    <link>http://localhost:1313/tags/quotable/</link>
-    <description>Recent content in Quotable on drew:ux</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 03 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/quotable/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Quotable: The Best Thing for Being Sad</title>
-      <link>http://localhost:1313/posts/2015-12-03-thought-of-today/</link>
-      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2015-12-03-thought-of-today/</guid>
-      <description>&lt;h1 id=&#34;the-best-thing-for-being-sad&#34;&gt;The Best Thing for Being Sad&lt;/h1&gt;&#xA;&lt;h3 id=&#34;1-minute-read&#34;&gt;1 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“The best thing for being sad,” replied Merlin, beginning to puff and blow, “is to learn something. That’s the only thing that never fails. You may grow old and trembling in your anatomies, you may lie awake at night listening to the disorder of your veins, you may miss your only love, you may see the world about you devastated by evil lunatics, or know your honour trampled in the sewers of baser minds. There is only one thing for it then — to learn. Learn why the world wags and what wags it. That is the only thing which the mind can never exhaust, never alienate, never be tortured by, never fear or distrust, and never dream of regretting. Learning is the only thing for you. Look what a lot of things there are to learn.” - T.H. White&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Quotable on drew:ux</title><link>http://drewux.com/tags/quotable/</link><description>Recent content in Quotable on drew:ux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 03 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/quotable/index.xml" rel="self" type="application/rss+xml"/><item><title>Quotable: The Best Thing for Being Sad</title><link>http://drewux.com/posts/2015-12-03-thought-of-today/</link><pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-12-03-thought-of-today/</guid><description>&lt;h1 id="the-best-thing-for-being-sad">The Best Thing for Being Sad&lt;/h1>
+&lt;h3 id="1-minute-read">1 minute read&lt;/h3>
+&lt;blockquote>
+&lt;p>“The best thing for being sad,” replied Merlin, beginning to puff and blow, “is to learn something. That’s the only thing that never fails. You may grow old and trembling in your anatomies, you may lie awake at night listening to the disorder of your veins, you may miss your only love, you may see the world about you devastated by evil lunatics, or know your honour trampled in the sewers of baser minds. There is only one thing for it then — to learn. Learn why the world wags and what wags it. That is the only thing which the mind can never exhaust, never alienate, never be tortured by, never fear or distrust, and never dream of regretting. Learning is the only thing for you. Look what a lot of things there are to learn.” - T.H. White&lt;/p></description></item></channel></rss>

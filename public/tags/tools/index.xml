@@ -1,54 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tools on drew:ux</title>
-    <link>http://localhost:1313/tags/tools/</link>
-    <description>Recent content in Tools on drew:ux</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency</title>
-      <link>http://localhost:1313/posts/top-5-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency/</link>
-      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/top-5-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency/</guid>
-      <description>&lt;h1 id=&#34;five-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency&#34;&gt;Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency&lt;/h1&gt;&#xA;&lt;h2 id=&#34;innovative-ai-powered-tools-to-try-out&#34;&gt;Innovative AI-powered tools to try out&lt;/h2&gt;&#xA;&lt;p&gt;UX researchers, it&amp;rsquo;s time to embrace the future! As AI continues to advance and integrate into various aspects of our lives, it&amp;rsquo;s essential for us to keep up with the game. Today, I want to share with you five AI-powered tools that will not only enhance your research efforts but also boost your efficiency in the UX field.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>5 Free Remote UX Tools to Boost Your Workflow</title>
-      <link>http://localhost:1313/posts/five-free-remote-ux-tools/</link>
-      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/five-free-remote-ux-tools/</guid>
-      <description>&lt;h1 id=&#34;5-free-remote-ux-tools-to-boost-your-workflow&#34;&gt;5 Free Remote UX Tools to Boost Your Workflow&lt;/h1&gt;&#xA;&lt;h2 id=&#34;discover-budget-friendly-solutions-for-remote-ux-research-and-collaboration&#34;&gt;Discover budget-friendly solutions for remote UX research and collaboration&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2--minute-read&#34;&gt;2 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;Hey there, fellow UX advocates! Working remotely can be challenging on its own, and even more difficult when you&amp;rsquo;re on a budget. Many of the most exciting and essential tools for conducting UX research and design come with heft monthly subscription costs. But don&amp;rsquo;t worry, I&amp;rsquo;ve got your back. I&amp;rsquo;ve put together a list of five free tools that can help you navigate the world of remote UX without breaking the bank. Let&amp;rsquo;s dive in and explore these budget-friendly UX tools!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Remote UX Observation</title>
-      <link>http://localhost:1313/posts/2016-09-01-getting-out-of-the-room/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2016-09-01-getting-out-of-the-room/</guid>
-      <description>&lt;h1 id=&#34;remote-ux-observation&#34;&gt;Remote UX Observation&lt;/h1&gt;&#xA;&lt;h2 id=&#34;getting-out-of-the-room-to-enhance-team-participation-in-ux&#34;&gt;Getting Out of the Room to Enhance Team Participation In UX&lt;/h2&gt;&#xA;&lt;h3 id=&#34;4--minute-read&#34;&gt;4 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;One of the major tenets we adhere to as a team is &lt;strong&gt;transparency&lt;/strong&gt;: All members of the team should have access to information about the project we’re working on. Designers, Developers, QA Analysts, Stakeholders: They all should have a complete picture of what’s going on and access to any details of the project that might help them gain product perspective and user insights.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>InVision This</title>
-      <link>http://localhost:1313/posts/2016-06-05-invision-this/</link>
-      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2016-06-05-invision-this/</guid>
-      <description>&lt;h1 id=&#34;invision-this&#34;&gt;InVision This&lt;/h1&gt;&#xA;&lt;h2 id=&#34;much-more-than-fancy-screenshots&#34;&gt;Much more than fancy screenshots&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2--minute-read&#34;&gt;2 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;As you’ve probably gathered if you’ve been following along, I spend a lot of time &lt;a href=&#34;http://localhost:1313/omg-cms&#34;&gt;talking&lt;/a&gt; &lt;a href=&#34;know-your-tools&#34;&gt;about&lt;/a&gt; &lt;a href=&#34;fidelity&#34;&gt;tools&lt;/a&gt;. Too much, probably. Tools, after all, don’t make the craftsman. But, here I go again: After a couple of weeks using &lt;a href=&#34;http://www.invisionapp.com/&#34; title=&#34;InVision.app&#34;&gt;InVision.app&lt;/a&gt; for a project of some complexity, I have to say. Wow.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been aware of InVision for awhile, but always thought of it as a fancy presentation tool (which it is) and nothing more (which it isn’t). You do all the real design work in another tool like Sketch, Illustrator, or Photoshop, right? Well, yeah, but…&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Know Your Tools</title>
-      <link>http://localhost:1313/posts/2016-05-22-know-your-tools/</link>
-      <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2016-05-22-know-your-tools/</guid>
-      <description>&lt;h1 id=&#34;know-your-tools&#34;&gt;Know your tools&lt;/h1&gt;&#xA;&lt;h2 id=&#34;investing-time-creating-a-basic-toolkit-early-can-really-pay-off&#34;&gt;Investing time creating a basic toolkit early can really pay off&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2-minute-read&#34;&gt;2 minute read&lt;/h3&gt;&#xA;&lt;p&gt;Which design tools you use are far less important than how well you can use them. This became especially apparent after weeks of using a template I created for the last class. It was easy. The bugs were ironed out. It looked okay. It didn&amp;rsquo;t win me any points for creative vision but it was fast and got the job done. Most important, it removed a lot of guesswork from my writing assignments.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Getting the Most Out of your CMS</title>
-      <link>http://localhost:1313/posts/2015-12-01-omg-cms/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2015-12-01-omg-cms/</guid>
-      <description>&lt;h1 id=&#34;getting-the-most-out-of-your-cms&#34;&gt;Getting the Most Out of your CMS&lt;/h1&gt;&#xA;&lt;h3 id=&#34;4-minute-read&#34;&gt;4½ minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“We become what we behold. We shape our tools, and thereafter our tools shape us.” ― &lt;a href=&#34;http://www.goodreads.com/author/show/455.Marshall_McLuhan&#34; title=&#34;Marshall McLuhan&#34;&gt;Marshall McLuhan&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow? While vendors would certainly have you believe it, the real answer is a bit less ideal.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on drew:ux</title><link>http://drewux.com/tags/tools/</link><description>Recent content in Tools on drew:ux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency</title><link>http://drewux.com/posts/top-5-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency/</link><pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/top-5-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency/</guid><description>&lt;h1 id="five-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency">Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency&lt;/h1>
+&lt;h2 id="innovative-ai-powered-tools-to-try-out">Innovative AI-powered tools to try out&lt;/h2>
+&lt;p>UX researchers, it&amp;rsquo;s time to embrace the future! As AI continues to advance and integrate into various aspects of our lives, it&amp;rsquo;s essential for us to keep up with the game. Today, I want to share with you five AI-powered tools that will not only enhance your research efforts but also boost your efficiency in the UX field.&lt;/p></description></item><item><title>5 Free Remote UX Tools to Boost Your Workflow</title><link>http://drewux.com/posts/five-free-remote-ux-tools/</link><pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/five-free-remote-ux-tools/</guid><description>&lt;h1 id="5-free-remote-ux-tools-to-boost-your-workflow">5 Free Remote UX Tools to Boost Your Workflow&lt;/h1>
+&lt;h2 id="discover-budget-friendly-solutions-for-remote-ux-research-and-collaboration">Discover budget-friendly solutions for remote UX research and collaboration&lt;/h2>
+&lt;h3 id="2-frac12-minute-read">2 ½ minute read&lt;/h3>
+&lt;p>Hey there, fellow UX advocates! Working remotely can be challenging on its own, and even more difficult when you&amp;rsquo;re on a budget. Many of the most exciting and essential tools for conducting UX research and design come with heft monthly subscription costs. But don&amp;rsquo;t worry, I&amp;rsquo;ve got your back. I&amp;rsquo;ve put together a list of five free tools that can help you navigate the world of remote UX without breaking the bank. Let&amp;rsquo;s dive in and explore these budget-friendly UX tools!&lt;/p></description></item><item><title>Remote UX Observation</title><link>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</link><pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</guid><description>&lt;h1 id="remote-ux-observation">Remote UX Observation&lt;/h1>
+&lt;h2 id="getting-out-of-the-room-to-enhance-team-participation-in-ux">Getting Out of the Room to Enhance Team Participation In UX&lt;/h2>
+&lt;h3 id="4-frac12-minute-read">4 ½ minute read&lt;/h3>
+&lt;p>One of the major tenets we adhere to as a team is &lt;strong>transparency&lt;/strong>: All members of the team should have access to information about the project we’re working on. Designers, Developers, QA Analysts, Stakeholders: They all should have a complete picture of what’s going on and access to any details of the project that might help them gain product perspective and user insights.&lt;/p></description></item><item><title>InVision This</title><link>http://drewux.com/posts/2016-06-05-invision-this/</link><pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-05-invision-this/</guid><description>&lt;h1 id="invision-this">InVision This&lt;/h1>
+&lt;h2 id="much-more-than-fancy-screenshots">Much more than fancy screenshots&lt;/h2>
+&lt;h3 id="2-frac12-minute-read">2 ½ minute read&lt;/h3>
+&lt;p>As you’ve probably gathered if you’ve been following along, I spend a lot of time &lt;a href="http://drewux.com/omg-cms">talking&lt;/a> &lt;a href="know-your-tools">about&lt;/a> &lt;a href="fidelity">tools&lt;/a>. Too much, probably. Tools, after all, don’t make the craftsman. But, here I go again: After a couple of weeks using &lt;a href="http://www.invisionapp.com/" title="InVision.app">InVision.app&lt;/a> for a project of some complexity, I have to say. Wow.&lt;/p>
+&lt;p>I’ve been aware of InVision for awhile, but always thought of it as a fancy presentation tool (which it is) and nothing more (which it isn’t). You do all the real design work in another tool like Sketch, Illustrator, or Photoshop, right? Well, yeah, but…&lt;/p></description></item><item><title>Know Your Tools</title><link>http://drewux.com/posts/2016-05-22-know-your-tools/</link><pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-05-22-know-your-tools/</guid><description>&lt;h1 id="know-your-tools">Know your tools&lt;/h1>
+&lt;h2 id="investing-time-creating-a-basic-toolkit-early-can-really-pay-off">Investing time creating a basic toolkit early can really pay off&lt;/h2>
+&lt;h3 id="2-minute-read">2 minute read&lt;/h3>
+&lt;p>Which design tools you use are far less important than how well you can use them. This became especially apparent after weeks of using a template I created for the last class. It was easy. The bugs were ironed out. It looked okay. It didn&amp;rsquo;t win me any points for creative vision but it was fast and got the job done. Most important, it removed a lot of guesswork from my writing assignments.&lt;/p></description></item><item><title>Getting the Most Out of your CMS</title><link>http://drewux.com/posts/2015-12-01-omg-cms/</link><pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2015-12-01-omg-cms/</guid><description>&lt;h1 id="getting-the-most-out-of-your-cms">Getting the Most Out of your CMS&lt;/h1>
+&lt;h3 id="4frac12-minute-read">4½ minute read&lt;/h3>
+&lt;blockquote>
+&lt;p>“We become what we behold. We shape our tools, and thereafter our tools shape us.” ― &lt;a href="http://www.goodreads.com/author/show/455.Marshall_McLuhan" title="Marshall McLuhan">Marshall McLuhan&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>When it comes to deciding on a content management system for a business or organization, how much should you expect your CMS to do? Is the solution you choose going to be a magic bullet that automatically enforces policy and standards? Should it encapsulate your entire workflow? While vendors would certainly have you believe it, the real answer is a bit less ideal.&lt;/p></description></item></channel></rss>
