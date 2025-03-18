@@ -1,5 +1,96 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Leveraging AI to Extract Customer Personas from Real-Life Interviews | drew:ux</title>
-<meta name=description content="drew:ux - Musigns on user experience, accessibility, and leadership"><link rel=stylesheet href=/assets/css/style.css><script src=https://kit.fontawesome.com/26edf67b6e.js crossorigin=anonymous></script><link href=/assets/css/prism.css rel=stylesheet><script src=/assets/js/prism.js></script><script src=https://code.jquery.com/jquery-3.7.1.min.js integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin=anonymous></script><script id=mcjs>!function(e,t,n,s,o){s=e.createElement(t),o=e.getElementsByTagName(t)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/09365bc8701c852f6a95f00a0/329322650583f45b05816f2a6.js")</script><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest></head><script async src="https://www.googletagmanager.com/gtag/js?id=G-88BK1NDLYZ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-4HHX2YT0YJ")</script><body><div id=header><header class=site-header><nav role=navigation><div class=screen-reader-text><a href=#content title="Skip to main content">Skip to main content</a></div><div id=navmain><ul class=menu><li class=menu-item><a href=/>Home</a></li><li class=menu-item><a href=/about/>About</a></li><li class=menu-item><a href=/posts/>Archives</a></li></ul><div id=navico>MENU <span class=navico-icon></span></div></div></nav><h1><a href=/>drew:ux</a></h1></header></div><div id=content role=main><article class="post default"><figure class=feature-image><img src=/assets/img/toy-robot-painting.png alt="A robot drawing a sketch in a sketchbook"><figcaption class=feature-caption>Image credit: <a href=https://www.midjourney.com/home alt>Midjourney</a></figcaption></figure><h1 id=leveraging-ai-to-extract-customer-personas-from-real-life-interviews>Leveraging AI to Extract Customer Personas from Real-Life Interviews</h1><h2 id=an-experiment-with-chatgpt-4>An Experiment with ChatGPT-4</h2><h3 id=10-minute-read>10 minute read</h3><blockquote><p>Let&rsquo;s explore the use of ChatGPT-4 to analyze and extract customer personas from real-life interview data. By using AI, researchers can save significant time by avoiding manual analysis of lengthy audio recordings. The quality is pretty good, but you need to pay attention to the overall accuracy of the output.</p></blockquote><h2 id=introduction>Introduction</h2><p>Discovering and understanding customer personas is a common activity for businesses to create user-centered strategies and cater to the needs of their audience. In this article, I’ll explore an innovative approach to extracting personas using <a href=https://chat.openai.com>OpenAI’s ChatGPT</a>, based on real-life interview data. The experiment aimed to evaluate the effectiveness of feeding raw data directly into the AI and observing the quality and relevance of the generated personas.</p><h2 id=methodology>Methodology</h2><h3 id=creating-the-interview-guide-and-script>Creating the Interview Guide and Script</h3><p>Using a ficticious online sticker vendor call StickerMe.com as the basis for our research. We had ChatGPT-4 develop an interview guide and script to ensure consistency and gather relevant information from the candidates. The script contained open-ended questions focusing on the participants&rsquo; preferences, experiences, and motivations related to sticker usage.</p><h3 id=conducting-the-interviews>Conducting the Interviews</h3><p>We interviewed 10 diverse candidates, following the interview script to maintain consistency. Each candidate was actually a photo-persona created and acted out by an actor. I did this because I wanted to have a good idea of what personas <em>I</em> would have come up with based on the interviews:</p><ul><li><strong>A mom</strong> who buys stickers for her “sticker obsessed” daughter, who collects them in a sticker book and trades them with her friends</li><li><strong>Business consultant</strong> who has stickers made to give away to promote her business</li><li>Family-owned <strong>restaurant owner</strong> who has stickers made to give to customers as promotional items</li><li><strong>Gen-Z male</strong> who likes to create custom stickers to put on his motorcycle, his laptop… all kinds of things. He thinks stickers are “cool. Like tattoos for your stuff.”</li><li><strong>Middle-aged woman</strong> who buys custom stickers to include on gifts and cards for a personal touch</li><li><strong>Art student</strong> who uses custom stickers as a way to share her art</li><li>Die-hard <strong>Liverpool Football Club fan</strong> who buys team stickers for his car and his sports equipment</li><li><strong>Baseball coach</strong> who buys custom team stickers to give to her kids in recognition of a great game</li><li><strong>A kid</strong> who is responsible for merch for his alt-punk band who purchases stickers to sell at concerts</li><li><strong>A dad</strong> who uses stickers as awards for his son and daughter when they do their chores. He likes to let them design the stickers for extra motivation</li></ul><p>In some cases, the actor took liberties with the promo-personas (the family-owned restaurant owner became a wedding planner, for instance), but this was okay, because the resulting interview content was still plausible.</p><p>The interviews were conducted in person or through Microsoft Teams video calls and lasted approximately 10-15 minutes each.</p><h3 id=transcribing-the-audio>Transcribing the Audio</h3><p>The audio from the interviews was transcribed to text to facilitate the analysis by ChatGPT. Some interviews were run in Microsoft Teams and transcribed using its auto-transcribe feature. Others were transcribed using Microsoft Word’s built-in transcription tool. I was curious to see if the two very different output formats would throw off the AI.</p><h4 id=microsoft-teams-transcription-format>Microsoft Teams Transcription Format</h4><pre tabindex=0><code>Interviewer
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leveraging AI to Extract Customer Personas from Real-Life Interviews | drew:ux</title>
+    <meta name="description" content="drew:ux - Musigns on user experience, accessibility, and leadership">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/26edf67b6e.js" crossorigin="anonymous"></script>
+    <link href="/assets/css/prism.css" rel="stylesheet" />
+<script src="/assets/js/prism.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/09365bc8701c852f6a95f00a0/329322650583f45b05816f2a6.js");</script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  </head>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4HHX2YT0YJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-4HHX2YT0YJ');
+</script>
+  <body>
+      <div id="header">
+    <header class="site-header">
+        <nav role="navigation">
+  <div class="screen-reader-text"><a href="#content" title="Skip to main content">Skip to main content</a></div>
+  <div id="navmain">
+    <ul class="menu">
+        
+          <li class="menu-item"><a href="/">Home</a></li>
+        
+          <li class="menu-item"><a href="/about/">About</a></li>
+        
+          <li class="menu-item"><a href="/posts/">Archives</a></li>
+        
+      </ul>
+      <div id="navico">
+        MENU <span class="navico-icon"></span>
+      </div>
+</div>
+</nav>
+  
+  
+        <h1><a href="/">drew:ux</a></h1>
+    </header>
+  </div>
+    <div id="content" role="main">
+    
+
+    <article class="post default">
+        <figure class="feature-image">
+            <img src="/assets/img/toy-robot-painting.png" alt="A robot drawing a sketch in a sketchbook">
+            <figcaption class="feature-caption">Image credit: <a href="https://www.midjourney.com/home" alt="">Midjourney</a></figcaption>
+        </figure>
+
+        <h1 id="leveraging-ai-to-extract-customer-personas-from-real-life-interviews">Leveraging AI to Extract Customer Personas from Real-Life Interviews</h1>
+<h2 id="an-experiment-with-chatgpt-4">An Experiment with ChatGPT-4</h2>
+<h3 id="10-minute-read">10 minute read</h3>
+<blockquote>
+<p>Let&rsquo;s explore the use of ChatGPT-4 to analyze and extract customer personas from real-life interview data. By using AI, researchers can save significant time by avoiding manual analysis of lengthy audio recordings. The quality is pretty good, but you need to pay attention to the overall accuracy of the output.</p>
+</blockquote>
+<h2 id="introduction">Introduction</h2>
+<p>Discovering and understanding customer personas is a common activity for businesses to create user-centered strategies and cater to the needs of their audience. In this article, I’ll explore an innovative approach to extracting personas using <a href="https://chat.openai.com">OpenAI’s ChatGPT</a>, based on real-life interview data. The experiment aimed to evaluate the effectiveness of feeding raw data directly into the AI and observing the quality and relevance of the generated personas.</p>
+<h2 id="methodology">Methodology</h2>
+<h3 id="creating-the-interview-guide-and-script">Creating the Interview Guide and Script</h3>
+<p>Using a ficticious online sticker vendor call StickerMe.com as the basis for our research. We had ChatGPT-4 develop an interview guide and script to ensure consistency and gather relevant information from the candidates. The script contained open-ended questions focusing on the participants&rsquo; preferences, experiences, and motivations related to sticker usage.</p>
+<h3 id="conducting-the-interviews">Conducting the Interviews</h3>
+<p>We interviewed 10 diverse candidates, following the interview script to maintain consistency.  Each candidate was actually a photo-persona created and acted out by an actor. I did this because I wanted to have a good idea of what personas <em>I</em> would have come up with based on the interviews:</p>
+<ul>
+<li><strong>A mom</strong> who buys stickers for her “sticker obsessed” daughter, who collects them in a sticker book and trades them with her friends</li>
+<li><strong>Business consultant</strong> who has stickers made to give away to promote her business</li>
+<li>Family-owned <strong>restaurant owner</strong> who has stickers made to give to customers as promotional items</li>
+<li><strong>Gen-Z male</strong> who likes to create custom stickers to put on his motorcycle, his laptop… all kinds of things. He thinks stickers are “cool. Like tattoos for your stuff.”</li>
+<li><strong>Middle-aged woman</strong> who buys custom stickers to include on gifts and cards for a personal touch</li>
+<li><strong>Art student</strong> who uses custom stickers as a way to share her art</li>
+<li>Die-hard <strong>Liverpool Football Club fan</strong> who buys team stickers for his car and his sports equipment</li>
+<li><strong>Baseball coach</strong> who buys custom team stickers to give to her kids in recognition of a great game</li>
+<li><strong>A kid</strong> who is responsible for merch for his alt-punk band who purchases stickers to sell at concerts</li>
+<li><strong>A dad</strong> who uses stickers as awards for his son and daughter when they do their chores. He likes to let them design the stickers for extra motivation</li>
+</ul>
+<p>In some cases, the actor took liberties with the promo-personas (the family-owned restaurant owner became a wedding planner, for instance), but this was okay, because the resulting interview content was still plausible.</p>
+<p>The interviews were conducted in person or through Microsoft Teams video calls and lasted approximately 10-15 minutes each.</p>
+<h3 id="transcribing-the-audio">Transcribing the Audio</h3>
+<p>The audio from the interviews was transcribed to text to facilitate the analysis by ChatGPT. Some interviews were run in Microsoft Teams and transcribed using its auto-transcribe feature. Others were transcribed using Microsoft Word’s built-in transcription tool. I was curious to see if the two very different output formats would throw off the AI.</p>
+<h4 id="microsoft-teams-transcription-format">Microsoft Teams Transcription Format</h4>
+<pre tabindex="0"><code>Interviewer
 The interview should take approximately 15 minutes, will be recording the session to ensure accuracy, but we won&#39;t be sharing the recording with anyone outside of the team.
 0:0:23.820 --&gt; 0:0:25.470
 Interviewer
@@ -10,7 +101,8 @@ No.
 0:0:28.640 --&gt; 0:0:32.210
 Interviewer
 Alright, so a couple of questions before we get into the the meat of it.
-</code></pre><h4 id=microsoft-word-raw-audio-transcription-format>Microsoft Word Raw Audio Transcription Format</h4><pre tabindex=0><code>Molly, what is your occupation? 
+</code></pre><h4 id="microsoft-word-raw-audio-transcription-format">Microsoft Word Raw Audio Transcription Format</h4>
+<pre tabindex="0"><code>Molly, what is your occupation? 
 
 Well, I&#39;m. I&#39;m in college right now, but I guess I can consider myself like a a freelance artist too. 
 
@@ -21,7 +113,10 @@ I like to. It&#39;s it&#39;s a, it&#39;s. I like to work in mixed media. Art and
 So how do you use them? You&#39;ve already answered a little bit on. 
 
 That well, yeah. So I&#39;ll. I&#39;ll take designs that I&#39;ve come up with or paintings or sketches and I&#39;ll create custom. With those and then I&#39;ll put them and either give them to my friends or, you know, stick them on. Things I probably shouldn&#39;t be sticking them on, but I put them on there anyway. 
-</code></pre><h3 id=feeding-the-data-into-chatgpt>Feeding the Data into ChatGPT</h3><p>We explained the background and situation to ChatGPT-4 and provided the text transcripts of the 10 interviews. The AI was tasked with analyzing the data and extracting relevant customer personas based on the input. Here’s the prompt I used:</p><h4 id=prompt>Prompt</h4><pre tabindex=0><code>Act as a UX research expert with vast experience. I’d like for you to create personas for an online sticker vendor — StickerMe.com. 
+</code></pre><h3 id="feeding-the-data-into-chatgpt">Feeding the Data into ChatGPT</h3>
+<p>We explained the background and situation to ChatGPT-4 and provided the text transcripts of the 10 interviews. The AI was tasked with analyzing the data and extracting relevant customer personas based on the input. Here’s the prompt I used:</p>
+<h4 id="prompt">Prompt</h4>
+<pre tabindex="0"><code>Act as a UX research expert with vast experience. I’d like for you to create personas for an online sticker vendor — StickerMe.com. 
 
 First some background information:
 
@@ -36,12 +131,177 @@ For more reference, here is the interview script:
 —
  
 Please do not generate any personas until all 10 transcripts have been uploaded.
-</code></pre><h2 id=results>Results</h2><figure class=floatcenter><img src=/assets/img/chatgpt-output.jpg alt="A screenshot of ChatGPT"></figure><p>Going into this, I expected a &ldquo;real&rdquo; UX researcher probably would have created a handful of personas based around &ldquo;parent&rdquo;, &ldquo;business owner&rdquo;, and &ldquo;collector&rdquo;. ChatGPT generated four distinct customer personas from the interview data and, a you can see, that&rsquo;s pretty much what we got:</p><h3 id=the-creative-parent>The Creative Parent</h3><ul><li>Age: 30-45</li><li>Occupation: Various (e.g., web developer, teacher, stay-at-home parent)</li><li>Primary use for stickers: Engaging with their children through creative projects, rewards, and chore systems</li><li>Preferences: Customization, repositionable stickers, affordable prices, ease of use</li></ul><h3 id=the-small-business-owner>The Small Business Owner</h3><ul><li>Age: 25-50</li><li>Occupation: Entrepreneur or small business owner</li><li>Primary use for stickers: Promoting their business through branded stickers, packaging, and promotional materials</li><li>Preferences: High-quality stickers, customization options, bulk ordering discounts, quick turnaround and shipping</li></ul><h3 id=the-hobbyist-collector>The Hobbyist Collector</h3><ul><li>Age: 18-35</li><li>Occupation: Various</li><li>Primary use for stickers: Personal use, collecting, and decorating personal items (e.g., laptops, water bottles, notebooks)</li><li>Preferences: Unique designs, licensed characters/themes, quality materials, easy navigation and discovery on the website</li></ul><h3 id=the-event-planner>The Event Planner</h3><ul><li>Age: 25-60</li><li>Occupation: Event planner, administrative professional, or DIY party host</li><li>Primary use for stickers: Enhancing event decor, invitations, or party favors</li><li>Preferences: Customization options, variety of sizes and materials, quick shipping, and an easy-to-use website</li></ul><p>These personas were generated without providing a specific template, allowing the AI to identify patterns and categorize the data based on the interview responses. The results were surprisingly accurate, reflecting the preferences and motivations of the candidates in a comprehensive manner.</p><h2 id=discussion>Discussion</h2><p>The experiment showed promising results, as ChatGPT was able to process raw data and generate relevant customer personas. This approach could potentially save time and resources for businesses seeking to understand their target audience better.</p><h3 id=the-big-benefit-its-a-time-saver>The Big Benefit: It’s a Time-Saver</h3><p>One of the most significant benefits of using AI for data analysis, particularly when working with user interviews, is the substantial time savings. Analyzing hours of audio can be an incredibly time-consuming task, often requiring extensive manual effort to transcribe, review, and extract insights from the recordings. By leveraging AI like ChatGPT, researchers and analysts can save valuable time and focus on other essential aspects of their work.</p><p>Another advantage of this method is that it allows the interviewer to concentrate more on the interview itself, rather than getting bogged down in taking detailed notes during the conversation. This can lead to a more natural, engaging, and insightful interview process, as the interviewer can actively listen, probe deeper into responses, and follow up on interesting points without the distraction of note-taking.</p><p>Furthermore, AI can help identify patterns and trends across multiple interviews quickly and efficiently, providing a more comprehensive and well-rounded understanding of the data. This can lead to more accurate and actionable insights, ultimately improving the overall quality of the research and its outcomes.</p><p>In conclusion, the use of AI for data analysis in the context of user interviews offers considerable time-saving benefits, allowing interviewers to focus on the conversation and enhancing the quality of the insights gathered. While it’s essential to be cautious with prompts and verify the accuracy of AI-generated information, the advantages of this method are undeniable and can greatly improve the research process.</p><h3 id=overall-quality-of-the-output-not-bad>Overall Quality of the Output: Not Bad!</h3><p>I’d equate the results with that of a what you’d get from a junior-to-mid-level UX researcher. The AI was able to analyze, synthesize, and extract valuable insights from the interview data, providing a useful starting point for understanding user personas and preferences.</p><p>All of this while taking into account one huge caveat:</p><h3 id=the-downside-sometimes-it-just-makes-stuff-up>The Downside: Sometimes, It Just Makes Stuff Up</h3><p>Artificial intelligence tools like ChatGPT are designed to provide answers to questions — it <em>really</em> wants to give you a thorough answer — but it may not always give you the output you’re looking for if you’re not careful with your prompts. This can lead to AI systems extrapolating and interjecting made-up — but seemingly plausible — results into their analysis.</p><p>For instance, when asking ChatGPT to summarize the interviews after it had already done the analysis, it fabricated believable results:</p><h4 id=prompt-1>Prompt</h4><pre tabindex=0><code>Go back and summarize each of the ten user interviews I uploaded.
-</code></pre><h4 id=output>Output</h4><pre tabindex=0><code>&gt; Interview with Participant 6:
+</code></pre><h2 id="results">Results</h2>
+<figure class="floatcenter"><img src="/assets/img/chatgpt-output.jpg"
+    alt="A screenshot of ChatGPT">
+</figure>
+
+<p>Going into this, I expected a &ldquo;real&rdquo; UX researcher probably would have created a handful of personas based around &ldquo;parent&rdquo;, &ldquo;business owner&rdquo;, and &ldquo;collector&rdquo;. ChatGPT generated four distinct customer personas from the interview data and, a you can see, that&rsquo;s pretty much what we got:</p>
+<h3 id="the-creative-parent">The Creative Parent</h3>
+<ul>
+<li>Age: 30-45</li>
+<li>Occupation: Various (e.g., web developer, teacher, stay-at-home parent)</li>
+<li>Primary use for stickers: Engaging with their children through creative projects, rewards, and chore systems</li>
+<li>Preferences: Customization, repositionable stickers, affordable prices, ease of use</li>
+</ul>
+<h3 id="the-small-business-owner">The Small Business Owner</h3>
+<ul>
+<li>Age: 25-50</li>
+<li>Occupation: Entrepreneur or small business owner</li>
+<li>Primary use for stickers: Promoting their business through branded stickers, packaging, and promotional materials</li>
+<li>Preferences: High-quality stickers, customization options, bulk ordering discounts, quick turnaround and shipping</li>
+</ul>
+<h3 id="the-hobbyist-collector">The Hobbyist Collector</h3>
+<ul>
+<li>Age: 18-35</li>
+<li>Occupation: Various</li>
+<li>Primary use for stickers: Personal use, collecting, and decorating personal items (e.g., laptops, water bottles, notebooks)</li>
+<li>Preferences: Unique designs, licensed characters/themes, quality materials, easy navigation and discovery on the website</li>
+</ul>
+<h3 id="the-event-planner">The Event Planner</h3>
+<ul>
+<li>Age: 25-60</li>
+<li>Occupation: Event planner, administrative professional, or DIY party host</li>
+<li>Primary use for stickers: Enhancing event decor, invitations, or party favors</li>
+<li>Preferences: Customization options, variety of sizes and materials, quick shipping, and an easy-to-use website</li>
+</ul>
+<p>These personas were generated without providing a specific template, allowing the AI to identify patterns and categorize the data based on the interview responses. The results were surprisingly accurate, reflecting the preferences and motivations of the candidates in a comprehensive manner.</p>
+<h2 id="discussion">Discussion</h2>
+<p>The experiment showed promising results, as ChatGPT was able to process raw data and generate relevant customer personas. This approach could potentially save time and resources for businesses seeking to understand their target audience better.</p>
+<h3 id="the-big-benefit-its-a-time-saver">The Big Benefit: It’s a Time-Saver</h3>
+<p>One of the most significant benefits of using AI for data analysis, particularly when working with user interviews, is the substantial time savings. Analyzing hours of audio can be an incredibly time-consuming task, often requiring extensive manual effort to transcribe, review, and extract insights from the recordings. By leveraging AI like ChatGPT, researchers and analysts can save valuable time and focus on other essential aspects of their work.</p>
+<p>Another advantage of this method is that it allows the interviewer to concentrate more on the interview itself, rather than getting bogged down in taking detailed notes during the conversation. This can lead to a more natural, engaging, and insightful interview process, as the interviewer can actively listen, probe deeper into responses, and follow up on interesting points without the distraction of note-taking.</p>
+<p>Furthermore, AI can help identify patterns and trends across multiple interviews quickly and efficiently, providing a more comprehensive and well-rounded understanding of the data. This can lead to more accurate and actionable insights, ultimately improving the overall quality of the research and its outcomes.</p>
+<p>In conclusion, the use of AI for data analysis in the context of user interviews offers considerable time-saving benefits, allowing interviewers to focus on the conversation and enhancing the quality of the insights gathered. While it’s essential to be cautious with prompts and verify the accuracy of AI-generated information, the advantages of this method are undeniable and can greatly improve the research process.</p>
+<h3 id="overall-quality-of-the-output-not-bad">Overall Quality of the Output: Not Bad!</h3>
+<p>I’d equate the results with that of a what you’d get from a junior-to-mid-level UX researcher. The AI was able to analyze, synthesize, and extract valuable insights from the interview data, providing a useful starting point for understanding user personas and preferences.</p>
+<p>All of this while taking into account one huge caveat:</p>
+<h3 id="the-downside-sometimes-it-just-makes-stuff-up">The Downside: Sometimes, It Just Makes Stuff Up</h3>
+<p>Artificial intelligence tools like ChatGPT are designed to provide answers to questions — it <em>really</em> wants to give you a thorough answer — but it may not always give you the output you’re looking for if you’re not careful with your prompts. This can lead to AI systems extrapolating and interjecting made-up — but seemingly plausible — results into their analysis.</p>
+<p>For instance, when asking ChatGPT to summarize the interviews after it had already done the analysis, it fabricated believable results:</p>
+<h4 id="prompt-1">Prompt</h4>
+<pre tabindex="0"><code>Go back and summarize each of the ten user interviews I uploaded.
+</code></pre><h4 id="output">Output</h4>
+<pre tabindex="0"><code>&gt; Interview with Participant 6:
 &gt; The interviewer asked Participant 6 about their experiences as a hobbyist collector of stickers. They discussed their passion for collecting rare and unique stickers, attending events and conventions, and interacting with fellow collectors to exchange and appreciate stickers.
-</code></pre><p>Note that there was no mention of rare stickers, events, or conventions in the interview text.</p><p>This example demonstrates the potential pitfalls of using AI for data analysis without being specific and careful with the prompts given. Users need to be mindful of the questions they ask and how they ask them to avoid generating inaccurate information.</p><p>To ensure the accuracy and reliability of the information provided by AI, it’s essential to review the output and, if necessary, refine the prompts to obtain the desired results. This can help prevent AI-generated misinformation and ensure that the data analysis remains useful and relevant for decision-making and problem-solving purposes.</p><h2 id=the-wrap-up>The Wrap-up</h2><p>This experiment demonstrates the potential of using AI, like ChatGPT, in extracting valuable customer insights from real-life interview data. By feeding raw data into the AI, businesses can quickly and effectively analyze customer preferences and motivations to create accurate personas. This approach can help businesses streamline their user-centered design efforts, tailor their products or services, and ultimately enhance customer satisfaction.</p><p>All the materials used in this experiment can be reviewed on <a href=https://github.com/drewtodd/chatgpt-personas>GitHub</a>.</p><div class=colophon><p>What are your thoughts? Join me in the conversation over on
-<a href=https://bsky.app/profile/drewtodd.bsky.social target=_blank rel="noopener noreferrer">Bluesky Social <i class="fa-brands fa-bluesky" aria-hidden=true></i></a>
-and <a href=https://www.linkedin.com/in/andrewtodd target=_blank rel="noopener noreferrer">LinkedIn <i class="fa-brands fa-linkedin" aria-hidden=true></i></a></p><p>Originally published April 25, 2023<br>File under:
-<a href=/tags/ux><i class="fa fa-hashtag" aria-hidden=true></i>ux</a>&nbsp;
-<a href=/tags/ai><i class="fa fa-hashtag" aria-hidden=true></i>ai</a>&nbsp;
-<a href=/tags/chatgpt><i class="fa fa-hashtag" aria-hidden=true></i>chatgpt</a>&nbsp;</p></div></article><div class=post-nav><div class=prev><h4>Previous Essay</h4><a href=http://drewux.com/posts/ux-ai-tools/ alt="UX and AI: Tools to Streamline Your UX Workflow" class=previous>UX and AI: Tools to Streamline Your UX Workflow</a></div><div class=next><h4>Next Essay</h4><a href=http://drewux.com/posts/top-5-ai-tools-ux-researchers-should-be-using-to-improve-their-work-and-efficiency/ alt="Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency" class=next>Five AI Tools UX Researchers Should Be Using to Improve Their Work and Efficiency</a></div></div></div><footer><div class=copyright><p>&copy; <a href="mailto: drew@drwtod.com">Andrew D. Todd</a>; all rights reserved. The opinions expressed herein do not necessarily represent those of my employer nor any organization with which I am affiliated.</p></div></footer><script>document.getElementById("navico").addEventListener("click",checkNav),window.addEventListener("keyup",function(e){e.keyCode==27&&closeNav()},!1);function checkNav(){document.body.classList.contains("navico-active")?closeNav():openNav()}function closeNav(){document.body.classList.remove("navico-active")}function openNav(){document.body.classList.add("navico-active")}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-88BK1NDLYZ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-4HHX2YT0YJ")</script></body></html></body></html>
+</code></pre><p>Note that there was no mention of rare stickers, events, or conventions in the interview text.</p>
+<p>This example demonstrates the potential pitfalls of using AI for data analysis without being specific and careful with the prompts given. Users need to be mindful of the questions they ask and how they ask them to avoid generating inaccurate information.</p>
+<p>To ensure the accuracy and reliability of the information provided by AI, it’s essential to review the output and, if necessary, refine the prompts to obtain the desired results. This can help prevent AI-generated misinformation and ensure that the data analysis remains useful and relevant for decision-making and problem-solving purposes.</p>
+<h2 id="the-wrap-up">The Wrap-up</h2>
+<p>This experiment demonstrates the potential of using AI, like ChatGPT, in extracting valuable customer insights from real-life interview data. By feeding raw data into the AI, businesses can quickly and effectively analyze customer preferences and motivations to create accurate personas. This approach can help businesses streamline their user-centered design efforts, tailor their products or services, and ultimately enhance customer satisfaction.</p>
+<p>All the materials used in this experiment can be reviewed on <a href="https://github.com/drewtodd/chatgpt-personas">GitHub</a>.</p>
+
+        <div class="colophon">
+    
+        <p>What are your thoughts? Join me in the conversation over on 
+             
+
+            
+            
+                
+            
+            
+            
+                
+            
+            
+            
+            
+
+            
+            
+                
+                    <a href="https://bsky.app/profile/drewtodd.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky Social <i class="fa-brands fa-bluesky" aria-hidden="true"></i></a> 
+                
+                    and <a href="https://www.linkedin.com/in/andrewtodd" target="_blank" rel="noopener noreferrer">LinkedIn <i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                
+            
+        </p>
+
+        <p>Originally published April 25, 2023<br />
+    
+
+    
+        File under: 
+            
+                <a href="/tags/ux"><i class="fa fa-hashtag" aria-hidden="true"></i>ux</a>&nbsp;
+            
+                <a href="/tags/ai"><i class="fa fa-hashtag" aria-hidden="true"></i>ai</a>&nbsp;
+            
+                <a href="/tags/chatgpt"><i class="fa fa-hashtag" aria-hidden="true"></i>chatgpt</a>&nbsp;
+            
+    
+
+    
+        </p>
+    
+</div>
+    
+    </article>
+    
+<div class="post-nav">
+
+    <div class="prev">
+        <h4>Previous Essay</h4>
+        <a href="http://drewux.com/posts/evolving-productivity-getting-things-done/" alt="Evolving Productivity: Getting Things Done" class="previous">
+           Evolving Productivity: Getting Things Done
+        </a>
+    </div>
+
+
+
+    <div class="next">
+        <h4>Next Essay</h4>
+        <a href="http://drewux.com/posts/can-chatgpt-optimize-your-websites-ux-lets-find-out/" alt="Can ChatGPT Optimize Your Website&#39;s UX? Let&#39;s Find Out" class="next">
+            Can ChatGPT Optimize Your Website&#39;s UX? Let&#39;s Find Out
+        </a>
+    </div>
+
+</div>
+
+
+
+    </div>
+    
+    <footer>
+        <div class="copyright">
+        <p>&copy; <a href="mailto: drew@drwtod.com">Andrew D. Todd</a>; all rights reserved. The opinions expressed herein do not necessarily represent those of my employer nor any organization with which I am affiliated.</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('navico').addEventListener('click', checkNav);
+        window.addEventListener("keyup", function(e) {
+        if (e.keyCode == 27) closeNav();
+        }, false);
+    
+        function checkNav() {
+        if (document.body.classList.contains('navico-active')) {
+            closeNav();
+        } else {
+            openNav();
+        }
+        }
+    
+        function closeNav() {
+        document.body.classList.remove('navico-active');
+        }
+    
+        function openNav() {
+        document.body.classList.add('navico-active');
+        }
+    </script>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4HHX2YT0YJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-4HHX2YT0YJ');
+</script>
+</body>
+</html>
+
+  </body>
+</html>

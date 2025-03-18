@@ -9,6 +9,7 @@ photoCredit: DeepMind
 photoTitle: A network of water droplets
 photoCreditUrl: https://unsplash.com/@deepmind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 tags: ["ux", "ai", "usability", "techniques"]
+draft: true
 ---
   
 # UX and AI

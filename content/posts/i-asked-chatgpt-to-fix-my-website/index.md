@@ -9,6 +9,7 @@ photoCredit: Midjourney
 photoTitle: "A robot examining a document. Maybe the CSS for my website?"
 photoCreditUrl: "https://midjourney.com/home"
 tags: ["ux","accessibility", "ai"]
+draft: true
 ---
 
 # I Asked ChatGPT to Fix My Website 

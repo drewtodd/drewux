@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chatgpt on drew:ux</title><link>http://drewux.com/tags/chatgpt/</link><description>Recent content in Chatgpt on drew:ux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/chatgpt/index.xml" rel="self" type="application/rss+xml"/><item><title>Can ChatGPT Optimize Your Website's UX? Let's Find Out</title><link>http://drewux.com/posts/can-chatgpt-optimize-your-websites-ux-lets-find-out/</link><pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/can-chatgpt-optimize-your-websites-ux-lets-find-out/</guid><description>&lt;h1 id="can-chatgpt-optimize-your-websites-ux-lets-find-out">Can ChatGPT Optimize Your Website&amp;rsquo;s UX? Let&amp;rsquo;s Find Out&lt;/h1>
-&lt;h2 id="using-ai-to-analyze-webpages-and-provide-ux-recommendations">Using AI to analyze webpages and provide UX recommendations&lt;/h2>
-&lt;h3 id="3-minute-read">3 minute read&lt;/h3>
-&lt;blockquote>
-&lt;p>TL;DR: Nope. Failure to launch. But other tools may provide better results.&lt;/p>
-&lt;/blockquote>
-&lt;p>Artificial intelligence (AI) is revolutionizing various industries, and the field of user experience (UX) is no exception. As AI-powered tools like &lt;a href="https://chat.openai.com/">ChatGPT&lt;/a> become more sophisticated, we can&amp;rsquo;t help but wonder if they can offer valuable insights to improve our webpages&amp;rsquo; UX, accessibility, and performance. So, we decided to put ChatGPT to the test and see if it can analyze a webpage&amp;rsquo;s HTML and CSS code and provide specific recommendations. Let&amp;rsquo;s dive into our experiment!&lt;/p></description></item><item><title>Leveraging AI to Extract Customer Personas from Real-Life Interviews</title><link>http://drewux.com/posts/leveraging-ai-to-extract-customer-personas-from-real-life-interviews/</link><pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/leveraging-ai-to-extract-customer-personas-from-real-life-interviews/</guid><description>&lt;h1 id="leveraging-ai-to-extract-customer-personas-from-real-life-interviews">Leveraging AI to Extract Customer Personas from Real-Life Interviews&lt;/h1>
-&lt;h2 id="an-experiment-with-chatgpt-4">An Experiment with ChatGPT-4&lt;/h2>
-&lt;h3 id="10-minute-read">10 minute read&lt;/h3>
-&lt;blockquote>
-&lt;p>Let&amp;rsquo;s explore the use of ChatGPT-4 to analyze and extract customer personas from real-life interview data. By using AI, researchers can save significant time by avoiding manual analysis of lengthy audio recordings. The quality is pretty good, but you need to pay attention to the overall accuracy of the output.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Discovering and understanding customer personas is a common activity for businesses to create user-centered strategies and cater to the needs of their audience. In this article, I’ll explore an innovative approach to extracting personas using &lt;a href="https://chat.openai.com">OpenAI’s ChatGPT&lt;/a>, based on real-life interview data. The experiment aimed to evaluate the effectiveness of feeding raw data directly into the AI and observing the quality and relevance of the generated personas.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chatgpt on drew:ux</title>
+    <link>http://drewux.com/tags/chatgpt/</link>
+    <description>Recent content in Chatgpt on drew:ux</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://drewux.com/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leveraging AI to Extract Customer Personas from Real-Life Interviews</title>
+      <link>http://drewux.com/posts/leveraging-ai-to-extract-customer-personas-from-real-life-interviews/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/posts/leveraging-ai-to-extract-customer-personas-from-real-life-interviews/</guid>
+      <description>&lt;h1 id=&#34;leveraging-ai-to-extract-customer-personas-from-real-life-interviews&#34;&gt;Leveraging AI to Extract Customer Personas from Real-Life Interviews&lt;/h1&gt;&#xA;&lt;h2 id=&#34;an-experiment-with-chatgpt-4&#34;&gt;An Experiment with ChatGPT-4&lt;/h2&gt;&#xA;&lt;h3 id=&#34;10-minute-read&#34;&gt;10 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s explore the use of ChatGPT-4 to analyze and extract customer personas from real-life interview data. By using AI, researchers can save significant time by avoiding manual analysis of lengthy audio recordings. The quality is pretty good, but you need to pay attention to the overall accuracy of the output.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Discovering and understanding customer personas is a common activity for businesses to create user-centered strategies and cater to the needs of their audience. In this article, I’ll explore an innovative approach to extracting personas using &lt;a href=&#34;https://chat.openai.com&#34;&gt;OpenAI’s ChatGPT&lt;/a&gt;, based on real-life interview data. The experiment aimed to evaluate the effectiveness of feeding raw data directly into the AI and observing the quality and relevance of the generated personas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

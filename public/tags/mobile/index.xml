@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mobile on drew:ux</title><link>http://drewux.com/tags/mobile/</link><description>Recent content in Mobile on drew:ux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>Measure Twice, Cut Once</title><link>http://drewux.com/posts/2016-06-19-mobile-layouts/</link><pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-06-19-mobile-layouts/</guid><description>&lt;h1 id="measure-twice-cut-once">Measure Twice, Cut Once&lt;/h1>
-&lt;h2 id="creating-a-reusable-layout-system-for-mobile">Creating a reusable layout system for mobile&lt;/h2>
-&lt;h3 id="4-frac12-minute-read">4 ½ minute read&lt;/h3>
-&lt;p>So, while slugging it out in the trenches this week, I sort of fell into an existential crisis with regards to the stuff I was putting on the screen for a mobile prototype. Panels, images, buttons, text fields&amp;hellip; the sizing and positioning of these things all suddenly seemed so arbitrary. How can you defend a design decision if you can&amp;rsquo;t explain why the thing on the screen looks like it does?&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on drew:ux</title>
+    <link>http://drewux.com/tags/mobile/</link>
+    <description>Recent content in Mobile on drew:ux</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://drewux.com/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Measure Twice, Cut Once</title>
+      <link>http://drewux.com/posts/2016-06-19-mobile-layouts/</link>
+      <pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/posts/2016-06-19-mobile-layouts/</guid>
+      <description>&lt;h1 id=&#34;measure-twice-cut-once&#34;&gt;Measure Twice, Cut Once&lt;/h1&gt;&#xA;&lt;h2 id=&#34;creating-a-reusable-layout-system-for-mobile&#34;&gt;Creating a reusable layout system for mobile&lt;/h2&gt;&#xA;&lt;h3 id=&#34;4-frac12-minute-read&#34;&gt;4 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;So, while slugging it out in the trenches this week, I sort of fell into an existential crisis with regards to the stuff I was putting on the screen for a mobile prototype. Panels, images, buttons, text fields&amp;hellip; the sizing and positioning of these things all suddenly seemed so arbitrary. How can you defend a design decision if you can&amp;rsquo;t explain why the thing on the screen looks like it does?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

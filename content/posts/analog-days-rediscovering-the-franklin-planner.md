@@ -1,4 +1,3 @@
-
 ---
 title: "Analog Days: Rediscovering the Franklin Planner"
 layout: single
@@ -8,7 +7,7 @@ photoUrl: /assets/img/straylight_Benjamin_Franklin_sitting_in_an_18th_century_li
 photoCredit: Midjourney
 photoTitle: "An illustration of Benjamin Franklin sitting in an 18th century library reading"
 photoCreditUrl: "https://www.midjourney.com/home"
-tags: ["productivity", "franklin"]
+tags: ["productivity"]
 ---
 
 # Analog Days: Rediscovering the Franklin Planner

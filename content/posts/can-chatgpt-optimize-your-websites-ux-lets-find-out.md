@@ -7,7 +7,7 @@ photoUrl: /assets/img/straylight_a_manga_robot_sitting_in_a_sandbox._dynamic_lig
 photoCredit: Midjourney
 photoTitle: An AI generated Manga robot sitting in a sandbox
 photoCreditUrl: https://midjourney.com/home
-tags: ["ux", "ai", "chatgpt"]
+tags: ["ux", "ai"]
 ---
 
 # Can ChatGPT Optimize Your Website's UX? Let's Find Out

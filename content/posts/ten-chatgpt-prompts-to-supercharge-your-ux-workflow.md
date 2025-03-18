@@ -7,7 +7,8 @@ photoUrl: /assets/img/straylight_an_empty_terminal_prompt._impressionistic_paint
 photoCredit: Midjourney
 photoTitle: An AI generated impressionistic computer terminal
 photoCreditUrl: "https://midjouney.com/home"
-tags: ["ux", "remote"]
+tags: ["ux", "remote", "ai"]
+draft: true
 ---
 
 # Harnessing the Power of ChatGPT to Supercharge Your UX Workflow

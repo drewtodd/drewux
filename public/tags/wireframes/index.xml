@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wireframes on drew:ux</title><link>http://drewux.com/tags/wireframes/</link><description>Recent content in Wireframes on drew:ux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/wireframes/index.xml" rel="self" type="application/rss+xml"/><item><title>Fidelity</title><link>http://drewux.com/posts/2016-05-29-fidelity/</link><pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/posts/2016-05-29-fidelity/</guid><description>&lt;h1 id="fidelity">Fidelity&lt;/h1>
-&lt;h2 id="when-making-wireframes-aim-somewhere-between-hi-fi-and-lo-fi">When making wireframes, aim somewhere between hi-fi and lo-fi&lt;/h2>
-&lt;h3 id="4-minute-read">4 minute read&lt;/h3>
-&lt;p>We spent a lot of time this week discussing fidelity as it pertains to UX deliverables: Wireframes in this case. The traditional wisdom has always been that wireframes are quick and dirty interface representations, &lt;a href="http://theuxreview.co.uk/wireframes-beginners-guide/">stripped of any visual design or branding elements&lt;/a>. Their purpose is to &lt;a href="https://medium.com/@danritz/wireframes-a-good-communication-tool-a-poor-design-tool-1bc64b033962#.xbomavigp">communicate the general layout and content of a page&lt;/a> without getting too deep into the visual design. The thinking goes, &amp;ldquo;Any UX schmoe can throw down a wireframe and leave the work of making it look nice to the &lt;em>real&lt;/em> designers.&amp;rdquo;&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wireframes on drew:ux</title>
+    <link>http://drewux.com/tags/wireframes/</link>
+    <description>Recent content in Wireframes on drew:ux</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://drewux.com/tags/wireframes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fidelity</title>
+      <link>http://drewux.com/posts/2016-05-29-fidelity/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/posts/2016-05-29-fidelity/</guid>
+      <description>&lt;h1 id=&#34;fidelity&#34;&gt;Fidelity&lt;/h1&gt;&#xA;&lt;h2 id=&#34;when-making-wireframes-aim-somewhere-between-hi-fi-and-lo-fi&#34;&gt;When making wireframes, aim somewhere between hi-fi and lo-fi&lt;/h2&gt;&#xA;&lt;h3 id=&#34;4-minute-read&#34;&gt;4 minute read&lt;/h3&gt;&#xA;&lt;p&gt;We spent a lot of time this week discussing fidelity as it pertains to UX deliverables: Wireframes in this case. The traditional wisdom has always been that wireframes are quick and dirty interface representations, &lt;a href=&#34;http://theuxreview.co.uk/wireframes-beginners-guide/&#34;&gt;stripped of any visual design or branding elements&lt;/a&gt;. Their purpose is to &lt;a href=&#34;https://medium.com/@danritz/wireframes-a-good-communication-tool-a-poor-design-tool-1bc64b033962#.xbomavigp&#34;&gt;communicate the general layout and content of a page&lt;/a&gt; without getting too deep into the visual design. The thinking goes, &amp;ldquo;Any UX schmoe can throw down a wireframe and leave the work of making it look nice to the &lt;em&gt;real&lt;/em&gt; designers.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

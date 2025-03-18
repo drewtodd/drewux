@@ -1,1 +1,166 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on drew:ux</title><link>http://drewux.com/tags/</link><description>Recent content in Tags on drew:ux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://drewux.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Accessibility</title><link>http://drewux.com/tags/accessibility/</link><pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/accessibility/</guid><description/></item><item><title>Ux</title><link>http://drewux.com/tags/ux/</link><pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/ux/</guid><description/></item><item><title>Ai</title><link>http://drewux.com/tags/ai/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/ai/</guid><description/></item><item><title>Design</title><link>http://drewux.com/tags/design/</link><pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/design/</guid><description/></item><item><title>Remote</title><link>http://drewux.com/tags/remote/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/remote/</guid><description/></item><item><title>Chatgpt</title><link>http://drewux.com/tags/chatgpt/</link><pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/chatgpt/</guid><description/></item><item><title>Research</title><link>http://drewux.com/tags/research/</link><pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/research/</guid><description/></item><item><title>Tools</title><link>http://drewux.com/tags/tools/</link><pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/tools/</guid><description/></item><item><title>Techniques</title><link>http://drewux.com/tags/techniques/</link><pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/techniques/</guid><description/></item><item><title>Usability</title><link>http://drewux.com/tags/usability/</link><pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/usability/</guid><description/></item><item><title>Gtd</title><link>http://drewux.com/tags/gtd/</link><pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/gtd/</guid><description/></item><item><title>Productivity</title><link>http://drewux.com/tags/productivity/</link><pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/productivity/</guid><description/></item><item><title>Franklin</title><link>http://drewux.com/tags/franklin/</link><pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/franklin/</guid><description/></item><item><title>Agile</title><link>http://drewux.com/tags/agile/</link><pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/agile/</guid><description/></item><item><title>Leanux</title><link>http://drewux.com/tags/leanux/</link><pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/leanux/</guid><description/></item><item><title>Mobile</title><link>http://drewux.com/tags/mobile/</link><pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/mobile/</guid><description/></item><item><title>Invision</title><link>http://drewux.com/tags/invision/</link><pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/invision/</guid><description/></item><item><title>Wireframes</title><link>http://drewux.com/tags/wireframes/</link><pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/wireframes/</guid><description/></item><item><title>Quotable</title><link>http://drewux.com/tags/quotable/</link><pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/quotable/</guid><description/></item><item><title>Cms</title><link>http://drewux.com/tags/cms/</link><pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/cms/</guid><description/></item><item><title>Content-Strategy</title><link>http://drewux.com/tags/content-strategy/</link><pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/content-strategy/</guid><description/></item><item><title>Google</title><link>http://drewux.com/tags/google/</link><pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/google/</guid><description/></item><item><title>Search</title><link>http://drewux.com/tags/search/</link><pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate><guid>http://drewux.com/tags/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on drew:ux</title>
+    <link>http://drewux.com/tags/</link>
+    <description>Recent content in Tags on drew:ux</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://drewux.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessibility</title>
+      <link>http://drewux.com/tags/accessibility/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ux</title>
+      <link>http://drewux.com/tags/ux/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/ux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://drewux.com/tags/design/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>http://drewux.com/tags/ai/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chatgpt</title>
+      <link>http://drewux.com/tags/chatgpt/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gtd</title>
+      <link>http://drewux.com/tags/gtd/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/gtd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://drewux.com/tags/productivity/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agile</title>
+      <link>http://drewux.com/tags/agile/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/agile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leanux</title>
+      <link>http://drewux.com/tags/leanux/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/leanux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Techniques</title>
+      <link>http://drewux.com/tags/techniques/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/techniques/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remote</title>
+      <link>http://drewux.com/tags/remote/</link>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/remote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://drewux.com/tags/tools/</link>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usability</title>
+      <link>http://drewux.com/tags/usability/</link>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/usability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://drewux.com/tags/research/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>http://drewux.com/tags/mobile/</link>
+      <pubDate>Sun, 19 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/mobile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Invision</title>
+      <link>http://drewux.com/tags/invision/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/invision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireframes</title>
+      <link>http://drewux.com/tags/wireframes/</link>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/wireframes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotable</title>
+      <link>http://drewux.com/tags/quotable/</link>
+      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/quotable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cms</title>
+      <link>http://drewux.com/tags/cms/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/cms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content-Strategy</title>
+      <link>http://drewux.com/tags/content-strategy/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/content-strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>http://drewux.com/tags/google/</link>
+      <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://drewux.com/tags/search/</link>
+      <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://drewux.com/tags/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
