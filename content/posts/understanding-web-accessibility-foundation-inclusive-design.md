@@ -48,4 +48,4 @@ As a web designer or developer, you play a pivotal role in shaping the digital l
 
 In the following articles, we'll dive deeper into each WCAG principle, offering practical advice and tips on implementing these guidelines in your web projects. From color contrast to keyboard navigation and beyond, we'll cover everything you need to know to start your journey in accessible design.
 
-Accessibility is not just a checkbox; it's an ongoing commitment to inclusive design. Stay tuned as we embark on this enlightening journey to make the web a place for everyone.
+Accessibility is not just a checkbox; it's an ongoing commitment to inclusive design. Stay tuned as we continue to examine ways to make the web a place for everyone.

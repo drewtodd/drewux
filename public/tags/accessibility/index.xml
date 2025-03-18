@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accessibility on drew:ux</title>
-    <link>http://drewux.com/tags/accessibility/</link>
+    <link>http://localhost:1313/tags/accessibility/</link>
     <description>Recent content in Accessibility on drew:ux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://drewux.com/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Navigating Accessibility: Mastering Keyboard-Friendly Design</title>
-      <link>http://drewux.com/posts/navigating-accessibility/</link>
+      <link>http://localhost:1313/posts/navigating-accessibility/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/navigating-accessibility/</guid>
+      <guid>http://localhost:1313/posts/navigating-accessibility/</guid>
       <description>&lt;h1 id=&#34;navigating-accessibility&#34;&gt;Navigating Accessibility&lt;/h1&gt;&#xA;&lt;h2 id=&#34;mastering-keyboard-friendly-design&#34;&gt;Mastering Keyboard-Friendly Design&lt;/h2&gt;&#xA;&lt;h3 id=&#34;8-minute-read&#34;&gt;8 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Keyboard navigation is essential for many users, including those with motor disabilities, temporary injuries, or a preference for keyboard use. It involves more than tabbing through links; it&amp;rsquo;s about ensuring all interactive elements are accessible without a mouse.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Welcome back to our deep dive into web accessibility. After exploring color and contrast, we now focus on a vital yet often overlooked aspect: keyboard navigation. While primarily aimed at users with motor disabilities; it&amp;rsquo;s for anyone who relies on a keyboard to navigate the web. This could include people with temporary disabilities (being forced, for instance, to use their non-dominant hand due to an injury), or a power-user who prefers to do as much navigating via the keyboard as possible.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Color and Contrast: Crafting Visually Accessible Websites</title>
-      <link>http://drewux.com/posts/color-and-contrast/</link>
+      <link>http://localhost:1313/posts/color-and-contrast/</link>
       <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/color-and-contrast/</guid>
-      <description>&lt;h1 id=&#34;color-and-contrast&#34;&gt;Color and Contrast&lt;/h1&gt;&#xA;&lt;h2 id=&#34;crafting-visually-accessible-websites&#34;&gt;Crafting Visually Accessible Websites&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3-minute-read&#34;&gt;3 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Color and contrast are powerful tools in conveying meaning, function, and emotion on websites and applications. However, it&amp;rsquo;s crucial to recognize that these elements are perceived differently by individuals, impacting their experience with them.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Welcome back to our series on &lt;a href=&#34;http://drewux.com/tags/accessibility/&#34;&gt;designing accessible websites&lt;/a&gt;. Having laid the groundwork on &lt;a href=&#34;http://drewux.com/posts/starting-with-accessibility-in-mind/&#34;&gt;accessibility basics and team roles&lt;/a&gt;, let&amp;rsquo;s turn our attention to a crucial, yet often overlooked, aspect of accessible design — color and contrast.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/color-and-contrast/</guid>
+      <description>&lt;h1 id=&#34;color-and-contrast&#34;&gt;Color and Contrast&lt;/h1&gt;&#xA;&lt;h2 id=&#34;crafting-visually-accessible-websites&#34;&gt;Crafting Visually Accessible Websites&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3-minute-read&#34;&gt;3 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Color and contrast are powerful tools in conveying meaning, function, and emotion on websites and applications. However, it&amp;rsquo;s crucial to recognize that these elements are perceived differently by individuals, impacting their experience with them.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Welcome back to our series on &lt;a href=&#34;http://localhost:1313/tags/accessibility/&#34;&gt;designing accessible websites&lt;/a&gt;. Having laid the groundwork on &lt;a href=&#34;http://localhost:1313/posts/starting-with-accessibility-in-mind/&#34;&gt;accessibility basics and team roles&lt;/a&gt;, let&amp;rsquo;s turn our attention to a crucial, yet often overlooked, aspect of accessible design — color and contrast.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Starting with Accessibility in Mind: Building Inclusive Web Experiences</title>
-      <link>http://drewux.com/posts/starting-with-accessibility-in-mind/</link>
+      <link>http://localhost:1313/posts/starting-with-accessibility-in-mind/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/starting-with-accessibility-in-mind/</guid>
-      <description>&lt;h1 id=&#34;starting-with-accessibility-in-mind&#34;&gt;Starting with Accessibility in Mind&lt;/h1&gt;&#xA;&lt;h2 id=&#34;building-inclusive-web-experiences&#34;&gt;Building Inclusive Web Experiences&lt;/h2&gt;&#xA;&lt;h3 id=&#34;5-minute-read&#34;&gt;5 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This is the second in a series of articles looking into the requirements, tools, and techniques surrounding &lt;a href=&#34;http://drewux.com/tags/accessibility&#34;&gt;accessible web design&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In the journey of creating accessible web design, it&amp;rsquo;s crucial to start with a foundation that prioritizes accessibility from the outset. This second article in our series dives into how you can embed an accessibility-first mindset in your web projects from the beginning.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/starting-with-accessibility-in-mind/</guid>
+      <description>&lt;h1 id=&#34;starting-with-accessibility-in-mind&#34;&gt;Starting with Accessibility in Mind&lt;/h1&gt;&#xA;&lt;h2 id=&#34;building-inclusive-web-experiences&#34;&gt;Building Inclusive Web Experiences&lt;/h2&gt;&#xA;&lt;h3 id=&#34;5-minute-read&#34;&gt;5 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This is the second in a series of articles looking into the requirements, tools, and techniques surrounding &lt;a href=&#34;http://localhost:1313/tags/accessibility&#34;&gt;accessible web design&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In the journey of creating accessible web design, it&amp;rsquo;s crucial to start with a foundation that prioritizes accessibility from the outset. This second article in our series dives into how you can embed an accessibility-first mindset in your web projects from the beginning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding Web Accessibility: A Foundation for Inclusive Design</title>
-      <link>http://drewux.com/posts/understanding-web-accessibility-foundation-inclusive-design/</link>
+      <link>http://localhost:1313/posts/understanding-web-accessibility-foundation-inclusive-design/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/understanding-web-accessibility-foundation-inclusive-design/</guid>
+      <guid>http://localhost:1313/posts/understanding-web-accessibility-foundation-inclusive-design/</guid>
       <description>&lt;h1 id=&#34;understanding-web-accessibility&#34;&gt;Understanding Web Accessibility&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-foundation-for-inclusive-design&#34;&gt;A Foundation for Inclusive Design&lt;/h2&gt;&#xA;&lt;h3 id=&#34;25-minute-read&#34;&gt;2.5 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This is the first in a series of articles looking into the requirements, tools, and techniques surrounding accessible web design&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In the digital world, there&amp;rsquo;s a crucial aspect of website design that often flies under the radar, especially for those new to the concept: accessibility. It&amp;rsquo;s about ensuring your website is usable by everyone, which includes people with disabilities. But accessibility isn&amp;rsquo;t just for a select few; it&amp;rsquo;s a practice that benefits all users, in all kinds of situations.&lt;/p&gt;</description>
     </item>
   </channel>

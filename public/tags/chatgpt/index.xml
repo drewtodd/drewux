@@ -2,18 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chatgpt on drew:ux</title>
-    <link>http://drewux.com/tags/chatgpt/</link>
+    <link>http://localhost:1313/tags/chatgpt/</link>
     <description>Recent content in Chatgpt on drew:ux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://drewux.com/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Leveraging AI to Extract Customer Personas from Real-Life Interviews</title>
-      <link>http://drewux.com/posts/leveraging-ai-to-extract-customer-personas-from-real-life-interviews/</link>
-      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/leveraging-ai-to-extract-customer-personas-from-real-life-interviews/</guid>
-      <description>&lt;h1 id=&#34;leveraging-ai-to-extract-customer-personas-from-real-life-interviews&#34;&gt;Leveraging AI to Extract Customer Personas from Real-Life Interviews&lt;/h1&gt;&#xA;&lt;h2 id=&#34;an-experiment-with-chatgpt-4&#34;&gt;An Experiment with ChatGPT-4&lt;/h2&gt;&#xA;&lt;h3 id=&#34;10-minute-read&#34;&gt;10 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s explore the use of ChatGPT-4 to analyze and extract customer personas from real-life interview data. By using AI, researchers can save significant time by avoiding manual analysis of lengthy audio recordings. The quality is pretty good, but you need to pay attention to the overall accuracy of the output.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Discovering and understanding customer personas is a common activity for businesses to create user-centered strategies and cater to the needs of their audience. In this article, I’ll explore an innovative approach to extracting personas using &lt;a href=&#34;https://chat.openai.com&#34;&gt;OpenAI’s ChatGPT&lt;/a&gt;, based on real-life interview data. The experiment aimed to evaluate the effectiveness of feeding raw data directly into the AI and observing the quality and relevance of the generated personas.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

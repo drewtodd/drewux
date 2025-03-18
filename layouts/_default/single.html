@@ -7,6 +7,9 @@
         </figure>
 {{ end }}
         {{ .Content }}
+{{ if eq (getenv "HUGO_ENV") "development" }}
+        <a href="vscode://file/{{ .File.Path }}" class="edit-button">Edit in VS Code</a>
+{{ end }}
         {{ partial "colophon" . }}    
     </article>
     {{ partial "previous-next.html" . }}

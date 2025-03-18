@@ -9,7 +9,7 @@ photoTitle: "Rolling pin"
 photoCredit: Alena Kaziouskaya
 photoCreditUrl: "http://www.shutterstock.com/gallery-227131p1.html"
 photoCreditAlt: "Alena Kazlouskaya's Porfolio - Shutterstock"
-tags: ["search", "google"]
+tags: ["search"]
 ---
 
 # Site Search: Using Google vs. Rolling-Your-Own
@@ -21,7 +21,7 @@ So. You’ve built a Web site and need local search capabilities. Is it even wor
 ## Restricted or Premium Content
 In cases where content is available behind a login of some kind, or is otherwise not accessible to Google’s crawlers, a proprietary search is appropriate.
 
-As an example, where I work, we offer an extensive B2B portal that contains content only accessible to users who are logged in. White papers, videos, and pricing worksheets are offered for our customers and are not available to the general public. Furthermore, there are restrictions in some cases where certain user classes have access to certain types of content, while others may not — Programmers have access to SDKs, UI templates, and the like, for instance. Our users expect these items to appear in search results when they are logged in and, in these cases, a local, propriety search makes sense over reliance on Google.
+As an example, where I work, we offer an extensive B2B portal that contains content only accessible to users who are logged in. White papers, videos, and pricing worksheets are offered for our customers and are not available to the general public. Furthermore, there are restrictions in some cases where certain user classes have access to certain types of content, while others may not  —  Programmers have access to SDKs, UI templates, and the like, for instance; Installers have access to firmware and drivers. Our users expect these items to appear in search results when they are logged in and, in these cases, a local, propriety search makes sense over reliance on Google.
 
 ## Proprietary or Specialized Search Content
 If all of your content is available to Google’s crawlers, and all you want to search are the contents of the page, then a Google solution is fine. If, however, your search needs to take into account more than just the page content — and you need control of this criteria — then a custom solution is probably better.

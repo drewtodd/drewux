@@ -16,7 +16,7 @@ tags: ["ux", "design"]
 
 > It is a challenge all designers have faced at one time or another: Convincing a stakeholder or product owner that white space is not wasted space.
 
-It’s a situation familiar to many designers: you’ve crafted a sleek, functional user interface only to have stakeholders ask you to add more — more options, more content, more graphics. Sound familiar? For UX designers, it's a common challenge to demonstrate that white space is not wasted space, but rather a critical element for creating an efficient, user-friendly experience.
+It’s a situation familiar to many designers: you’ve crafted a sleek, functional user interface only to have stakeholders ask you to add *more* — more options, more content, more graphics. Sound familiar? For UX designers, it's a common challenge to demonstrate that white space is not wasted space, but rather a critical element for creating an efficient, user-friendly experience.
 
 ## The Struggle Is Real
 To some stakeholders, white space is seen as unused real estate that should be filled with more features or content. This belief can lead to cluttered interfaces that negatively impact usability and user satisfaction. As UX professionals, our job is to overcome this resistance by showing the tangible benefits of white space through real-world examples and empirical evidence.

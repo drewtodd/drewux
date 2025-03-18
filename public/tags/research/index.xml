@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on drew:ux</title>
-    <link>http://drewux.com/tags/research/</link>
+    <link>http://localhost:1313/tags/research/</link>
     <description>Recent content in Research on drew:ux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Oct 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://drewux.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This Business with Unicorns</title>
-      <link>http://drewux.com/posts/2016-10-29-unicorns/</link>
+      <link>http://localhost:1313/posts/2016-10-29-unicorns/</link>
       <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/2016-10-29-unicorns/</guid>
+      <guid>http://localhost:1313/posts/2016-10-29-unicorns/</guid>
       <description>&lt;h1 id=&#34;this-business-with-unicorns&#34;&gt;This Business with Unicorns&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-raccoon-a-panda-and-a-unicorn-walk-into-a-bar&#34;&gt;A Raccoon, a Panda, and a Unicorn walk into a bar&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3-frac12--minute-read&#34;&gt;3 ½  minute read&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.paulolyslager.com/ux-full-stack-unicorn-and-how-it-was-born/&#34;&gt;Unicorns&lt;/a&gt;&lt;/strong&gt;: Mythical creatures that are spoken of, but never seen. In the UX world, the term is used to describe that rare person who can do it all — design, research, write, and code — and do it at a very high level. It&amp;rsquo;s become so common that companies looking for talent are &lt;a href=&#34;https://www.linkedin.com/jobs/view/227764042?trkInfo=searchKeywordString%3ADesign%2BUnicorn%2CsearchLocationString%3A%252C%2B%2Cvertical%3Ajobs%2CpageNum%3A1%2Cposition%3A6%2CMSRPsearchId%3A36420659_1477773649263&amp;amp;refId=36420659_1477773649263&amp;amp;recommendedFlavor=SCHOOL_RECRUIT&amp;amp;trk=jobs_jserp_job_listing_text&#34;&gt;putting&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/jobs/view/202562884?trkInfo=searchKeywordString%3ADesign%2BUnicorn%2CsearchLocationString%3A%252C%2B%2Cvertical%3Ajobs%2CpageNum%3A1%2Cposition%3A7%2CMSRPsearchId%3A36420659_1477773649263&amp;amp;refId=36420659_1477773649263&amp;amp;trk=jobs_jserp_job_listing_text&#34;&gt;out&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/jobs/view/217005561?trkInfo=searchKeywordString%3ADesign%2BUnicorn%2CsearchLocationString%3A%252C%2B%2Cvertical%3Ajobs%2CpageNum%3A1%2Cposition%3A10%2CMSRPsearchId%3A36420659_1477773649263&amp;amp;refId=36420659_1477773649263&amp;amp;recommendedFlavor=COMPANY_RECRUIT&amp;amp;trk=jobs_jserp_job_listing_text&#34;&gt;job&lt;/a&gt; &lt;a href=&#34;https://www.linkedin.com/jobs/view/208168879?trkInfo=searchKeywordString%3ADesign%2BUnicorn%2CsearchLocationString%3A%252C%2B%2Cvertical%3Ajobs%2CpageNum%3A1%2Cposition%3A13%2CMSRPsearchId%3A36420659_1477773649263&amp;amp;refId=36420659_1477773649263&amp;amp;trk=jobs_jserp_job_listing_text&#34;&gt;ads&lt;/a&gt; for so-called &amp;ldquo;unicorns.&amp;rdquo; And well-known industry gurus are promising to show the path to single-hornedness &lt;a href=&#34;http://www.uie.com/articles/becoming_a_unicorn/&#34;&gt;in five easy steps&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Magnitude</title>
-      <link>http://drewux.com/posts/2016-10-16-magnitude/</link>
+      <link>http://localhost:1313/posts/2016-10-16-magnitude/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/2016-10-16-magnitude/</guid>
+      <guid>http://localhost:1313/posts/2016-10-16-magnitude/</guid>
       <description>&lt;h1 id=&#34;magnitude&#34;&gt;Magnitude&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-simple-tool-to-help-prioritize-usability-issues&#34;&gt;A Simple Tool to Help Prioritize Usability Issues&lt;/h2&gt;&#xA;&lt;h3 id=&#34;6-minute-read&#34;&gt;6 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When prioritizing usability problems, use a &lt;strong&gt;Magnitude Matrix&lt;/strong&gt; to figure out the most important issues to address. Magnitude combines the frequency that an issue was observed with the relative impact that it had on the participant&amp;rsquo;s task completion.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;After spending some time revisiting best practices in the realm of usability testing and reviewing the advice of some its more esteemed practitioners, I realized that there is a lot of talk about how to go about setting up such a test, and finding usability problems. But there isn&amp;rsquo;t a whole lot said about what you do with them once you find them.&lt;a href=&#34;#caveat&#34; title=&#34;Actually, there is.&#34;&gt;*&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Playback</title>
-      <link>http://drewux.com/posts/2016-10-2-playback/</link>
+      <link>http://localhost:1313/posts/2016-10-2-playback/</link>
       <pubDate>Sun, 02 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/2016-10-2-playback/</guid>
+      <guid>http://localhost:1313/posts/2016-10-2-playback/</guid>
       <description>&lt;h1 id=&#34;playback&#34;&gt;Playback&lt;/h1&gt;&#xA;&lt;h2 id=&#34;often-the-best-way-to-fix-your-faults-is-to-look-directly-at-them&#34;&gt;Often the best way to fix your faults is to look directly at them&lt;/h2&gt;&#xA;&lt;h3 id=&#34;4-minute-read&#34;&gt;4 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Regularly reviewing your performance and providing self-critique can help you improve your skills as a usability test moderator.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The camera and microphone are powerful implements in a usability tester&amp;rsquo;s toolkit. With them, you can capture the user&amp;rsquo;s actions and facial expressions and gain all kinds of insight into their behaviors, thoughts and expectations when using a product. But these tools can be equally useful in monitoring your own performance as a test moderator.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Eye-Tracking on the Cheap</title>
-      <link>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</link>
+      <link>http://localhost:1313/posts/2016-09-17-eye-tracking-on-the-cheap/</link>
       <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/2016-09-17-eye-tracking-on-the-cheap/</guid>
+      <guid>http://localhost:1313/posts/2016-09-17-eye-tracking-on-the-cheap/</guid>
       <description>&lt;h1 id=&#34;eye-tracking-on-the-cheap&#34;&gt;Eye-Tracking on the Cheap&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-dead-simple-way-to-follow-your-test-participants&#34;&gt;A Dead-Simple Way to Follow Your Test Participants&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2-minute-read&#34;&gt;2 minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the absence of eye-tracking equipment, ask test participants to use their mouse cursor to indicate where they’re looking on the screen.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;One of the hallmarks of usability testing protocols is [the “Think Aloud” method][1]: Asking participants to verbalize their thoughts as they work through the tasks and activities of the test. This method allows the test team to get inside the head of the participant a bit and often illuminates behaviors or attitudes that wouldn’t be apparent by observation alone. It’s a great tool that we employ in &lt;em&gt;all&lt;/em&gt; of our testing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Formative vs. Summative Usability Studies</title>
-      <link>http://drewux.com/posts/2016-09-10-formative-summative-usability/</link>
+      <link>http://localhost:1313/posts/2016-09-10-formative-summative-usability/</link>
       <pubDate>Sat, 10 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/2016-09-10-formative-summative-usability/</guid>
+      <guid>http://localhost:1313/posts/2016-09-10-formative-summative-usability/</guid>
       <description>&lt;h1 id=&#34;staying-ahead-of-the-wave&#34;&gt;Staying Ahead of the Wave&lt;/h1&gt;&#xA;&lt;h2 id=&#34;formative-vs-summative-usability-studies&#34;&gt;Formative vs. Summative Usability Studies&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2-frac12-minute-read&#34;&gt;2 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;When looking at usability studies, you can generally lump them into two groups: &lt;a href=&#34;http://www.usabilitybok.org/formative-evaluation&#34;&gt;Formative studies&lt;/a&gt; and &lt;a href=&#34;http://www.usabilitybok.org/summative-evaluation&#34;&gt;summative studies&lt;/a&gt;. We&amp;rsquo;ve been talking about them this week and I thought I&amp;rsquo;d share a little bit about our approach.&lt;/p&gt;&#xA;&lt;h2 id=&#34;formative-studies&#34;&gt;Formative Studies&lt;/h2&gt;&#xA;&lt;p&gt;Formative studies, as the name implies, tend to happen at the beginning of the design process and are used to help guide the product in the right direction. They are a key part of the iterative design process, where you&amp;rsquo;re generating design ideas, testing them, and adjusting the design on the fly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Remote UX Observation</title>
-      <link>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</link>
+      <link>http://localhost:1313/posts/2016-09-01-getting-out-of-the-room/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/2016-09-01-getting-out-of-the-room/</guid>
+      <guid>http://localhost:1313/posts/2016-09-01-getting-out-of-the-room/</guid>
       <description>&lt;h1 id=&#34;remote-ux-observation&#34;&gt;Remote UX Observation&lt;/h1&gt;&#xA;&lt;h2 id=&#34;getting-out-of-the-room-to-enhance-team-participation-in-ux&#34;&gt;Getting Out of the Room to Enhance Team Participation In UX&lt;/h2&gt;&#xA;&lt;h3 id=&#34;4-frac12-minute-read&#34;&gt;4 ½ minute read&lt;/h3&gt;&#xA;&lt;p&gt;One of the major tenets we adhere to as a team is &lt;strong&gt;transparency&lt;/strong&gt;: All members of the team should have access to information about the project we’re working on. Designers, Developers, QA Analysts, Stakeholders: They all should have a complete picture of what’s going on and access to any details of the project that might help them gain product perspective and user insights.&lt;/p&gt;</description>
     </item>
     <item>
       <title>UX Yin and Yang: Balancing Organizational Goals and the Needs of Your Users</title>
-      <link>http://drewux.com/posts/2015-12-08-ux-yin-yang/</link>
+      <link>http://localhost:1313/posts/2015-12-08-ux-yin-yang/</link>
       <pubDate>Tue, 08 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>http://drewux.com/posts/2015-12-08-ux-yin-yang/</guid>
+      <guid>http://localhost:1313/posts/2015-12-08-ux-yin-yang/</guid>
       <description>&lt;h1 id=&#34;ux-yin-and-yang&#34;&gt;UX Yin and Yang&lt;/h1&gt;&#xA;&lt;h2 id=&#34;balancing-organizational-goals-and-the-needs-of-your-users&#34;&gt;Balancing Organizational Goals and the Needs of Your Users&lt;/h2&gt;&#xA;&lt;h3 id=&#34;4frac12-minute-read&#34;&gt;4½ minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The disciplines of user-centered design have taught us to go to great lengths to ensure that we meet the needs of users when it comes to our products, but we shouldn’t be doing so at the expense of the organization’s goals.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Call it a lesson learned. Awhile back my buddy (whom I&amp;rsquo;ll call &amp;ldquo;Ted,&amp;rdquo; in an attempt to spare his identity) completed a project that he’d spent significant time designing and building. His team had gone to great lengths to make this Web-based application a user-centered winner: They’d researched, created detailed user personas, interviewed and observed real users in their native environments, prototyped their brains out, iterated. They had it all figured out.&lt;/p&gt;</description>
     </item>
   </channel>
