@@ -14,7 +14,7 @@ photoCreditUrl: "https://unsplash.com/@jakehills?utm_content=creditCopyText&utm_
 ## Crafting Inclusivity in Digital Communication
 ### 7 minute read
 
-Welcome back to our continuing series on web accessibility. Today, we turn our lens to a crucial aspect that often shapes the first impression of any digital platform: Content and Media. Accessibility in this realm isn't just a compliance checkbox; it's a commitment to inclusivity that opens doors for all users, regardless of their abilities.
+Welcome back to my continuing series on web accessibility. Today, let's talk about a crucial aspect that often shapes the first impression of any digital platform: Content and Media. Accessibility in this realm isn't just a compliance checkbox; it's a commitment to inclusivity that opens doors for all users, regardless of their abilities.
 
 ## Writing Accessible Web Content
 

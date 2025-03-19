@@ -7,7 +7,7 @@ photoUrl: /assets/img/straylight_a_rectangular_wire_in-basket_stacked_with_busin
 photoCredit: Midjourney
 photoTitle: A rectangular wire in-basket filled with business papers
 photoCreditUrl: "https://midjourney.com/home"
-tags: ["productivity", "gtd"]
+tags: ["productivity"]
 ---
 
 # Evolving Productivity: Getting Things Done
