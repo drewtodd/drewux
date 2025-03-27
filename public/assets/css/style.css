@@ -623,6 +623,41 @@ td {
     padding: .5em;
 }
 
+/* ***************** */
+/* TABLE OF CONTENTS */
+/* ***************** */
+
+/* .table-of-contents {
+    position: relative;
+    float: right;
+    margin: 2rem -4rem 2rem 2rem;
+    max-width: 280px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: .25rem 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .table-of-contents ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  /* .table-of-contents li {
+    margin-bottom: 0.5em;
+  } */
+  
+  /* .table-of-contents a {
+    text-decoration: none;
+    color: #155263;
+  } */
+
+  /* .table-of-contents a:hover {
+    text-decoration: underline;
+  } */
+
 /***************/
 /* MEDIA QUERY */
 /***************/

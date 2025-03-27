@@ -2,12 +2,13 @@
 title: "WCAG 2.2: What Designers and Website Owners Need to Know"
 layout: single
 type: post
-date: 2024-03-25
+date: 2025-03-28
 photoUrl: "img/pexels-rocketmann-prod-9486683.jpg"
 photoTitle: "Person's hand raised against a neutral background, making a peace sign with two fingers extended"
 photoCredit: "ROCKETMANN TEAM"
 photoCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-hand-9486683/"
 photoCreditAlt: "Photo by: ROCKETMANN TEAM on Pexels.com"
+ogImage: "img/pexels-rocketmann-prod-9486683.jpg"
 tags: ["accessibility"]
 ---
 
@@ -104,3 +105,8 @@ Login processes must include alternatives to memory-based tasks (like passwords)
 
 #### 3.3.9 Accessible Authentication (No Exception) (AAA)  
 Tightens the rule above—*all* users must be able to authenticate without needing to remember or transcribe anything, no exceptions.
+
+## Deep Dive
+In the coming weeks we'll look at each of these criteria and examine what they mean, why they've been implemented, and how to apply them in your work with visual and code examples.
+
+Until next time...

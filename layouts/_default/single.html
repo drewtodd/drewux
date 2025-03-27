@@ -6,6 +6,7 @@
             <figcaption class="feature-caption">Image credit: <a href="{{ .Params.photoCreditUrl }}" alt="{{ .Params.photoCreditAlt }}">{{ .Params.photoCredit }}</a></figcaption>
         </figure>
 {{ end }}
+        {{/*  {{ partial "toc.html" . }}  */}}
         {{ .Content }}
 {{ if eq (getenv "HUGO_ENV") "development" }}
         <a href="vscode://file/{{ .File.Path }}" class="edit-button">Edit in VS Code</a>

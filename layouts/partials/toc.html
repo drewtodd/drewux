@@ -1,0 +1,26 @@
+{{- define "renderTocItems" -}}
+  <ul>
+    {{- range . -}}
+      {{- $target := .target }}
+      {{- $href := (cond (hasPrefix $target "http") $target (print "#" $target)) }}
+      <li>
+        <a href="{{ $href }}" title="{{ .title }}">
+          {{ if hasPrefix $target "http" }}target="_blank" rel="noopener"{{ end }}>
+          {{ .title }}
+        </a>
+        {{- with .children }}
+          {{- template "renderTocItems" . }}
+        {{- end }}
+      </li>
+    {{- end -}}
+  </ul>
+{{- end -}}
+
+{{- with .Params.toc }}
+  {{- if and .items (gt (len .items) 0) }}
+    <nav class="table-of-contents">
+      {{- if .title }}<h2>{{ .title }}</h2>{{ end }}
+      {{ template "renderTocItems" .items }}
+    </nav>
+  {{- end }}
+{{- end }}
