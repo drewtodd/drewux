@@ -2,7 +2,7 @@
 title: "WCAG 2.2: What Designers and Website Owners Need to Know"
 layout: single
 type: post
-date: 2025-03-28
+date: 2025-03-27
 photoUrl: "img/pexels-rocketmann-prod-9486683.jpg"
 photoTitle: "Person's hand raised against a neutral background, making a peace sign with two fingers extended"
 photoCredit: "ROCKETMANN TEAM"
