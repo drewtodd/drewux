@@ -114,7 +114,7 @@ figure.feature-image figcaption {
     font-size: 0.85em;
     font-family: "Oswald", Helvetica, sans-serif;
     /* font-style: italic; */
-    background: rgba(0, 0, 0, 1); /* Semi-transparent background for readability */
+    background: rgba(0, 0, 0, .33); /* Semi-transparent background for readability */
     color: white;
     padding: 5px 10px;
     border-radius: 4px;

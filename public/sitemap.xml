@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/accessibility/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/wcag-22-what-designers-and-website-owners-need-to-know/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-10-15T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/accessible-content-and-media/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-07-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/accessibility/</loc>
-    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/navigating-accessibility/</loc>
-    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ux/</loc>
@@ -48,9 +51,6 @@
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/evolving-productivity-getting-things-done/</loc>
-    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/gtd/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/productivity/</loc>
@@ -131,9 +131,6 @@
     <loc>http://localhost:1313/posts/2016-06-12-critique/</loc>
     <lastmod>2016-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/invision/</loc>
-    <lastmod>2016-06-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/2016-06-05-invision-this/</loc>
     <lastmod>2016-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -169,9 +166,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/2015-11-10-content-challenges-part-1/</loc>
     <lastmod>2015-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/google/</loc>
-    <lastmod>2015-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/search/</loc>
     <lastmod>2015-05-23T00:00:00+00:00</lastmod>
