@@ -64,168 +64,91 @@
         
 
         <figure class="feature-image">
-            <img src="posts/accessible-content-and-media/img/jake-hills-movie-theater.jpg" alt="Inside a crowded movie theater, showing a film. Monochrome, dramatic lighting.">
-            <figcaption>Image credit: <a href="https://unsplash.com/@jakehills?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" alt="">Jake Hills</a></figcaption>
+            <img src="posts/wcag-22-what-designers-and-website-owners-need-to-know/img/pexels-rocketmann-prod-9486683.jpg" alt="Person&#39;s hand raised against a neutral background, making a peace sign with two fingers extended">
+            <figcaption>Image credit: <a href="https://www.pexels.com/photo/close-up-photo-of-a-hand-9486683/" alt="Photo by: ROCKETMANN TEAM on Pexels.com">ROCKETMANN TEAM</a></figcaption>
         </figure>
-       <h1 id="accessible-content-and-media">Accessible Content and Media</h1>
-<h2 id="crafting-inclusivity-in-digital-communication">Crafting Inclusivity in Digital Communication</h2>
-<h3 id="7-minute-read">7 minute read</h3>
-<p>Welcome back to my continuing series on web accessibility. Let&rsquo;s talk about a crucial aspect that often shapes the first impression of any digital platform: Content and Media. Accessibility in this realm isn&rsquo;t just a compliance checkbox; it&rsquo;s a commitment to inclusivity that opens doors for all users, regardless of their abilities.</p>
-<h2 id="writing-accessible-web-content">Writing Accessible Web Content</h2>
-<p>Creating content that&rsquo;s accessible to a broad audience means ensuring it&rsquo;s understandable by everyone, regardless of their educational background, age, or cognitive ability.</p>
-<h3 id="clear-and-simple-language">Clear and Simple Language</h3>
-<p>In the pursuit of writing accessible web content, the emphasis on clear and simple language is important. This approach is vital as it makes the content accessible and understandable to a diverse audience, including:</p>
+       <h1 id="wcag-22">WCAG 2.2</h1>
+<h2 id="what-designers-and-website-owners-need-to-know">What Designers and Website Owners Need to Know</h2>
+<h3 id="2-minute-read">2-minute read</h3>
+<blockquote>
+<p>WCAG 2.2 introduces new success criteria that make websites more usable for people with cognitive, motor, and visual impairments. Whether you run a website, design user interfaces, or write code, this article will walk you through what’s changed, and serve as the launch point for a series of deep dives into the latest accessibility guidelines.</p>
+</blockquote>
+<h2 id="evolving-standards">Evolving Standards</h2>
+<p>Web accessibility standards are evolving, and with the release of <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a> in late 2023, there’s more emphasis than ever on inclusivity for users with cognitive and motor impairments.</p>
+<p>This post gives you:</p>
 <ul>
-<li>Individuals with cognitive impairments like dyslexia</li>
-<li>Non-native English speakers</li>
-<li>Older adults who might process information more slowly</li>
-<li>Those unfamiliar with complex industry jargon.
-For instance, a sentence like &ldquo;Utilize our services to ameliorate your daily tasks&rdquo; could be more inclusively phrased as &ldquo;Use our services to make your daily tasks easier.&rdquo; Such simplification ensures that the content resonates with and is accessible to everyone, removing unnecessary barriers to comprehension.</li>
+<li>A quick primer on what WCAG is and why WCAG 2.2 matters.</li>
+<li>A breakdown of what’s new compared to <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a>.</li>
+<li>A preview of each new success criterion in 2.2.</li>
+<li>A launchpad for deeper articles that explain what each update means and how to meet it.</li>
 </ul>
-<h2 id="content-structure">Content Structure</h2>
-<p>As I’ve mentioned in <a href="/posts/navigating-accessibility/">other</a> posts about accessibility, using <a href="https://internetingishard.netlify.app/html-and-css/semantic-html/">appropriate semantic markup</a> is just as crucial as the language used. Semantic HTML tags such as <strong><code>&lt;article&gt;</code></strong>, <strong><code>&lt;header&gt;</code></strong>, <strong><code>&lt;footer&gt;</code></strong>, and <strong><code>&lt;aside&gt;</code></strong> play a significant role in conveying the structure and purpose of content to users, especially those using assistive technologies like screen readers. These tags provide context to the content, enabling assistive devices to interpret and navigate the page more effectively. For instance, a <strong><code>&lt;nav&gt;</code></strong> tag indicates navigation links, helping screen reader users easily find the menu.</p>
-<p>Similarly, <strong><code>&lt;header&gt;</code></strong> and <strong><code>&lt;footer&gt;</code></strong> tags define the top and bottom sections of a page, respectively. By clearly defining these areas, we ensure that users who rely on assistive technology can efficiently navigate and understand the layout and key sections of a website, enhancing the overall accessibility of the content. Use headings and subheadings to organize content logically. Ensure your headings are in a hierarchical order, with <strong><code>&lt;h1&gt;</code></strong> for main titles, followed by <strong><code>&lt;h2&gt;</code></strong>, <strong><code>&lt;h3&gt;</code></strong>, and so on.</p>
-<p>Let’s look at a couple of examples that illustrate ways you could feasibly lay out a page. Both technically “work” in the sense that they render in the browser properly, but one is semantically optimized for accessibility:</p>
-<h3 id="do-this-well-formatted-semantic-html">Do This: Well-Formatted Semantic HTML</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">header</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h1</span>&gt;MyWebsite&lt;/<span style="color:#f92672">h1</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">nav</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">ul</span>&gt;
-</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#home&#34;</span>&gt;Home&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
-</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#about&#34;</span>&gt;About&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
-</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#services&#34;</span>&gt;Services&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">ul</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">nav</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">header</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">main</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">article</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">h1</span>&gt;Welcome to My Website&lt;/<span style="color:#f92672">h1</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">p</span>&gt;Here is some introductory text about my site.&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">article</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">main</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">footer</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Contact us at email@example.com.&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">footer</span>&gt;
-</span></span></code></pre></div><h3 id="not-that-poorly-formatted-html">Not That: Poorly Formatted HTML</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;header&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;logo&#34;</span>&gt;MyWebsite&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navigation&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#home&#34;</span>&gt;Home&lt;/<span style="color:#f92672">a</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#about&#34;</span>&gt;About&lt;/<span style="color:#f92672">a</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#services&#34;</span>&gt;Services&lt;/<span style="color:#f92672">a</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main-content&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article-title&#34;</span>&gt;Welcome to My Website&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;article-body&#34;</span>&gt;Here is some introductory text about my site.&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;footer&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>  Contact us at email@example.com.
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
-</span></span></code></pre></div><p>In the &ldquo;Not That&rdquo; example, the content is structured using non-semantic <strong><code>&lt;div&gt;</code></strong> tags, making it difficult for assistive technologies to understand the layout and purpose of different sections. The &ldquo;Do This&rdquo; example, however, uses semantic HTML tags like <strong><code>&lt;header&gt;</code></strong>, <strong><code>&lt;nav&gt;</code></strong>, <strong><code>&lt;main&gt;</code></strong>, <strong><code>&lt;article&gt;</code></strong>, and <strong><code>&lt;footer&gt;</code></strong>, providing clear context and meaning, thus making it more accessible.</p>
-<h2 id="alt-text-for-images">Alt Text for Images</h2>
-<p>Understanding when and how to use alt text is crucial for accessibility. Alt text, or alternative text, is a critical feature for users who rely on screen readers to access digital content. It provides a textual description of images on web pages, allowing those with visual impairments to understand the content conveyed by images.</p>
-<h3 id="best-practices-for-writing-alt-text">Best Practices for Writing Alt Text</h3>
+<h2 id="what-is-wcag">What is WCAG?</h2>
+<p>(<em>If this is old-hat, skip ahead to: <a href="#wcag-22-in-depth-whats-coming-in-this-series">New Success Criteria in WCAG 2.2</a></em>)</p>
+<p>The <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG)</a> are international standards developed by the W3C that help make websites accessible to people with disabilities. They’re built on four principles:</p>
 <ul>
-<li><strong>Descriptive and Concise</strong>: Alt text should accurately and succinctly describe the image&rsquo;s content and function.</li>
-<li><strong>Context Matters</strong>: Tailor the alt text based on the image&rsquo;s context within the content. Describe what&rsquo;s relevant.</li>
-<li><strong>Avoid Redundancy</strong>: Don’t start with &ldquo;image of&rdquo; or &ldquo;picture of&rdquo;; it&rsquo;s already announced as an image by screen readers.</li>
-<li><strong>No Alt Text for Decorative Images</strong>: For images that are purely decorative and don&rsquo;t contribute additional information to the content, it&rsquo;s best to use an empty alt attribute (<strong><code>alt=&quot;&quot;</code></strong>). This approach will prevent screen readers from focusing on these images. Alternatively, you can use the <strong><code>aria-hidden=&quot;true&quot;</code></strong> attribute to explicitly hide these images from assistive technologies. While <strong><code>aria-hidden</code></strong> can be helpful, it&rsquo;s not always mandatory; using <strong><code>alt=&quot;&quot;</code></strong> is generally sufficient for decorative images.</li>
+<li><strong>Perceivable</strong></li>
+<li><strong>Operable</strong></li>
+<li><strong>Understandable</strong></li>
+<li><strong>Robust</strong></li>
 </ul>
-<h3 id="alt-text-in-assistive-technology">Alt Text in Assistive Technology</h3>
+<p>We’re now on <strong>version 2.2</strong>, which was finalized in <strong>October 2023</strong>. It builds on WCAG 2.1 by introducing <strong>nine new success criteria</strong>, with a strong focus on reducing cognitive load, improving focus visibility, and making interactions easier for users with limited motor control.</p>
+<p>If your site already complies with <strong>WCAG 2.1 AA</strong>, the update isn’t massive, but it is meaningful.</p>
+<h2 id="why-wcag-22-matters">Why WCAG 2.2 Matters</h2>
+<p>Most of the new criteria are designed to reduce friction for users with:</p>
 <ul>
-<li>Screen readers read out the alt text, providing a verbal equivalent of the visual information.</li>
-<li>For users with text-based browsers or slow internet connections, alt text can display in place of images.</li>
+<li>Memory, attention, or executive function difficulties</li>
+<li>Limited fine motor control or dexterity</li>
+<li>Situational limitations (e.g., mobile use or temporary injury)</li>
 </ul>
-<h3 id="examples-of-good-alt-text">Examples of Good Alt Text</h3>
+<p>These changes don’t just benefit people with disabilities; they improve UX for everyone.</p>
+<h2 id="whos-affected">Who’s Affected?</h2>
 <ul>
-<li>A company logo: <strong><code>&lt;img src=&quot;logo.png&quot; alt=&quot;XYZ Corporation Logo&quot;&gt;</code></strong></li>
-<li>A graph in a report: <strong><code>&lt;img src=&quot;sales-graph.png&quot; alt=&quot;Line graph showing an upward trend in sales for 2021&quot;&gt;</code></strong></li>
-<li>A photograph in a blog post: <strong><code>&lt;img src=&quot;mountain-trail.jpg&quot; alt=&quot;Hikers walking on a mountain trail with a sunset in the background&quot;&gt;</code></strong></li>
-<li>A screenshot of a software UI: <strong><code>&lt;img src=&quot;add-new-user-interface.png&quot; alt=&quot;Screenshot of the Add New User interface, featuring fields for Username, Password, and Email, with a 'Create User' button at the bottom&quot;&gt;</code></strong></li>
+<li><strong>Website Owners</strong> - Risk mitigation, SEO, and inclusivity</li>
+<li><strong>Designers</strong> - Updates to focus indicators, touch targets, and help availability</li>
+<li><strong>Developers</strong> - Keyboard navigation, authentication, and alternative input methods</li>
 </ul>
-<p>By following these best practices, you ensure that your web content is inclusive and accessible to all users, particularly those using screen readers.</p>
-<h2 id="captioning-and-transcribing-multimedia">Captioning and Transcribing Multimedia</h2>
-<p>Multimedia content should be accessible to users with hearing impairments or those who prefer text.</p>
-<h3 id="closed-captions-for-videos">Closed Captions for Videos</h3>
-<p>Include captions that not only transcribe dialogue but also describe significant sounds. Tools like YouTube&rsquo;s automatic captioning can be a starting point, but always review for accuracy. If you can’t (or don’t want to) use YouTube, there are other captioning platforms available:</p>
+<p>Accessibility touches all aspects of a website: Content, design, and functionality. Everyone involved in your site needs to be on the same page.</p>
+<h2 id="whats-new-in-wcag-22">What’s New in WCAG 2.2?</h2>
+<p>Compared to WCAG 2.1:</p>
 <ul>
-<li><strong>Automated Transcription Services</strong>: Platforms like <a href="https://www.rev.com/">Rev</a>, <a href="https://otter.ai/">Otter.ai</a>, and <a href="https://www.descript.com/">Descript</a> offer automated transcription services. These tools generate transcripts and captions for editing.</li>
-<li><strong>Professional Captioning Services</strong>: Services such as <a href="https://www.3playmedia.com/">3Play Media</a> and <a href="https://www.captioningstar.com/">CaptioningStar</a> provide professional captioning, ensuring high-quality, accurate captions.</li>
-<li><strong>Video Editing Software</strong>: Programs like Adobe Premiere Pro and Final Cut Pro include features for adding and editing captions.</li>
-<li><strong>DIY Captions</strong>: Manual caption creation can be done using tools like Subtitle Edit or <a href="http://www.aegisub.org/">Aegisub</a>.</li>
-<li><strong>Captioning Plugins or Extensions</strong>: Some CMS or video platforms offer captioning support, like WordPress plugins for video captioning.</li>
+<li><strong>One outdated criterion (4.1.1 Parsing) was removed.</strong></li>
+<li><strong>Nine new success criteria were added.</strong></li>
+<li>All updates are <strong>backward-compatible</strong>—no need to start from scratch.</li>
 </ul>
-<p>Remember to review and edit captions for accuracy, as automated services may not always be perfect.</p>
-<h3 id="transcripts-for-audio">Transcripts for Audio</h3>
-<p>Let&rsquo;s discuss how transcripts and captions are created and linked to audio and video content. Transcripts for audio content involve creating a text version of all spoken words and significant sounds within the audio. These transcripts are essential for users who are deaf or hard of hearing, and they also benefit those who prefer reading to listening. For videos, captions are synchronized with the audio and include time codes to match the text with the specific timing in the video. Common file formats for captions include:</p>
+<p>The new guidelines focus heavily on:</p>
 <ul>
-<li><strong><a href="https://en.wikipedia.org/wiki/SubRip">SRT (SubRip Text)</a></strong>: This is a simple format that lists the start and end times next to the text. It&rsquo;s widely supported across different platforms.</li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API"><strong>VTT (Web Video Text Tracks)</strong></a>: Similar to SRT but with more advanced options, like styling and positioning.</li>
+<li>Focus visibility (2.4.11–2.4.13)</li>
+<li>Alternative input options (2.5.7–2.5.8)</li>
+<li>Easier authentication (3.3.7–3.3.9)</li>
+<li>Consistent help (3.2.6)</li>
 </ul>
-<p>Here&rsquo;s a short example of what an SRT file might look like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">01</span>,<span style="color:#ae81ff">000</span> <span style="color:#f92672">--&gt;</span> <span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">04</span>,<span style="color:#ae81ff">000</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Welcome</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">our</span> <span style="color:#a6e22e">weekly</span> <span style="color:#a6e22e">webinar</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">web</span> <span style="color:#a6e22e">accessibility</span>.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">04</span>,<span style="color:#ae81ff">500</span> <span style="color:#f92672">--&gt;</span> <span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">00</span><span style="color:#f92672">:</span><span style="color:#ae81ff">06</span>,<span style="color:#ae81ff">000</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Today</span>, <span style="color:#a6e22e">we</span><span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">ll</span> <span style="color:#a6e22e">cover</span> <span style="color:#a6e22e">best</span> <span style="color:#a6e22e">practices</span> <span style="color:#a6e22e">and</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">trends</span>.
-</span></span></code></pre></div><p>Each section starts with a sequence number, followed by the time code indicating the start and end times of the text, and then the caption text itself.</p>
-<p>This process can be adapted for localization by translating the text into different languages, allowing for a broader, more inclusive audience reach.</p>
-<h2 id="accessible-documents">Accessible Documents</h2>
-<p>Beyond web content, ensure your downloadable documents are accessible. Creating accessible documents, especially tagged PDFs, is akin to using semantic HTML for web content, as both provide structure and meaning essential for assistive technologies. You’ll also want to ensure document formats are compatible with screen readers and include alternative text for images and charts.</p>
-<h3 id="tagging-in-pdfs">Tagging in PDFs</h3>
-<ul>
-<li><strong>Elements to Tag</strong>: Similar to semantic HTML, elements like text, images, tables, and lists in PDFs are tagged (e.g., <strong><code>&lt;Heading&gt;</code></strong>, <strong><code>&lt;Paragraph&gt;</code></strong>, <strong><code>&lt;Table&gt;</code></strong>, <strong><code>&lt;Alt&gt;</code></strong>).</li>
-<li><strong>Applying Tags</strong>: Use PDF creation tools like <a href="https://www.adobe.com/acrobat.html">Adobe Acrobat</a> (you’ll need the paid Pro version for this. Acrobat Reader doesn’t offer tagging features), which automatically add tags. Manually edit tags in Acrobat through the Tags panel.</li>
-</ul>
-<h3 id="checking-pdf-accessibility">Checking PDF Accessibility</h3>
-<ul>
-<li><strong>Adobe Acrobat&rsquo;s Accessibility Checker</strong>: <a href="https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html">This tool in Acrobat</a> assesses PDF accessibility, reviewing tags, reading order, and alt text.</li>
-<li><strong>Alternative Tools</strong>: For non-Acrobat users, online tools like <a href="https://pdfua.foundation/en/pdf-accessibility-checker-pac/">PDF Accessibility Checker</a> (PAC) provide basic accessibility evaluations.</li>
-</ul>
-<h3 id="other-document-types">Other Document Types</h3>
-<h4 id="microsoft-office-accessibility">Microsoft Office Accessibility</h4>
-<ul>
-<li><strong>Office Accessibility Checker</strong>: Microsoft Office includes a built-in <a href="https://support.microsoft.com/en-us/office/create-accessible-office-documents-868ecfcd-4f00-4224-b881-a65537a7c155">Accessibility Checker</a> available in Word, Excel, Outlook, OneNote, PowerPoint on Windows or Mac, and Visio on Windows. This tool identifies accessibility issues in your document and suggests how to resolve them​​.</li>
-<li><strong>Best Practices</strong>: Office provides guidance on creating accessible content, such as using larger font sizes, adding descriptions to media, and using proper headings and structure.</li>
-</ul>
-<h4 id="google-docs-accessibility">Google Docs Accessibility</h4>
-<ul>
-<li><strong>Building Accessible Content</strong>: Google Docs is well-integrated with assistive technologies, offering features for enhanced accessibility.</li>
-<li><strong>Key Features</strong>: Include adding headings for structure, applying alt text to images, properly structuring lists, using appropriate line and paragraph spacing, and adding a table of contents for longer documents​​​​​​​​​​​​.</li>
-<li><strong>Accessibility Check Tool</strong>: <a href="https://dap.berkeley.edu/learn/techniques/how-do-i-make-my-google-docs-accessible#:~:text=Grackle%20is%20a%20suite%20of,the%20accessibility%20of%20your%20documents">Grackle</a> is a Google Add-on suite for checking the accessibility of Google Docs, Slides, and Sheets​​.</li>
-</ul>
-<h4 id="apple-pages-accessibility">Apple Pages Accessibility</h4>
-<ul>
-<li><strong>Creating Tagged Documents</strong>: Apple Pages allows you to <a href="https://support.apple.com/en-us/102031#:~:text=Create%20accessible%20and%20tagged%20documents,can%20support%20enhanced%20accessibility%20features">create accessible and tagged documents</a> that work well with screen readers and other assistive technologies​​.</li>
-<li><strong>Accessibility Features</strong>: Include using larger font sizes, adding descriptions to media like images and movies, using headings for easy navigation, and incorporating a table of contents in longer documents​​​​​​.</li>
-</ul>
-<p>Ensuring document accessibility involves both technical tagging and making content comprehensible for all users, much like structuring web content with semantic HTML.</p>
-<h2 id="testing-content-for-accessibility">Testing Content for Accessibility</h2>
-<p>Testing web content for accessibility is a multi-step process that combines automated tools and real user testing. Don&rsquo;t skip this step; it&rsquo;s important!</p>
-<h3 id="automated-tools">Automated Tools</h3>
-<ul>
-<li>Tools like <a href="https://wave.webaim.org/">WAVE (Web Accessibility Evaluation Tool)</a> and <a href="https://www.deque.com/axe/">axe Accessibility Checker</a> help identify issues in web content.</li>
-<li>These tools can check for things like missing alt text, incorrect semantic markup, and color contrast issues.</li>
-</ul>
-<h3 id="user-testing">User Testing</h3>
-<ul>
-<li><a href="https://www.w3.org/WAI/test-evaluate/involving-users/#:~:text=Just%20as%20with%20any%20evaluation,want%20novice%20assistive%20technology%20users">Involving users</a> with disabilities in testing is crucial for understanding the real-world usability of your content.</li>
-<li><strong>Initial Review</strong>: Begin by <a href="https://www.w3.org/WAI/test-evaluate/involving-users/#:~:text=The%20initial%20review%20identifies%20any,on%20for%20evaluation%20with%20users">identifying major accessibility barriers</a> before conducting detailed user tests​​.</li>
-<li><strong>Types of User Evaluations</strong>: Include informal evaluations, like asking someone who uses a screen reader to navigate a data table, and formal usability testing with specific tasks and protocols​​​​.</li>
-<li><strong>Diversity of Users</strong>: Involve users with different levels of experience with assistive technologies, depending on your target audience. This might include advanced users for specialized applications or novice users for more general websites​​.</li>
-<li><strong>Consider All Input</strong>: Be cautious about generalizing from the feedback of one individual, as different users with disabilities may have different needs and preferences​​.</li>
-</ul>
-<h3 id="benefits-of-user-testing">Benefits of User Testing</h3>
-<ul>
-<li>Evaluating with users often reveals usability issues that aren&rsquo;t apparent through conformance evaluation alone​​.</li>
-<li>This approach not only identifies accessibility-specific problems but can also uncover general usability issues that affect all users, including those without disabilities​​.</li>
-</ul>
-<p>Incorporating a blend of automated testing and user involvement ensures a more comprehensive understanding and resolution of accessibility issues, leading to a universally better user experience.</p>
-<h2 id="content-is-king">Content Is King</h2>
-<p>Embracing accessible content and media is about creating an environment where information is not just available but is also consumable by everyone. It&rsquo;s a step towards a more empathetic and inclusive digital world. In our next article, we&rsquo;ll navigate the intricacies of mobile web accessibility, ensuring your content is accessible across all devices.</p>
+<h2 id="wcag-22-in-depth-whats-coming-in-this-series">WCAG 2.2 In Depth: What’s Coming in This Series</h2>
+<p>Below is a preview of the articles in this series. Links will be added as each post goes live:</p>
+<h3 id="navigation--focus">Navigation &amp; Focus</h3>
+<h4 id="2411-focus-not-obscured-minimum-aa">2.4.11 Focus Not Obscured (Minimum) (AA)</h4>
+<p>Ensures that keyboard focus indicators aren’t hidden behind sticky headers, modals, or other overlapping elements. If users can’t see where they are, they can’t use the site.</p>
+<h4 id="2412-focus-not-obscured-enhanced-aaa">2.4.12 Focus Not Obscured (Enhanced) (AAA)</h4>
+<p>Builds on the previous criterion by requiring focus indicators to be <em>fully</em> visible—not just partially peeking out from behind other UI elements.</p>
+<h4 id="2413-focus-appearance-aaa">2.4.13 Focus Appearance (AAA)</h4>
+<p>Sets minimum size and contrast requirements for focus indicators, making sure they’re easy to spot—even for users with low vision or cognitive distractions.</p>
+<h3 id="motor-accessibility">Motor Accessibility</h3>
+<h4 id="257-dragging-movements-aa">2.5.7 Dragging Movements (AA)</h4>
+<p>Requires that any drag-and-drop interaction be accompanied by a simpler alternative—like tapping or clicking—so users who can’t drag precisely aren’t excluded.</p>
+<h4 id="258-target-size-minimum-aa">2.5.8 Target Size (Minimum) (AA)</h4>
+<p>Interactive elements like buttons and links must meet a minimum target size, helping users with limited dexterity avoid accidental clicks and navigation errors.</p>
+<h3 id="cognitive-support">Cognitive Support</h3>
+<h4 id="326-consistent-help-a">3.2.6 Consistent Help (A)</h4>
+<p>Help mechanisms (like contact info, chat, or FAQs) must appear consistently across pages, so users always know where to turn when they’re stuck.</p>
+<h4 id="337-redundant-entry-a">3.3.7 Redundant Entry (A)</h4>
+<p>Users shouldn’t have to re-enter the same information multiple times within a process (unless it’s absolutely necessary). Repetition = frustration.</p>
+<h3 id="accessible-authentication">Accessible Authentication</h3>
+<h4 id="338-accessible-authentication-aa">3.3.8 Accessible Authentication (AA)</h4>
+<p>Login processes must include alternatives to memory-based tasks (like passwords) by supporting copy/paste, password managers, or passwordless options.</p>
+<h4 id="339-accessible-authentication-no-exception-aaa">3.3.9 Accessible Authentication (No Exception) (AAA)</h4>
+<p>Tightens the rule above—<em>all</em> users must be able to authenticate without needing to remember or transcribe anything, no exceptions.</p>
+<h2 id="deep-dive">Deep Dive</h2>
+<p>In the coming weeks we&rsquo;ll look at each of these criteria in detail and examine what they mean, why they&rsquo;ve been implemented, and how to apply them in your work with visual and code examples.</p>
+<p>Until next time&hellip;</p>
 
     </article>
     <section class="more-posts">
@@ -234,6 +157,23 @@ For instance, a sentence like &ldquo;Utilize our services to ameliorate your dai
     
      
     
+        
+            <div class="featured-post">
+                <p>
+                    <a href="http://localhost:1313/posts/accessible-content-and-media/">
+                        
+                        
+                        
+                            
+                        
+                
+                        <figure class="feature-image">
+                            <img src="posts/accessible-content-and-media/img/jake-hills-movie-theater.jpg" alt="Inside a crowded movie theater, showing a film. Monochrome, dramatic lighting.">
+                        </figure>
+                        <h4>Accessible Content and Media: Crafting Inclusivity in Digital Communication</h4>
+                    </a>
+                </p>
+            </div>
         
             <div class="featured-post">
                 <p>
@@ -265,21 +205,6 @@ For instance, a sentence like &ldquo;Utilize our services to ameliorate your dai
                             <img src="posts/color-and-contrast/img/a_linear_design_of_color_and_contrast.png" alt="An abstract linear design of color and contrast">
                         </figure>
                         <h4>Color and Contrast: Crafting Visually Accessible Websites</h4>
-                    </a>
-                </p>
-            </div>
-        
-            <div class="featured-post">
-                <p>
-                    <a href="http://localhost:1313/posts/starting-with-accessibility-in-mind/">
-                        
-                        
-                        
-                
-                        <figure class="feature-image">
-                            <img src="/assets/img/new_construction_just_getting_underway_breaking.png" alt="Construction workers and a backhoe, getting started on new construction">
-                        </figure>
-                        <h4>Starting with Accessibility in Mind: Building Inclusive Web Experiences</h4>
                     </a>
                 </p>
             </div>

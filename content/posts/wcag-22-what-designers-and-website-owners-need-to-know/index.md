@@ -16,30 +16,30 @@ tags: ["accessibility"]
 ## What Designers and Website Owners Need to Know
 ### 2-minute read
 
-> WCAG 2.2 introduces new success criteria that make websites more usable for people with cognitive, motor, and visual impairments. Whether you run a website, design user interfaces, or write code, this article will walk you through what’s changed—and serve as the launch point for a series of deep dives into the latest accessibility guidelines.
+> WCAG 2.2 introduces new success criteria that make websites more usable for people with cognitive, motor, and visual impairments. Whether you run a website, design user interfaces, or write code, this article will walk you through what’s changed, and serve as the launch point for a series of deep dives into the latest accessibility guidelines.
 
 ## Evolving Standards
 
-Web accessibility standards are evolving—and with the release of [WCAG 2.2](https://www.w3.org/TR/WCAG22/) in late 2023, there’s more emphasis than ever on inclusivity for users with cognitive and motor impairments.
+Web accessibility standards are evolving, and with the release of [WCAG 2.2](https://www.w3.org/TR/WCAG22/) in late 2023, there’s more emphasis than ever on inclusivity for users with cognitive and motor impairments.
 
-This hub post gives you:
+This post gives you:
 - A quick primer on what WCAG is and why WCAG 2.2 matters.
 - A breakdown of what’s new compared to [WCAG 2.1](https://www.w3.org/TR/WCAG21/).
 - A preview of each new success criterion in 2.2.
 - A launchpad for deeper articles that explain what each update means and how to meet it.
 
 ## What is WCAG?
-*Skip ahead to: [New Success Criteria in WCAG 2.2](#wcag-22-in-depth-whats-coming-in-this-series)*
+(*If this is old-hat, skip ahead to: [New Success Criteria in WCAG 2.2](#wcag-22-in-depth-whats-coming-in-this-series)*)
 
 The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) are international standards developed by the W3C that help make websites accessible to people with disabilities. They’re built on four principles:
-- Perceivable
-- Operable
-- Understandable
-- Robust
+- **Perceivable**
+- **Operable**
+- **Understandable**
+- **Robust**
 
-We’re now on version 2.2, which was finalized in October 2023. It builds on WCAG 2.1 by introducing nine new success criteria, with a strong focus on reducing cognitive load, improving focus visibility, and making interactions easier for users with limited motor control.
+We’re now on **version 2.2**, which was finalized in **October 2023**. It builds on WCAG 2.1 by introducing **nine new success criteria**, with a strong focus on reducing cognitive load, improving focus visibility, and making interactions easier for users with limited motor control.
 
-If your site already complies with WCAG 2.1 AA, the update isn’t massive—but it is meaningful.
+If your site already complies with **WCAG 2.1 AA**, the update isn’t massive, but it is meaningful.
 
 ## Why WCAG 2.2 Matters
 
@@ -107,6 +107,6 @@ Login processes must include alternatives to memory-based tasks (like passwords)
 Tightens the rule above—*all* users must be able to authenticate without needing to remember or transcribe anything, no exceptions.
 
 ## Deep Dive
-In the coming weeks we'll look at each of these criteria and examine what they mean, why they've been implemented, and how to apply them in your work with visual and code examples.
+In the coming weeks we'll look at each of these criteria in detail and examine what they mean, why they've been implemented, and how to apply them in your work with visual and code examples.
 
 Until next time...

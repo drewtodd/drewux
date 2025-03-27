@@ -6,8 +6,15 @@
     <description>Recent content in Home on drew:ux</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WCAG 2.2: What Designers and Website Owners Need to Know</title>
+      <link>http://localhost:1313/posts/wcag-22-what-designers-and-website-owners-need-to-know/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/wcag-22-what-designers-and-website-owners-need-to-know/</guid>
+      <description>&lt;h1 id=&#34;wcag-22&#34;&gt;WCAG 2.2&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-designers-and-website-owners-need-to-know&#34;&gt;What Designers and Website Owners Need to Know&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2-minute-read&#34;&gt;2-minute read&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;WCAG 2.2 introduces new success criteria that make websites more usable for people with cognitive, motor, and visual impairments. Whether you run a website, design user interfaces, or write code, this article will walk you through what’s changed, and serve as the launch point for a series of deep dives into the latest accessibility guidelines.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;evolving-standards&#34;&gt;Evolving Standards&lt;/h2&gt;&#xA;&lt;p&gt;Web accessibility standards are evolving, and with the release of &lt;a href=&#34;https://www.w3.org/TR/WCAG22/&#34;&gt;WCAG 2.2&lt;/a&gt; in late 2023, there’s more emphasis than ever on inclusivity for users with cognitive and motor impairments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Accessible Content and Media: Crafting Inclusivity in Digital Communication</title>
       <link>http://localhost:1313/posts/accessible-content-and-media/</link>
