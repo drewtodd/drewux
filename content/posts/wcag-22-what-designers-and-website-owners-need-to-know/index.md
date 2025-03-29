@@ -31,7 +31,7 @@ This post gives you:
 ## What is WCAG?
 (*If this is old-hat, skip ahead to: [New Success Criteria in WCAG 2.2](#wcag-22-in-depth-whats-coming-in-this-series)*)
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) are international standards developed by the W3C that help make websites accessible to people with disabilities. They’re built on four principles:
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) are international standards developed by the W3C that help make websites accessible to people with disabilities. They’re built on four principles. To visitors, websites must be:
 - **Perceivable**
 - **Operable**
 - **Understandable**
@@ -63,12 +63,12 @@ Accessibility touches all aspects of a website: Content, design, and functionali
 Compared to WCAG 2.1:
 - **One outdated criterion (4.1.1 Parsing) was removed.**
 - **Nine new success criteria were added.**
-- All updates are **backward-compatible**—no need to start from scratch.
+- All updates are **backward-compatible**; no need to start from scratch.
 
 The new guidelines focus heavily on:
-- Focus visibility (2.4.11–2.4.13)
-- Alternative input options (2.5.7–2.5.8)
-- Easier authentication (3.3.7–3.3.9)
+- Focus visibility (2.4.11 - 2.4.13)
+- Alternative input options (2.5.7 - 2.5.8)
+- Easier authentication (3.3.7 - 3.3.9)
 - Consistent help (3.2.6)
 
 ## WCAG 2.2 In Depth: What’s Coming in This Series
@@ -83,11 +83,11 @@ Ensures that keyboard focus indicators aren’t hidden behind sticky headers, mo
 Builds on the previous criterion by requiring focus indicators to be *fully* visible—not just partially peeking out from behind other UI elements.
 
 #### 2.4.13 Focus Appearance (AAA)  
-Sets minimum size and contrast requirements for focus indicators, making sure they’re easy to spot—even for users with low vision or cognitive distractions.
+Sets minimum size and contrast requirements for focus indicators, making sure they’re easy to spot; even for users with low vision or cognitive distractions.
 
 ### Motor Accessibility
 #### 2.5.7 Dragging Movements (AA)  
-Requires that any drag-and-drop interaction be accompanied by a simpler alternative—like tapping or clicking—so users who can’t drag precisely aren’t excluded.
+Requires that any drag-and-drop interaction be accompanied by a simpler alternative — like tapping or clicking — so users who can’t drag precisely aren’t excluded.
 
 #### 2.5.8 Target Size (Minimum) (AA)  
 Interactive elements like buttons and links must meet a minimum target size, helping users with limited dexterity avoid accidental clicks and navigation errors.
@@ -104,7 +104,7 @@ Users shouldn’t have to re-enter the same information multiple times within a 
 Login processes must include alternatives to memory-based tasks (like passwords) by supporting copy/paste, password managers, or passwordless options.
 
 #### 3.3.9 Accessible Authentication (No Exception) (AAA)  
-Tightens the rule above—*all* users must be able to authenticate without needing to remember or transcribe anything, no exceptions.
+Tightens the rule above. *All* users must be able to authenticate without needing to remember or transcribe anything, no exceptions.
 
 ## Deep Dive
 In the coming weeks we'll look at each of these criteria in detail and examine what they mean, why they've been implemented, and how to apply them in your work with visual and code examples.
